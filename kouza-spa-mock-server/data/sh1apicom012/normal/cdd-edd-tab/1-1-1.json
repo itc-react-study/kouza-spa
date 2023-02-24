@@ -1,0 +1,1730 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "0",
+    "errorMessage": ""
+  },
+  "kuniList": [
+    {
+      "kuniCode": "104",
+      "kuniName_kj": "バーレーン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "106",
+      "kuniName_kj": "ブルネイ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "107",
+      "kuniName_kj": "ミャンマー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "108",
+      "kuniName_kj": "スリランカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "110",
+      "kuniName_kj": "中国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "115",
+      "kuniName_kj": "キプロス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "119",
+      "kuniName_kj": "香港",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "120",
+      "kuniName_kj": "インド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "122",
+      "kuniName_kj": "カンボジア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "123",
+      "kuniName_kj": "ラオス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "125",
+      "kuniName_kj": "ベトナム",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "130",
+      "kuniName_kj": "インドネシア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "140",
+      "kuniName_kj": "イラン",
+      "kuniSanctionedName": "イラン",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "141",
+      "kuniName_kj": "イラク",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "142",
+      "kuniName_kj": "イスラエル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "144",
+      "kuniName_kj": "ヨルダン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "145",
+      "kuniName_kj": "北朝鮮",
+      "kuniSanctionedName": "北朝鮮",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "146",
+      "kuniName_kj": "韓国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "147",
+      "kuniName_kj": "クウェート",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "148",
+      "kuniName_kj": "レバノン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "149",
+      "kuniName_kj": "マカオ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "150",
+      "kuniName_kj": "マレーシア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "151",
+      "kuniName_kj": "モルディブ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "153",
+      "kuniName_kj": "モンゴル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "154",
+      "kuniName_kj": "ネパール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "155",
+      "kuniName_kj": "オマーン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "160",
+      "kuniName_kj": "パキスタン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "161",
+      "kuniName_kj": "バングラデシュ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "170",
+      "kuniName_kj": "フィリピン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "172",
+      "kuniName_kj": "東ティモール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "173",
+      "kuniName_kj": "カタール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "176",
+      "kuniName_kj": "サウジアラビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "177",
+      "kuniName_kj": "シンガポール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "179",
+      "kuniName_kj": "シリア",
+      "kuniSanctionedName": "シリア",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "180",
+      "kuniName_kj": "台湾",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "181",
+      "kuniName_kj": "タイ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "182",
+      "kuniName_kj": "アラブ首長国連邦",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "183",
+      "kuniName_kj": "トルコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "184",
+      "kuniName_kj": "イエメン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "192",
+      "kuniName_kj": "日本",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "194",
+      "kuniName_kj": "ブータン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "197",
+      "kuniName_kj": "イギリス領インド洋地域",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "198",
+      "kuniName_kj": "ハード島・マクドナルド諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "201",
+      "kuniName_kj": "オーストラリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "204",
+      "kuniName_kj": "ミクロネシア連邦",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "205",
+      "kuniName_kj": "ソロモン諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "206",
+      "kuniName_kj": "パラオ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "207",
+      "kuniName_kj": "クック諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "208",
+      "kuniName_kj": "ツバル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "209",
+      "kuniName_kj": "フィジー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "210",
+      "kuniName_kj": "マーシャル諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "211",
+      "kuniName_kj": "キリバス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "212",
+      "kuniName_kj": "グアム",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "213",
+      "kuniName_kj": "北マリアナ諸島（含むサイパン）",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "216",
+      "kuniName_kj": "パプアニューギニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "218",
+      "kuniName_kj": "ナウル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "220",
+      "kuniName_kj": "ニューカレドニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "221",
+      "kuniName_kj": "バヌアツ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "222",
+      "kuniName_kj": "ニュージーランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "223",
+      "kuniName_kj": "ニウエ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "224",
+      "kuniName_kj": "ノーフォーク島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "227",
+      "kuniName_kj": "ピトケアン諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "228",
+      "kuniName_kj": "アメリカ領サモア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "229",
+      "kuniName_kj": "サモア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "231",
+      "kuniName_kj": "トケラウ諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "232",
+      "kuniName_kj": "トンガ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "234",
+      "kuniName_kj": "ワリス・フテュナ諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "235",
+      "kuniName_kj": "クリスマス島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "237",
+      "kuniName_kj": "ココス諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "239",
+      "kuniName_kj": "フランス領ポリネシア（含むタヒチ）",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "301",
+      "kuniName_kj": "アルバニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "302",
+      "kuniName_kj": "アンドラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "303",
+      "kuniName_kj": "オーストリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "305",
+      "kuniName_kj": "ベルギー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "306",
+      "kuniName_kj": "ブルガリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "307",
+      "kuniName_kj": "チェコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "308",
+      "kuniName_kj": "デンマーク",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "309",
+      "kuniName_kj": "アイルランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "311",
+      "kuniName_kj": "フィンランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "312",
+      "kuniName_kj": "フランス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "314",
+      "kuniName_kj": "ドイツ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "315",
+      "kuniName_kj": "ジブラルタル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "316",
+      "kuniName_kj": "ギリシャ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "317",
+      "kuniName_kj": "ハンガリー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "318",
+      "kuniName_kj": "アイスランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "319",
+      "kuniName_kj": "イタリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "321",
+      "kuniName_kj": "リヒテンシュタイン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "322",
+      "kuniName_kj": "ルクセンブルグ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "323",
+      "kuniName_kj": "マルタ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "324",
+      "kuniName_kj": "オランダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "325",
+      "kuniName_kj": "ノルウェー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "326",
+      "kuniName_kj": "ポーランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "327",
+      "kuniName_kj": "ポルトガル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "328",
+      "kuniName_kj": "ルーマニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "329",
+      "kuniName_kj": "スペイン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "330",
+      "kuniName_kj": "スウェーデン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "331",
+      "kuniName_kj": "スイス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "332",
+      "kuniName_kj": "モナコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "334",
+      "kuniName_kj": "イギリス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "335",
+      "kuniName_kj": "ロシア",
+      "kuniSanctionedName": "クリミア地域（ロシア）",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "336",
+      "kuniName_kj": "セルビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "337",
+      "kuniName_kj": "モンテネグロ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "338",
+      "kuniName_kj": "ボスニア・ヘルツェゴビナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "339",
+      "kuniName_kj": "マケドニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "340",
+      "kuniName_kj": "バチカン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "341",
+      "kuniName_kj": "サンマリノ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "342",
+      "kuniName_kj": "スロバキア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "344",
+      "kuniName_kj": "コソボ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "350",
+      "kuniName_kj": "エストニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "351",
+      "kuniName_kj": "ラトビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "352",
+      "kuniName_kj": "リトアニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "353",
+      "kuniName_kj": "アゼルバイジャン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "354",
+      "kuniName_kj": "アルメニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "355",
+      "kuniName_kj": "ベラルーシ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "356",
+      "kuniName_kj": "ジョージア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "357",
+      "kuniName_kj": "カザフスタン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "358",
+      "kuniName_kj": "キルギス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "359",
+      "kuniName_kj": "モルドバ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "361",
+      "kuniName_kj": "タジキスタン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "362",
+      "kuniName_kj": "トルクメニスタン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "363",
+      "kuniName_kj": "ウズベキスタン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "364",
+      "kuniName_kj": "ウクライナ",
+      "kuniSanctionedName": "クリミア地域（ウクライナ）",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "370",
+      "kuniName_kj": "クロアチア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "371",
+      "kuniName_kj": "スロベニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "380",
+      "kuniName_kj": "フェロー諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "381",
+      "kuniName_kj": "オーランド諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "382",
+      "kuniName_kj": "ガーンジー島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "383",
+      "kuniName_kj": "マン島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "384",
+      "kuniName_kj": "ジャージー島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "385",
+      "kuniName_kj": "スバールバル諸島・ヤンマイエン島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "402",
+      "kuniName_kj": "アルジェリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "403",
+      "kuniName_kj": "アンゴラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "404",
+      "kuniName_kj": "レソト",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "405",
+      "kuniName_kj": "ボツワナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "406",
+      "kuniName_kj": "コンゴ民主共和国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "411",
+      "kuniName_kj": "ケニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "413",
+      "kuniName_kj": "タンザニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "414",
+      "kuniName_kj": "ウガンダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "420",
+      "kuniName_kj": "ソマリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "432",
+      "kuniName_kj": "ガンビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "434",
+      "kuniName_kj": "ナイジェリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "435",
+      "kuniName_kj": "シエラレオネ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "436",
+      "kuniName_kj": "セントヘレナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "437",
+      "kuniName_kj": "ブルンジ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "441",
+      "kuniName_kj": "カーボヴェルデ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "442",
+      "kuniName_kj": "ベナン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "443",
+      "kuniName_kj": "エジプト",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "444",
+      "kuniName_kj": "ブルキナファソ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "445",
+      "kuniName_kj": "エチオピア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "446",
+      "kuniName_kj": "カメルーン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "447",
+      "kuniName_kj": "チャド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "448",
+      "kuniName_kj": "ギニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "449",
+      "kuniName_kj": "ニジェール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "450",
+      "kuniName_kj": "ジブチ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "451",
+      "kuniName_kj": "マリ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "452",
+      "kuniName_kj": "トーゴ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "453",
+      "kuniName_kj": "ガーナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "454",
+      "kuniName_kj": "マラウイ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "455",
+      "kuniName_kj": "コートジボワール",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "456",
+      "kuniName_kj": "リベリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "457",
+      "kuniName_kj": "リビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "458",
+      "kuniName_kj": "マダガスカル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "460",
+      "kuniName_kj": "モーリシャス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "461",
+      "kuniName_kj": "モザンビーク",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "462",
+      "kuniName_kj": "モロッコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "463",
+      "kuniName_kj": "ギニアビサウ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "464",
+      "kuniName_kj": "ザンビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "465",
+      "kuniName_kj": "ルワンダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "466",
+      "kuniName_kj": "サントメ・プリンシペ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "467",
+      "kuniName_kj": "セネガル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "468",
+      "kuniName_kj": "セーシェル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "469",
+      "kuniName_kj": "ナミビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "470",
+      "kuniName_kj": "赤道ギニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "471",
+      "kuniName_kj": "ジンバブエ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "472",
+      "kuniName_kj": "スーダン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "473",
+      "kuniName_kj": "エスワティニ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "474",
+      "kuniName_kj": "南スーダン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "475",
+      "kuniName_kj": "チュニジア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "476",
+      "kuniName_kj": "南アフリカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "480",
+      "kuniName_kj": "西サハラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "482",
+      "kuniName_kj": "中央アフリカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "484",
+      "kuniName_kj": "コンゴ共和国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "485",
+      "kuniName_kj": "ガボン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "486",
+      "kuniName_kj": "モーリタニア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "487",
+      "kuniName_kj": "コモロ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "490",
+      "kuniName_kj": "レユニオン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "491",
+      "kuniName_kj": "パレスチナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "492",
+      "kuniName_kj": "エリトリア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "493",
+      "kuniName_kj": "マイヨット",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "502",
+      "kuniName_kj": "ベリーズ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "511",
+      "kuniName_kj": "バハマ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "512",
+      "kuniName_kj": "バルバドス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "513",
+      "kuniName_kj": "バミューダ諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "514",
+      "kuniName_kj": "トリニダード・トバゴ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "516",
+      "kuniName_kj": "ジャマイカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "517",
+      "kuniName_kj": "タークス・カイコス諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "520",
+      "kuniName_kj": "カナダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "521",
+      "kuniName_kj": "コスタリカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "522",
+      "kuniName_kj": "キューバ",
+      "kuniSanctionedName": "キューバ",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "1"
+    },
+    {
+      "kuniCode": "523",
+      "kuniName_kj": "ドミニカ共和国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "525",
+      "kuniName_kj": "グリーンランド",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "526",
+      "kuniName_kj": "グアテマラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "527",
+      "kuniName_kj": "ハイチ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "528",
+      "kuniName_kj": "ホンジュラス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "529",
+      "kuniName_kj": "メキシコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "530",
+      "kuniName_kj": "サンピエール島・ミクロン島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "541",
+      "kuniName_kj": "アルバ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "542",
+      "kuniName_kj": "キュラソー島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "550",
+      "kuniName_kj": "ニカラグア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "552",
+      "kuniName_kj": "パナマ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "553",
+      "kuniName_kj": "プエルトリコ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "554",
+      "kuniName_kj": "エルサルバドル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "555",
+      "kuniName_kj": "アメリカ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "560",
+      "kuniName_kj": "アメリカ領バージン諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "561",
+      "kuniName_kj": "ケイマン諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "562",
+      "kuniName_kj": "ドミニカ国",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "563",
+      "kuniName_kj": "アンティグア・バーブーダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "564",
+      "kuniName_kj": "イギリス領バージン諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "565",
+      "kuniName_kj": "シントマールテン島（オランダ）",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "566",
+      "kuniName_kj": "ボネール・シントユースタティウス・サバ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "567",
+      "kuniName_kj": "セントクリストファー・ネーヴィス",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "568",
+      "kuniName_kj": "サンマルタン島（フランス）",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "569",
+      "kuniName_kj": "アンギラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "570",
+      "kuniName_kj": "グアドループ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "571",
+      "kuniName_kj": "モントセラト",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "572",
+      "kuniName_kj": "サンバルテルミー島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "573",
+      "kuniName_kj": "マルチニーク",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "601",
+      "kuniName_kj": "アルゼンチン",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "602",
+      "kuniName_kj": "ボリビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "603",
+      "kuniName_kj": "ブラジル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "604",
+      "kuniName_kj": "ガイアナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "605",
+      "kuniName_kj": "チリ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "606",
+      "kuniName_kj": "コロンビア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "607",
+      "kuniName_kj": "スリナム",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "608",
+      "kuniName_kj": "エクアドル",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "609",
+      "kuniName_kj": "フォークランド諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "610",
+      "kuniName_kj": "フランス領ギアナ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "611",
+      "kuniName_kj": "パラグアイ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "612",
+      "kuniName_kj": "ペルー",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "613",
+      "kuniName_kj": "ウルグアイ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "614",
+      "kuniName_kj": "ベネズエラ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "615",
+      "kuniName_kj": "グレナダ",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "617",
+      "kuniName_kj": "セントルシア",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "618",
+      "kuniName_kj": "セントビンセント",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "619",
+      "kuniName_kj": "南ジョージア島・南サンドイッチ諸島",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "0",
+      "sanctionedFlg": "0"
+    },
+    {
+      "kuniCode": "901",
+      "kuniName_kj": "朝鮮",
+      "kuniSanctionedName": "",
+      "nationalityFlg": "1",
+      "sanctionedFlg": "0"
+    }
+  ]
+}

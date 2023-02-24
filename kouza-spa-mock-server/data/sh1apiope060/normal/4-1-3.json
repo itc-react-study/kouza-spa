@@ -1,0 +1,45 @@
+{
+  "operatorInfoCount": 4,
+  "operatorInfoList": [
+    {
+      "operatorInfo": {
+        "operatorId": "20890003",
+        "operatorName": "山本",
+        "branchName": "青葉台",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890005",
+        "operatorName": "藤井",
+        "branchName": "青葉台",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890006",
+        "operatorName": "金杉",
+        "branchName": "青葉台",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890007",
+        "operatorName": "杉野",
+        "branchName": "青葉台",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    }
+  ]
+}

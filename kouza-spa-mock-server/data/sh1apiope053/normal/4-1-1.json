@@ -1,0 +1,1227 @@
+{
+  "maskingInfoCount": 120,
+  "maskingInfoList": [
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "2",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0001123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "2",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000987654321",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "4",
+      "shoriID": "300980017",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000987654321",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "4",
+      "shoriID": "300980017",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098002"
+    },
+    {
+      "acceptanceNo": "0000987654321",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "3",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000222222222",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "3",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000333333333",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000444444444",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000555555555",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "30098001",
+      "operator": "山田　一郎",
+      "reCheckerID": "30098001",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎",
+      "lockOperatorId": "30098001"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    },
+    {
+      "acceptanceNo": "0000123456789",
+      "maskingInfoUmu": "1",
+      "idCardFrontImageCount": "5",
+      "maskingStatus": "1",
+      "shoriID": "123abc",
+      "operator": "山田　一郎",
+      "reCheckerID": "321cba",
+      "reChecker": "山田　二郎"
+    }
+  ]
+}

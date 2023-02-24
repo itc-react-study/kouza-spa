@@ -1,0 +1,336 @@
+{
+  "customerInformation": {
+    "customerNameKanji": "山田　太郎",
+    "customerNameKana": "ヤマダ　タロウ",
+    "customerNameRoma": "YAMADA TARO",
+    "postNo": "1000002",
+    "addrKanjiAuto": "東京都千代田区丸の内（自動入力）",
+    "addrKanji": "1-2-3 パークサイドヒルズ１",
+    "addrKana": "1-2-3ﾊﾟｰｸｻｲﾄﾞﾋﾙｽﾞ1002",
+    "birthdayGengo": "4",
+    "birthdayYear": "002",
+    "birthdayMonth": "10",
+    "birthdayDay": "2",
+    "telNoHome": "03-1111-2222",
+    "telNoCellPhone": "090-1234-5678",
+    "gender": "男",
+    "personalityType": "01",
+    "emailAddress": "taro_yamada@.jp",
+    "idCardTypeCode1": "101",
+    "idCardName1": "自分の運転免許証",
+    "idCardTypeCode2": "199",
+    "idCardName2": "医療受給者証",
+    "idCardTypeCode3": "299",
+    "idCardName3": "官公庁発行証明書",
+    "isIdCardTypeAddrExist": "1",
+    "cifRegistKbn": "0",
+    "bankingUserId": "tokyo001"
+  },
+  "maskingFlag": "1",
+  "operationNote": "備考備考備考備考備考",
+  "memo": "メモメモメモメモメモ",
+  "eventBeforeTabInfo": {
+    "searchMethod": "1",
+    "jinkakushikibetsuKubun": "1",
+    "kanaOnlySearchFlg": "1",
+    "engNoSearchFlg": "1",
+    "eventBeforeList": [
+      {
+        "storeNo": "989",
+        "storeNameKj": "",
+        "cifNo": "1729734",
+        "nameKn": "",
+        "namekj": "",
+        "birthday": "94076296998",
+        "sex": "5",
+        "selectFlg": "0"
+      }
+    ],
+    "storeNo": "407",
+    "cifNo": "4773989",
+    "linkNewFlg": "j",
+    "cifInfo": {
+      "address1": "",
+      "address2": "",
+      "nameEj": "",
+      "identityVerificationStatus": "",
+      "cddRegist": "",
+      "eddRegist": "",
+      "forbidden": "",
+      "characterDiv": "56",
+      "telNo1": "7950217548602",
+      "telNo2": "3068056255088",
+      "telNo3": "4064175849929",
+      "headOfficeTrans": "5",
+      "tradeStartDate": "23991439",
+      "identityVerificationDoc": "",
+      "identityVerificationDocNo": "",
+      "officeName": "",
+      "sealDiv": "5",
+      "nationality1": "",
+      "nationality2": "",
+      "nationality3": "",
+      "addressKjOversea": "8",
+      "addressEjOversea": "9",
+      "habitabilityDiv": "0",
+      "orusubanNo": "66727",
+      "eddDiv": "01"
+    },
+    "cifAccountList": [
+      {
+        "storeNo": "769",
+        "cifNo": "8190362",
+        "accountType": "",
+        "accountNo": "5257463",
+        "accountKind": "",
+        "notificationDiv": "",
+        "headOfficeTrans": "2",
+        "mailReturn": "0",
+        "bankbookEcoHold": "4",
+        "comSealHold": "8",
+        "directHold": "7",
+        "directRegistDate": "2021.06.08",
+        "directKeiyakushatokuteiCode": "dh2bgdhdp4",
+        "directKeiyakuBangou": "",
+        "directkeiyakucardCode": "1",
+        "designatedAccountRegistFlg": "0",
+        "selectFlg": "7"
+      }
+    ],
+    "idoumeisai": {
+      "storeNo": "076",
+      "accountType": "",
+      "accountNo": "9782865",
+      "balance": ""
+    },
+    "idoumeisaiList": [
+      {
+        "tradeDate": "21-09-09",
+        "description": "",
+        "payment": "845632161230312",
+        "deposit": "328958123833892",
+        "tradeStoreNo": "434",
+        "selectFlg": "1",
+        "tradeAmount": "207284370209517",
+        "paymentSummary": "",
+        "paymentDescriptionKj": "",
+        "paymentDescriptionKn": "",
+        "entryStore": "979",
+        "transReuester": "",
+        "bankName": "",
+        "storeName": "",
+        "transStore": "818"
+      }
+    ]
+  },
+  "sanctionsTabInfo": {
+    "sanctionsSearchKjFlg": "",
+    "sanctionsSearchKnFlg": "",
+    "sanctionsSearchEjFlg": "",
+    "sanctionsSearchResult": 2,
+    "pepsSearchKjFlg": "",
+    "pepsSearchKnFlg": "",
+    "pepsSearchEjFlg": "",
+    "pepsSearchResult": 9,
+    "pepsCheck": "5",
+    "screeningSearchUrl": ""
+  },
+  "cddEddTabInfo": {
+    "tradingCd": "01,02,03,04,05,06,07,08,09,10,99",
+    "purposeOfFgnRemit": "あいうえお買い物",
+    "monthlyTradeAmountCd": "04",
+    "occupationCd": "101",
+    "business_Cd": "299",
+    "businessOther": "その他その他その他その他",
+    "businessRemarks": "",
+    "officeNameKj": "フジタ　ダイスケ",
+    "officeNameKn": "藤田　大介",
+    "officePostalCd": "1234567",
+    "officeAddress": "東京都千代田区丸の内 1-1-1",
+    "officeTel": "0312345678",
+    "sanctionedAssetDiv": "1",
+    "sanctionedCountry1Cd": "102",
+    "sanctionedCcountry2Cd": "104",
+    "sanctionedCountry3Cd": "106",
+    "sanctionedAssetContent": "取引取引取引取引取引取引取引資産資産",
+    "nationality1Cd": "110",
+    "nationality2Cd": "115",
+    "nationality3Cd": "125",
+    "residentStatusCd": "99",
+    "residentStatusOther": "本土に在留本土に在留",
+    "permitDate": "20210401",
+    "stayPeriod": "20210701",
+    "residenceCountryCd": "146",
+    "stayStartCheckDiv": "1",
+    "assetAmount": "999897787",
+    "assetBackground": "資産背景１１１１１１１１１１１",
+    "incomeAmount": "102876338",
+    "incomeBackground": "収入の背景２２２２２２２２２２２２",
+    "tradingCountry1Cd": "110",
+    "tradingCountry2Cd": "115",
+    "tradingCcountry3Cd": "120",
+    "tradingCurrency1Cd": "001",
+    "tradingCurrency2Cd": "002",
+    "tradingCcurrency3Cd": "003",
+    "highRiskJob": "1",
+    "purposeCashTrade": "買い物して取引買い物して取引買い物して取引",
+    "purposeMonthlyTrade": "買買買買買買買買買買買買買"
+  },
+  "kycRiskcEvalutionTabInfo": {
+    "kycRegistNo": "0843791585718",
+    "allEval": "2",
+    "clientEval": "2",
+    "countryEval": "3",
+    "productEval": "9",
+    "acpPolicy": "7",
+    "acpRef_comment": "",
+    "appdResult": "6",
+    "authorizerComment": "",
+    "kycRegistDate": "20210608",
+    "kycOptLockDate": "202106081749040",
+    "acpRefStatus": "54"
+  },
+  "syouhinSelectTabInfo": {
+    "storeNo": "590",
+    "storeName": "",
+    "storeSelectReason": "",
+    "existAccountHold": "09",
+    "existStoreNo": "033",
+    "existAccountNo": "5273024",
+    "sealDiv": "5",
+    "accountKindDiv": "8",
+    "directAplDiv": "8",
+    "otpAplDiv": "7",
+    "directStpDiv": "0",
+    "bankbookKindDiv": "90",
+    "cashcardTypeDiv": "2",
+    "cashcardDesignDiv": "5",
+    "debitcardBrandDiv": "9",
+    "debitcardDesignDiv": "0",
+    "debitcardName": "",
+    "mitsubishiufjCardFlg": "6",
+    "bankbookReceivediv": "5",
+    "bankbookReceiptNo": "548567",
+    "cashcardName": ""
+  },
+  "errorTabInfo": {
+    "telegramExceInfo": [
+      {
+        "registEifName": "01",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "03",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "04",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "05",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "06",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "07",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "08",
+        "registEifResult": "2",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "09",
+        "registEifResult": "2",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "10",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "11",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "12",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "13",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      },
+      {
+        "registEifName": "14",
+        "registEifResult": "3",
+        "registEifErrorCd": "",
+        "registEifErrorMsg": "",
+        "registSbtFlg": ""
+      }
+    ],
+    "passwordCashcard": "1339",
+    "passwordBtmud": "2852",
+    "loginPass": "4368300213749968",
+    "debitPincode": "1442",
+    "serviceContents": "6"
+  },
+  "headerInfo": {
+    "registTime": "20210608",
+    "registNo": "0290000040103",
+    "tabletName": "新宿001",
+    "passingTime": "50",
+    "checker": "山田：新宿",
+    "operatorId": "杉野：新宿",
+    "reCheckeInfo": [
+      {
+        "reCheckerID": "再鑑A：新宿"
+      },
+      {
+        "reCheckerID": "再鑑B：新宿"
+      },
+      {
+        "reCheckerID": "再鑑C：新宿"
+      }
+    ],
+    "managerJudgement": "管理者：新宿"
+  }
+}

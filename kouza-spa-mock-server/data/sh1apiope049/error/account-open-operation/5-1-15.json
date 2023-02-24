@@ -1,0 +1,7 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "スキャンイメージが見つかりません"
+  }
+}
+

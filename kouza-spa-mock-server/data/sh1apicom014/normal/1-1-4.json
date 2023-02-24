@@ -1,0 +1,31 @@
+{
+  "addrList": [
+    {
+      "postNo": "1",
+      "addressMainKj": "東京都千代田区",
+      "addressSubKanji": "丸の内AAA",
+      "addressMainKn": "xxxxxx",
+      "addressSubKn": "002",
+      "duplicateFlag": "",
+      "juushoCode": "001"
+    },
+    {
+      "postNo": "2",
+      "addressMainKj": "東京都港区",
+      "addressSubKanji": "",
+      "addressMainKn": "xxxxxx",
+      "addressSubKn": "002",
+      "duplicateFlag": "",
+      "juushoCode": "002"
+    },
+    {
+      "postNo": "3",
+      "addressMainKj": "東京都秋葉",
+      "addressSubKanji": null,
+      "addressMainKn": "xxxxxx",
+      "addressSubKn": "002",
+      "duplicateFlag": "",
+      "juushoCode": "003"
+    }
+  ]
+}

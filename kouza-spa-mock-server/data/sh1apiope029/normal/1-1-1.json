@@ -1,0 +1,53 @@
+{
+  "eventBeforeList": [
+    {
+      "shopNo": "456",
+      "subTenno": "ｺﾝﾌﾟﾗJM",
+      "cifBangou": "7654321",
+      "kanaName": "ﾔﾏﾀﾞ ｹﾝ",
+      "torihikiName": "山田　けん",
+      "birthday": "昭56-00-00",
+      "gender": "男"
+    },
+    {
+      "shopNo": "123",
+      "subTenno": "ｺﾝﾌﾟﾗJM",
+      "cifBangou": "3333333",
+      "kanaName": "ﾔﾏﾀﾞ ｹﾝ",
+      "torihikiName": "草薙　けん",
+      "birthday": "昭56-00-00",
+      "gender": "男"
+    },
+    {
+      "shopNo": "4567",
+      "subTenno": "ｺﾝﾌﾟﾗJM",
+      "cifBangou": "7654321",
+      "kanaName": "ﾔﾏﾀﾞ ｹﾝ",
+      "torihikiName": "山田　けん",
+      "birthday": "昭56-00-00",
+      "gender": "男"
+    },
+    {
+      "shopNo": "456",
+      "subTenno": "ｺﾝﾌﾟﾗJM",
+      "cifBangou": "76543211",
+      "kanaName": "ﾔﾏﾀﾞ ｹﾝ",
+      "torihikiName": "山田　けん",
+      "birthday": "昭56-00-00",
+      "gender": "男"
+    }
+  ],
+  "seisaitaishousha": {
+    "kensuu": 13,
+    "kanjiSearchFlg": "1",
+    "kanaSearchFlg": "0",
+    "engSearchFlg": "1"
+  },
+  "kakushugaikokuPEPsAdversMedia": {
+    "kensuu": 15,
+    "kanjiSearchFlg": "0",
+    "kanaSearchFlg": "0",
+    "engSearchFlg": "1"
+  },
+  "url": "https://www.baidu.com/"
+}

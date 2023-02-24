@@ -1,0 +1,57 @@
+{
+  "motochouZandaka": "82445",
+  "nyuushukkinMeisaiShoukaiErrorKubun": "",
+  "kyousaiList": [
+    {
+      "id": "",
+      "idouMeisaiTorihikiBi": "20210808",
+      "iriharaitekiyouMongon": "振込111111",
+      "siharaiKingaku": "545456456",
+      "nyukinKingaku": "84984156489",
+      "syoriStr": "654",
+      "torihikiKingaku": "",
+      "iriharaiKubun": "振込7222222",
+      "kanjiIriharaitekiyouMongon": "振込6232322",
+      "kanaIriharaitekiyouMongon": "振込5223232",
+      "meisaiKichouTenban": "555",
+      "kanaFurikomiIraininShimei": "振込4223232",
+      "kanaShimukesakiGinkouMei": "振込322332",
+      "kanaShimukesakiKouzatenMei": "振込23333322",
+      "shoriTenban": "444"
+    },
+    {
+      "id": "",
+      "idouMeisaiTorihikiBi": "20210909",
+      "iriharaitekiyouMongon": "振込1111",
+      "siharaiKingaku": "4564564564",
+      "nyukinKingaku": "5456456456",
+      "syoriStr": "456",
+      "torihikiKingaku": "1212312315",
+      "iriharaiKubun": "振込722",
+      "kanjiIriharaitekiyouMongon": "振込622",
+      "kanaIriharaitekiyouMongon": "振込522",
+      "meisaiKichouTenban": "222",
+      "kanaFurikomiIraininShimei": "振込422",
+      "kanaShimukesakiGinkouMei": "振込322",
+      "kanaShimukesakiKouzatenMei": "振込222",
+      "shoriTenban": "888"
+    },
+    {
+      "id": "",
+      "idouMeisaiTorihikiBi": "20211010",
+      "iriharaitekiyouMongon": "振込2222",
+      "siharaiKingaku": "23213232131",
+      "nyukinKingaku": "12321321",
+      "syoriStr": "777",
+      "torihikiKingaku": "",
+      "iriharaiKubun": "",
+      "kanjiIriharaitekiyouMongon": "",
+      "kanaIriharaitekiyouMongon": "",
+      "meisaiKichouTenban": "",
+      "kanaFurikomiIraininShimei": "",
+      "kanaShimukesakiGinkouMei": "",
+      "kanaShimukesakiKouzatenMei": "",
+      "shoriTenban": ""
+    }
+  ]
+}

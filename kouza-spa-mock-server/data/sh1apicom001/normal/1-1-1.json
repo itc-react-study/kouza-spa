@@ -1,0 +1,31 @@
+{
+  "sessionKey": "1NIdtmq+Uh/9Ct5QmUvBOA==",
+  "keyA": "MDEyMzQ1Njc4OTAxMjM0NQ==",
+  "keyB": "OTg3NjU0MzIxMDk4NzY1NA==",
+  "keyC": "QUIwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMUNERQ==",
+  "faceFlags": {
+    "driverLicense": false,
+    "myNumber": false,
+    "insuranceCard": false,
+    "driverLicenseWeb": false,
+    "myNumberWeb": false,
+    "insuranceCardWeb": false
+  },
+  "idBlockadeFlags": {
+    "licenseIc": 0,
+    "myNumberIc": 0,
+    "licenseImg": 0,
+    "myNumberImg": 0,
+    "insuranceCardImg": 0
+  },
+  "ekycSettings": {
+    "frameoutCheckLimit": 0,
+    "faceVerifyLimit": 0,
+    "faceScoreThreshold": 0.0,
+    "personalLivenessScoreThreshold": 0.0,
+    "apLivenessScoreThreshold": 0.0,
+    "ocrRetakeLimit": 0
+  },
+  "deviceSpecificInformation": "",
+  "regist": false
+}

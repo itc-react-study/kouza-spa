@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00002",
+    "errorMessage": "要求タイムアウト"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "30208",
+    "errorMessage": "印刷する明細がありません"
+  }
+}

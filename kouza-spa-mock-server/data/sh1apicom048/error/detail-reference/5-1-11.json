@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "業務データ明細情報の取得が失敗しました"
+  }
+}

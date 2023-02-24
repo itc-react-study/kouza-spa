@@ -1,0 +1,5 @@
+{
+  "commonResponseHeader": {
+    "errorMessage": "業務データ明細照会中にDB例外が発生しました"
+  }
+}

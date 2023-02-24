@@ -1,0 +1,31 @@
+{
+  "addrList": [
+    {
+      "postNo": "1",
+      "addressMainKj": "東京都千代田区丸の内",
+      "addressSubKanji": "パークサイドヒルズ１ 1-1",
+      "addressMainKn": "1-2-3",
+      "addressSubKn": "ﾊﾟｰｸｻｲﾄﾞﾋﾙｽﾞ1003",
+      "duplicateFlag": "",
+      "juushoCode": "002"
+    },
+    {
+      "postNo": "2",
+      "addressMainKj": "東京都千代田区丸の内",
+      "addressSubKanji": "パークサイドヒルズ１ 1-2",
+      "addressMainKn": "2-2-3",
+      "addressSubKn": "ﾊﾟｰｸｻｲﾄﾞﾋﾙｽﾞ1004",
+      "duplicateFlag": "",
+      "juushoCode": "002"
+    },
+    {
+      "postNo": "2",
+      "addressMainKj": "東京都千代田区丸の内",
+      "addressSubKanji": "パークサイドヒルズ１ 1-3",
+      "addressMainKn": "3-2-3",
+      "addressSubKn": "ﾊﾟｰｸｻｲﾄﾞﾋﾙｽﾞ1005",
+      "duplicateFlag": "",
+      "juushoCode": "002"
+    }
+  ]
+}

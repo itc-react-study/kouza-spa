@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "オペレーター状況一覧の取得が失敗しました（自動更新）"
+  }
+}

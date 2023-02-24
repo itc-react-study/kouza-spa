@@ -1,0 +1,15 @@
+{
+  "accountFinishResult": "1",
+  "denbunResultJouhou": {
+    "appointAccountBranchLoginResult": "1",
+    "attributeLoginResult": "1",
+    "directNewResult": "1",
+    "eNoticeResult": "1",
+    "kycInfomationLoginResult": "0",
+    "newKeyResult": "0",
+    "oecdResult": "0",
+    "printAcceptInfoDebitLoginResult": "1",
+    "printAcceptInfoIcLoginResult": "0",
+    "selfComfirmationRecordResult": "0"
+  }
+}

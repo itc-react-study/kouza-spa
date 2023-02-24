@@ -1,0 +1,65 @@
+{
+  "operatorInfoCount": 6,
+  "operatorInfoList": [
+    {
+      "operatorInfo": {
+        "operatorId": "20890002",
+        "operatorName": "竹元竹元竹元竹元竹元",
+        "branchName": "新宿",
+        "operatorStatus": "0",
+        "operatorStatusStr": "編集可",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890003",
+        "operatorName": "山本",
+        "branchName": "青葉台",
+        "operatorStatus": "1",
+        "operatorStatusStr": "編集中",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890004",
+        "operatorName": "井山",
+        "branchName": "新宿",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890005",
+        "operatorName": "藤井",
+        "branchName": "青葉台",
+        "operatorStatus": "3",
+        "operatorStatusStr": "検印中",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890006",
+        "operatorName": "金杉",
+        "branchName": "谷町",
+        "operatorStatus": "1",
+        "operatorStatusStr": "編集中",
+        "businessRoleName": ["新規账号開設"]
+      }
+    },
+    {
+      "operatorInfo": {
+        "operatorId": "20890007",
+        "operatorName": "杉野",
+        "branchName": "新川",
+        "operatorStatus": "1",
+        "operatorStatusStr": "編集中",
+        "businessRoleName": ["新規账号開設"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "0",
+    "errorMessage": ""
+  },
+  "addrList": [
+    {
+      "postNo": "1",
+      "addressMainKj": "東京都千代田区丸の内",
+      "addressSubKanji": "パークサイドヒルズ１ 1-1",
+      "addressMainKn": "1-2-3",
+      "addressSubKn": "ﾊﾟｰｸｻｲﾄﾞﾋﾙｽﾞ1003",
+      "duplicateFlag": "",
+      "juushoCode": "002"
+    }
+  ]
+}

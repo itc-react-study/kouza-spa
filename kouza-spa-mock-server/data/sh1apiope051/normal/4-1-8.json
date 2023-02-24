@@ -1,0 +1,35 @@
+{
+  "cardCount": 3,
+  "CardToriList": [
+    {
+      "CardTori": {
+        "serialNumber": "001",
+        "shopNo": "408",
+        "accountBranchName": "４－１－８",
+        "furikanaName": "小林",
+        "acceptanceNo": "2021040108001",
+        "printedFlg": "0"
+      }
+    },
+    {
+      "CardTori": {
+        "serialNumber": "002",
+        "shopNo": "408",
+        "accountBranchName": "４－１－８",
+        "furikanaName": "小林",
+        "acceptanceNo": "2021040108002",
+        "printedFlg": "0"
+      }
+    },
+    {
+      "CardTori": {
+        "serialNumber": "003",
+        "shopNo": "408",
+        "accountBranchName": "４－１－８",
+        "furikanaName": "山田",
+        "acceptanceNo": "2021040108003",
+        "printedFlg": "1"
+      }
+    }
+  ]
+}

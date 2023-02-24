@@ -1,0 +1,35 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "0",
+    "errorMessage": ""
+  },
+  "addrList": [
+    {
+        "postNo": "1",
+        "addressMainKj": "東京都千代田区1",
+        "addressSubKanji": "丸の内AAA",
+        "addressMainKn": "xxxxxx1",
+        "addressSubKn": "002",
+        "duplicateFlag": "",
+        "juushoCode": "001"
+    },
+    {
+        "postNo": "2",
+        "addressMainKj": "東京都千代田区2",
+        "addressSubKanji": "丸の内bbb",
+        "addressMainKn": "xxxxxx2",
+        "addressSubKn": "002",
+        "duplicateFlag": "",
+        "juushoCode": "002"
+    },
+    {
+        "postNo": "3",
+        "addressMainKj": "東京都千代田区3",
+        "addressSubKanji": "丸の内ccc",
+        "addressMainKn": "xxxxxx3",
+        "addressSubKn": "002",
+        "duplicateFlag": "",
+        "juushoCode": "003"
+    }
+  ]
+}
