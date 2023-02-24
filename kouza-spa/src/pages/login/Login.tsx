@@ -65,6 +65,7 @@ const Login = (): JSX.Element => {
             <TextField
               fullWidth
               required
+              type={"password"}
               {...register("userPwd")}
               label="userPwd"
             />
