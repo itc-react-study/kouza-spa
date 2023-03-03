@@ -3,6 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const InterpolateHtmlPlugin = require('interpolate-html-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development', // 'development'或'production'，不指定的话控制台会有warning信息
@@ -48,8 +49,16 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'less-loader'],
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file-loader',
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images',
+            },
+          },
+        ],
       },
     ],
   },
@@ -73,6 +82,15 @@ module.exports = {
     }),
     new InterpolateHtmlPlugin({
       PUBLIC_URL: 'static', // can modify `static` to another name or get it from `process`
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'public', // 静态资源文件夹
+          to: './static', // 输出到当前目录
+          noErrorOnMissing: true,
+        },
+      ],
     }),
   ],
   devServer: {

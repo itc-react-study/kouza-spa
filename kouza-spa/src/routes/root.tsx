@@ -23,10 +23,6 @@ const getChildren = () => {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="Login" />,
-  },
-  {
-    path: "/Login",
     element: <App />,
   },
   {
