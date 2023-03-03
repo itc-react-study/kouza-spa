@@ -1,1 +1,4 @@
-export const PROPERTY_CONFIG = { SERVER_PATH: 'http://localhost:3000' };
+export const PROPERTY_CONFIG = {
+  DEV_SERVER_PATH: '/dev-api',
+  PRO_SERVER_PATH: '/pro-api',
+};

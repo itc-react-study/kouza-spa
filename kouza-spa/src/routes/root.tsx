@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createHashRouter, Navigate } from "react-router-dom";
 import App from "../App";
 import { MAIN, MENU_LIST } from "../assets/configs/MENU_LIST";
 import Main from "../pages/main/Main";
@@ -20,9 +20,13 @@ const getChildren = () => {
   return children;
 };
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
+    element: <Navigate to="Login" />,
+  },
+  {
+    path: "/Login",
     element: <App />,
   },
   {

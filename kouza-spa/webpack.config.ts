@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const InterpolateHtmlPlugin = require('interpolate-html-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'development', // 'development'或'production'，不指定的话控制台会有warning信息
@@ -92,15 +93,32 @@ module.exports = {
         },
       ],
     }),
+    new webpack.DefinePlugin({
+      'process.env.CONFIG': JSON.stringify('dev'),
+    }),
   ],
   devServer: {
     port: 3000,
     static: path.join(__dirname, 'dist'), // 临时的打包目录（在内存中）
     open: true,
     proxy: {
-      '/': {
+      '/dev-api': {
         target: 'http://localhost:8001',
         changeOrigin: true,
+        pathRewrite: {
+          //匹配以dev-spi开头的设置为空
+          //"^/dev-api":""，
+          ['^/dev-api']: '',
+        },
+      },
+      '/pro-api': {
+        target: 'http://www.vuelearn.com',
+        changeOrigin: true,
+        pathRewrite: {
+          //匹配以pro-api开头的设置为空
+          //"^/pro-api":""，
+          ['^/pro-api']: '',
+        },
       },
     },
   },

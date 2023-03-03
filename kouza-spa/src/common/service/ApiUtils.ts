@@ -3,10 +3,14 @@ import { PROPERTY_CONFIG } from '../../assets/configs/PROPERTY_CONFIG';
 import { API_DI_CONFIG } from '../../assets/constants/api-id.constant';
 
 export const getApi = async (apiIds: string, param: any) => {
-  const url = PROPERTY_CONFIG.SERVER_PATH + API_DI_CONFIG[apiIds].endpoint;
+  const baseURL =
+    process.env.CONFIG === 'dev'
+      ? PROPERTY_CONFIG.DEV_SERVER_PATH
+      : PROPERTY_CONFIG.PRO_SERVER_PATH;
 
   const request = {
-    url: url,
+    baseURL: baseURL,
+    url: API_DI_CONFIG[apiIds].endpoint,
     method: API_DI_CONFIG[apiIds].method,
     data: param,
   };

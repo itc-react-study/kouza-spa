@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "webpack serve --mode development --config webpack.config.ts",
-    "build": "webpack --mode production --config webpack.config.ts",
+    "build": "webpack build --mode production --config webpack.config.ts",
     "test": "react-scripts test",
     "format": "prettier --write src",
     "lint": "eslint --ext .ts,.tsx src"
