@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -94,7 +93,7 @@ module.exports = {
       ],
     }),
     new webpack.DefinePlugin({
-      'process.env.CONFIG': JSON.stringify('dev'),
+      'process.env.NODE_ENV': JSON.stringify('development'),
     }),
   ],
   devServer: {

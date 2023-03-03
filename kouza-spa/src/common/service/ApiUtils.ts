@@ -4,7 +4,7 @@ import { API_DI_CONFIG } from '../../assets/constants/api-id.constant';
 
 export const getApi = async (apiIds: string, param: any) => {
   const baseURL =
-    process.env.CONFIG === 'dev'
+    process.env.NODE_ENV === 'development'
       ? PROPERTY_CONFIG.DEV_SERVER_PATH
       : PROPERTY_CONFIG.PRO_SERVER_PATH;
 
