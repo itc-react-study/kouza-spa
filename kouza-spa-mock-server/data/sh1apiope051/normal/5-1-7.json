@@ -1,0 +1,25 @@
+{
+  "cardCount": 2,
+  "CardToriList": [
+    {
+      "CardTori": {
+        "serialNumber": "001",
+        "shopNo": "507",
+        "accountBranchName": "５－１－７",
+        "furikanaName": "小林",
+        "acceptanceNo": "2021050107001",
+        "printedFlg": "0"
+      }
+    },
+    {
+      "CardTori": {
+        "serialNumber": "002",
+        "shopNo": "507",
+        "accountBranchName": "５－１－７",
+        "furikanaName": "山田",
+        "acceptanceNo": "2021050107002",
+        "printedFlg": "1"
+      }
+    }
+  ]
+}

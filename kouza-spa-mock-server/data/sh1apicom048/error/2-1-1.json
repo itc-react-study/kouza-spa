@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "情報の取得に失敗しました"
+  }
+}

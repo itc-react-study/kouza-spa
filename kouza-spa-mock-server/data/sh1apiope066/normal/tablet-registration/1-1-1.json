@@ -1,0 +1,76 @@
+{
+  "tabletInfoList": [
+    {
+      "tabletName": "2-1-2",
+      "shopNoSetted": "店番2",
+      "shopNameSetted": "設置店名2",
+      "status": "編集可",
+      "tabletId": "1234",
+      "requestOperatorId": "2",
+      "lockOperatorId": "2"
+    },
+    {
+      "tabletName": "2-1-3",
+      "shopNoSetted": "店番3",
+      "shopNameSetted": "設置店名3",
+      "status": "編集可",
+      "tabletId": "1235",
+      "requestOperatorId": "3",
+      "lockOperatorId": ""
+    },
+    {
+      "tabletName": "2-1-4",
+      "shopNoSetted": "店番4",
+      "shopNameSetted": "設置店名4",
+      "status": "検印待ち",
+      "tabletId": "1236",
+      "requestOperatorId": "4",
+      "lockOperatorId": "4"
+    },
+    {
+      "tabletName": "2-1-5",
+      "shopNoSetted": "店番5",
+      "shopNameSetted": "設置店名5",
+      "status": "検印待ち",
+      "tabletId": "1237",
+      "requestOperatorId": "4",
+      "lockOperatorId": "4"
+    },
+    {
+      "tabletName": "name6",
+      "shopNoSetted": "店番5",
+      "shopNameSetted": "設置店名5",
+      "status": "編集中",
+      "tabletId": "5555",
+      "requestOperatorId": "5",
+      "lockOperatorId": ""
+    },
+    {
+      "tabletName": "name7",
+      "shopNoSetted": "店番5",
+      "shopNameSetted": "設置店名5",
+      "status": "編集中",
+      "tabletId": "5556",
+      "requestOperatorId": "5",
+      "lockOperatorId": ""
+    },
+    {
+      "tabletName": "name8",
+      "shopNoSetted": "店番5",
+      "shopNameSetted": "設置店名5",
+      "status": "編集中",
+      "tabletId": "1236",
+      "requestOperatorId": "5",
+      "lockOperatorId": ""
+    },
+    {
+      "tabletName": "name9",
+      "shopNoSetted": "店番9",
+      "shopNameSetted": "設置店名9",
+      "status": "編集中",
+      "tabletId": "1236",
+      "requestOperatorId": "5",
+      "lockOperatorId": ""
+    }
+  ]
+}

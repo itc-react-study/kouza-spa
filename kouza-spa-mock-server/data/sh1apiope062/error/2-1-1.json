@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "オペレータ情報追加/更新APIは見つかりません"
+  }
+}

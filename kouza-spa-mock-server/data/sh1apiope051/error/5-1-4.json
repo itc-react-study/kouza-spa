@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "取引カード一覧が見つかりません"
+  }
+}

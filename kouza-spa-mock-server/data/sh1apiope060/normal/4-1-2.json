@@ -1,0 +1,15 @@
+{
+  "operatorInfoCount": 1,
+  "operatorInfoList": [
+    {
+      "operatorInfo": {
+        "operatorId": "10000411",
+        "operatorName": "竹元",
+        "branchName": "新宿",
+        "operatorStatus": "2",
+        "operatorStatusStr": "検印待ち",
+        "businessRoleName": ["新規账号開設"]
+      }
+    }
+  ]
+}

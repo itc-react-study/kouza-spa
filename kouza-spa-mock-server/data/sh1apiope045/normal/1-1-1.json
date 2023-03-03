@@ -1,0 +1,27 @@
+{
+  "checkWaiting": 2,
+  "operationWaiting": 3,
+  "managerJudgementWaiting": 4,
+  "reCheckWaiting": 5,
+  "accountFinish": 6,
+  "transactionList": [
+    {
+      "acceptanceNo": "XXX1234562",
+      "branchMachine": "本店002",
+      "accountName": "井山太郎",
+      "waitingTime": 12,
+      "operatorId": "30000120",
+      "operatorNameFull": "杉野太郎",
+      "passingTime": 13,
+      "check": "処理中",
+      "accountOpeningOperation": "待ち",
+      "reCheck": "問診中",
+      "managerJudgement": "完了",
+      "result": "账号開設済エラー",
+      "shopNo": "202",
+      "accountNo": "000002",
+      "shopSelected": "002",
+      "existingAccount": "XXX9234562"
+    }
+  ]
+}

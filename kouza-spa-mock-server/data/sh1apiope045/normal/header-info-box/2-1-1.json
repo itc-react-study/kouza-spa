@@ -1,0 +1,59 @@
+{
+  "accountFinish": 3,
+  "transactionList": [
+    {
+      "acceptanceNo": "0320000020101",
+      "branchMachine": "本店001",
+      "accountName": "山田　太郎",
+      "waitingTime": 20,
+      "operatorId": "30000120",
+      "operatorNameFull": "杉野",
+      "passingTime": 18,
+      "check": "完了",
+      "accountOpeningOperation": "完了",
+      "reCheck": "完了",
+      "managerJudgement": "完了",
+      "result": "账号開設済",
+      "shopNo": "202",
+      "accountNo": "020101",
+      "shopSelected": "002",
+      "existingAccount": ""
+    },
+    {
+      "acceptanceNo": "0320000040101",
+      "branchMachine": "本店001",
+      "accountName": "山田　太郎",
+      "waitingTime": 20,
+      "operatorId": "30000120",
+      "operatorNameFull": "杉野",
+      "passingTime": 18,
+      "check": "完了",
+      "accountOpeningOperation": "完了",
+      "reCheck": "完了",
+      "managerJudgement": "完了",
+      "result": "账号開設済",
+      "shopNo": "202",
+      "accountNo": "040102",
+      "shopSelected": "002",
+      "existingAccount": ""
+    },
+    {
+      "acceptanceNo": "0320000040102",
+      "branchMachine": "本店001",
+      "accountName": "山田　太郎",
+      "waitingTime": 20,
+      "operatorId": "30000120",
+      "operatorNameFull": "杉野",
+      "passingTime": 18,
+      "check": "完了",
+      "accountOpeningOperation": "完了",
+      "reCheck": "完了",
+      "managerJudgement": "完了",
+      "result": "账号開設済",
+      "shopNo": "202",
+      "accountNo": "040103",
+      "shopSelected": "002",
+      "existingAccount": ""
+    }
+  ]
+}

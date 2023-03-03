@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "オペレータ情報一覧照会APは見つかりません"
+  }
+}

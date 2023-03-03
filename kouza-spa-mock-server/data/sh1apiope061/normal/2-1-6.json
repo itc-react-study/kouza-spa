@@ -1,0 +1,12 @@
+{
+  "operatorInfo": {
+    "operatorId": "30098001",
+    "operatorName": "担当者氏名",
+    "branchName": "日本橋",
+    "operatorStatus": "3",
+    "businessRoleNoList": ["1", "2"],
+    "authorityID": "6",
+    "deleteFlag": "0",
+    "smtpAddress": ""
+  }
+}

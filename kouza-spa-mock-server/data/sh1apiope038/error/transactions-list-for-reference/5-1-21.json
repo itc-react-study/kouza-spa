@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "設置店番は見つかりません"
+  }
+}

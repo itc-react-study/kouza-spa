@@ -1,0 +1,16 @@
+{
+  "accountFinishResult": "2",
+  "denbunResultJouhou": {
+    "newKeyResult": "2",
+    "printAcceptInfoIcLoginResult": "2",
+    "directNewResult": "2",
+    "appointAccountBranchLoginResult": "2",
+    "eNoticeResult": "2",
+    "visaCardIssueResult": "2",
+    "printAcceptInfoDebitLoginResult": "2",
+    "oecdResult": "2",
+    "attributeLoginResult": "2",
+    "selfComfirmationRecordResult": "2",
+    "kycInfomationLoginResult": "2"
+  }
+}

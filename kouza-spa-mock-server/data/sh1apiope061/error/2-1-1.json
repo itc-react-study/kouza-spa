@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "オペレータ情報明細照会APIは見つかりません"
+  }
+}

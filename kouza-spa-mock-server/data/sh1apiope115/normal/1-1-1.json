@@ -1,0 +1,10 @@
+{
+  "userId": "30098001",
+  "userShopNumber": "6785",
+  "operatorInfo": {
+    "operatorName": "担当者名前",
+    "branchName": "青葉台",
+    "businessRoleNoList": ["1", "2"],
+    "authorityID": "6"
+  }
+}

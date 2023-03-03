@@ -1,0 +1,82 @@
+{
+  "inStandby": 1,
+  "inHand": 1,
+  "inPostTreatment": 1,
+  "inLeave1": 1,
+  "inLeave2": 1,
+  "inLeave3": 1,
+  "operatorList": [
+    {
+      "operatorID": "XXX00001",
+      "operatorName": "社員A",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "待機中",
+      "passingTime": "1",
+      "shopNoSetted": "0012",
+      "tabletName": "X001",
+      "businessRoleName": "账号開設1、账号開設2、账号開設3、账号開設4、账号開設5"
+    },
+    {
+      "operatorID": "XXX00002",
+      "operatorName": "社員B",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "点検中",
+      "passingTime": "2",
+      "shopNoSetted": "0012",
+      "tabletName": "X002",
+      "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00003",
+      "operatorName": "社員C",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "後処理中",
+      "passingTime": "1",
+      "shopNoSetted": "0012",
+      "tabletName": "X003",
+      "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00004",
+      "operatorName": "社員D",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "離席１",
+      "passingTime": "2",
+      "shopNoSetted": "0012",
+      "tabletName": "X004",
+      "businessRoleName": ""
+    },
+    {
+      "operatorID": "XXX00005",
+      "operatorName": "社員E",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "離席２",
+      "passingTime": "1",
+      "shopNoSetted": "0012",
+      "tabletName": "X005",
+      "businessRoleName": ""
+    },
+    {
+      "operatorID": "XXX00006",
+      "operatorName": "社員F",
+      "necLocation": "新宿",
+      "roleNo": "2",
+      "roleName": "CSR",
+      "operatorStatus": "離席３",
+      "passingTime": "2",
+      "shopNoSetted": "0012",
+      "tabletName": "X006",
+      "businessRoleName": ""
+    }
+  ]
+}

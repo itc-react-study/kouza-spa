@@ -1,0 +1,43 @@
+{
+  "kensuu": 120,
+  "errorList": [
+    {
+      "acceptanceDate": "2020.12.24",
+      "acceptanceNo": "200000001",
+      "lastName": "山田　太郎",
+      "states": "処理中",
+      "newKey": "NG",
+      "printAcceptInfoDebitLogin": "未送信",
+      "directNew": "NG",
+      "eNotice": "未送信",
+      "brandDebitCard": "未送信",
+      "oecd": "NG",
+      "printAcceptInfoIcLogin": "未送信",
+      "attributeLogin": "NG",
+      "kycInfomationLogin": "未送信",
+      "selfComfirmationRecord": "未送信",
+      "printLogin": "NG",
+      "recordImagLogin": "未送信",
+      "appointAccountBranchLogin": "NG"
+    },
+    {
+      "acceptanceDate": "2020.12.24",
+      "acceptanceNo": "200000002",
+      "lastName": "山田　太郎",
+      "states": "再鑑中",
+      "newKey": "済",
+      "printAcceptInfoDebitLogin": "NG",
+      "directNew": "未送信",
+      "eNotice": "NG",
+      "brandDebitCard": "未送信",
+      "oecd": "NG",
+      "printAcceptInfoIcLogin": "未送信",
+      "attributeLogin": "未送信",
+      "kycInfomationLogin": "NG",
+      "selfComfirmationRecord": "未送信",
+      "printLogin": "未送信",
+      "recordImagLogin": "NG",
+      "appointAccountBranchLogin": "未送信"
+    }
+  ]
+}

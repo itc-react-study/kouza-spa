@@ -1,0 +1,6 @@
+{
+  "commonResponseHeader": {
+    "errorCode": "00001",
+    "errorMessage": "通貨マスタデータ取得時業務エラーが発生しました"
+  }
+}

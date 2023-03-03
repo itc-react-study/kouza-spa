@@ -1,0 +1,5 @@
+{
+  "commonResponseHeader": {
+    "errorMessage": "検索処理に失敗したため再度検索してください"
+  }
+}

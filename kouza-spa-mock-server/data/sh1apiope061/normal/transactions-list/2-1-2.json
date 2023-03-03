@@ -1,0 +1,12 @@
+{
+  "operatorInfo": {
+    "operatorId": "12345678",
+    "operatorName": "担当者氏名",
+    "branchName": "新宿",
+    "operatorStatus": null,
+    "businessRoleNoList": ["1"],
+    "authorityID": null,
+    "deleteFlag": "0",
+    "smtpAddress": null
+  }
+}
