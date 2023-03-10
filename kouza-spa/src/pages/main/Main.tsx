@@ -7,6 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { MENU_LIST } from "../../configs/menuList.config";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
+import Header from "../../common/components/Header";
 
 const listStyle = {
   border: "1px solid #000",
@@ -47,9 +48,10 @@ const Main = () => {
         sx={{
           flex: 1,
           display: "flex",
-          padding: "10px 10px",
+          flexDirection: "column",
         }}
       >
+        <Header></Header>
         <Outlet />
       </Box>
     </div>
