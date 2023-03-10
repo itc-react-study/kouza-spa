@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext, useState } from "react";
 import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -8,6 +8,7 @@ import { MENU_LIST } from "../../configs/menuList.config";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
 import Header from "../../common/components/Header";
+import { AreaMessageContext } from "../../store/store";
 
 const listStyle = {
   border: "1px solid #000",
@@ -19,6 +20,8 @@ const Main = () => {
   const clickList = (item: Menu) => () => {
     navigate(item.path);
   };
+
+  const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
@@ -51,8 +54,15 @@ const Main = () => {
           flexDirection: "column",
         }}
       >
-        <Header></Header>
-        <Outlet />
+        <AreaMessageContext.Provider
+          value={{
+            areaErrorMessage,
+            setAreaErrorMessage,
+          }}
+        >
+          <Header></Header>
+          <Outlet />
+        </AreaMessageContext.Provider>
       </Box>
     </div>
   );

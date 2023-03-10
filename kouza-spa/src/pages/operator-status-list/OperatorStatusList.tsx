@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -28,6 +28,10 @@ import {
   ROLE_CD,
 } from "../../constants/code-list.constants";
 import { AxiosResponse } from "axios";
+import { AreaMessageContext } from "../../store/store";
+import { ErrorCodes } from "../../constants/error-code.constant";
+import { getMessage } from "../../common/service/message.service";
+import { KouzaMessage } from "../../interfaces/common/common";
 
 interface List {
   code: string;
@@ -62,6 +66,9 @@ const Item = styled(Paper)(({ theme }) => ({
  */
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
+
+  const { areaErrorMessage, setAreaErrorMessage } =
+    useContext(AreaMessageContext);
 
   /**
    * renderSelect
@@ -113,19 +120,31 @@ const OperatorStatusList = (): JSX.Element => {
   };
 
   const handleInquery = async () => {
+    console.log("areaErrorMessage", areaErrorMessage);
+
+    const kouzaMessage = getMessage(ErrorCodes.C30388) as KouzaMessage;
+
+    console.log("kouzaMessage", kouzaMessage);
+
+    if (kouzaMessage.display === "area") {
+      setAreaErrorMessage(kouzaMessage.message);
+    }
+
     const param: SH1APIOPE044RequestBody = {
       ncoLocation: "ncoLocation",
     };
 
-    const response: AxiosResponse<SH1APIOPE044ResponseBody, any> =
-      await getApi(ApiIds.SH1APIOPE044, param);
+    const response: AxiosResponse<SH1APIOPE044ResponseBody, any> = await getApi(
+      ApiIds.SH1APIOPE044,
+      param
+    );
 
     setOperator(response.data);
     console.log("response", response);
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
       <Grid container spacing={1}>
         <Grid container item spacing={3}>
           <Grid item xs={4}>

@@ -1,13 +1,31 @@
-import React from "react";
-import { ErrorCodes } from "../../constants/error-code.constant";
-import { getMessage } from "../service/message.service";
+import React, { useContext } from "react";
 
+import CloseIcon from "@mui/icons-material/Close";
 import "./Header.css";
+import { AreaMessageContext } from "../../store/store";
 
 const Header = () => {
-  const msg = getMessage(ErrorCodes.C30397, "", "30", "40");
+  const { areaErrorMessage, setAreaErrorMessage } =
+    useContext(AreaMessageContext);
 
-  return <div className="header">{msg.message}</div>;
+  const handleClose = () => {
+    setAreaErrorMessage("");
+  };
+
+  return (
+    <div className="header">
+      {areaErrorMessage ? (
+        <div className="header-message">
+          <div className="header-message-sapn">
+            <span>{areaErrorMessage}</span>
+          </div>
+          <div className="header-message-icon">
+            <CloseIcon onClick={handleClose}></CloseIcon>
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
 };
 
 export default Header;

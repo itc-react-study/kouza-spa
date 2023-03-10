@@ -4,5 +4,29 @@
   align-items: center;
   height: 44px;
   min-width: 1020px;
+  border-bottom-color: rgb(227, 227, 227);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.header-message {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  color: #fff;
   background-color: rgba(189, 42, 39, 0.88);
+}
+
+.header-message-sapn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-message-icon {
+  width: 50px;
+  cursor: pointer;
 }
