@@ -16,7 +16,7 @@ router
     switch (req.body.operationDiv) {
       // ログイン
       case '21':
-        jsonServer.receiveNormalData(res, 'sh1apiope043/normal/1-1-1.json');
+        jsonServer.receiveUnencryptData(res, 'sh1apiope043/normal/1-1-1.json');
         //jsonServer.receiveSystemErrorData(res, 'sh1apiope043/fatal/transactions-list/5-1-2.json');
         // jsonServer.receiveBusinessErrorData(res, 'sh1apiope043/error/transactions-list/5-1-3.json');
         // res.send(404);

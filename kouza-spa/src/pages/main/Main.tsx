@@ -4,9 +4,9 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-import { MENU_LIST } from "../../assets/configs/MENU_LIST";
+import { MENU_LIST } from "../../configs/MENU_LIST";
 import { Outlet, useNavigate } from "react-router-dom";
-import { Menu } from "../../assets/configs/CONSTANT";
+import { Menu } from "../../interfaces/common/common";
 
 const listStyle = {
   border: "1px solid #000",

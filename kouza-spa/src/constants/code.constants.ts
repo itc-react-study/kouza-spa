@@ -1,9 +1,3 @@
-export interface Menu {
-  title: string;
-  path: string;
-  element?: JSX.Element;
-}
-
 export const CODE_LOCATION_CD = [
   { code: '', label: ' ' },
   { code: '1', label: '新宿' },

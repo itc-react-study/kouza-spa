@@ -13,15 +13,17 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import "./OperatorStatusList.css";
+
+import Button from "@mui/material/Button";
+
+import { getApi } from "../../common/service/ApiUtils";
+import { ApiIds } from "../../constants/api-id.constant";
+import { SH1APIOPE044RequestBody } from "../../interfaces/api/sh1apiope044";
 import {
   BUSINESS_ROLE,
   CODE_LOCATION_CD,
   ROLE_CD,
-} from "../../assets/configs/CONSTANT";
-import Button from "@mui/material/Button";
-import { SH1APIOPE044RequestBody } from "../../assets/interfaces/api/sh1apiope044";
-import { getApi } from "../../common/service/ApiUtils";
-import { ApiIds } from "../../assets/constants/api-id.constant";
+} from "../../constants/code.constants";
 
 interface List {
   code: string;

@@ -6,8 +6,9 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 import { getApi } from "../../common/service/ApiUtils";
-import { ApiIds } from "../../assets/constants/api-id.constant";
-import { SH1APIDUMLGNRequestBody } from "../../assets/interfaces/api/shiapidumlgn";
+import { ApiIds } from "../../constants/api-id.constant";
+import { SH1APIDUMLGNRequestBody } from "../../interfaces/api/shiapidumlgn";
+
 
 /**
  * 描述
