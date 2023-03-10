@@ -3,7 +3,12 @@ import CircularProgress from "@mui/material/CircularProgress";
 import React, { useContext } from "react";
 import { LoginContext, MainContext } from "../../../store/store";
 
-const LoadingModal = () => {
+/**
+ * LoadingModal
+ * @date 2023-03-11
+ * @returns {JSX.Element}
+ */
+const LoadingModal = (): JSX.Element => {
   const { isMainLoading } = useContext(MainContext);
   const { isLoginLoading } = useContext(LoginContext);
 

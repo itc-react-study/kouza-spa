@@ -4,7 +4,14 @@ import CloseIcon from "@mui/icons-material/Close";
 import "./ErrorTips.css";
 import { MainContext } from "../../../store/store";
 
-const ErrorTips = () => {
+
+
+/**
+ * ErrorTips
+ * @date 2023-03-11
+ * @returns {JSX.Element}
+ */
+const ErrorTips = (): JSX.Element => {
   const { areaErrorMessage, setAreaErrorMessage } =
     useContext(MainContext);
 

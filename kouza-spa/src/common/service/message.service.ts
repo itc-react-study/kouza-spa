@@ -1,6 +1,12 @@
 import messages from '../../assets/message/message.json';
 import { KouzaMessage, KouzaMessages } from '../../interfaces/common/common';
 
+/**
+ *
+ * @param key
+ * @param args
+ * @returns
+ */
 export const getMessage = (
   key: keyof KouzaMessages,
   ...args: string[]

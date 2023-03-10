@@ -27,7 +27,7 @@ const formStyle = {
 };
 
 /**
- * 描述
+ * Login
  * @returns {JSX.Element}
  */
 const Login = (): JSX.Element => {

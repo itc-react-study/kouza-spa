@@ -2,6 +2,12 @@ import axios, { AxiosResponse } from 'axios';
 import { PROPERTY_CONFIG } from '../../configs/property.config';
 import { API_DI_CONFIG } from '../../constants/api-id.constant';
 
+/**
+ *
+ * @param apiIds
+ * @param param
+ * @returns
+ */
 export const getApi = async (
   apiIds: string,
   param: any
