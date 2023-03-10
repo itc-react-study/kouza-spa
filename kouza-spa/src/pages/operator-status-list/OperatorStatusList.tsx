@@ -55,6 +55,17 @@ interface SearchParams {
   inputShopNameSetted: string;
 }
 
+const DEFAULT_PER_PAGE_SIZE = 10;
+
+const DEFAULT_SEARCH_PARAMS: SearchParams = {
+  selectedNcoLocation: "",
+  selectedRoleNo: "",
+  selectedBusinessRole: "",
+  selectedOperatorStatus: "",
+  inputShopNoSetted: "",
+  inputShopNameSetted: "",
+};
+
 const responseBody = {
   inStandby: 1,
   inHand: 1,
@@ -139,12 +150,17 @@ const OperatorStatusList = (): JSX.Element => {
     inputShopNoSetted: "",
     inputShopNameSetted: "",
   });
-  const perPageSize = 10;
+  const [searchDefaultParams, setSearchDefaultParams] = useState<SearchParams>(
+    DEFAULT_SEARCH_PARAMS
+  );
 
   // pagination
-  const startIndex = (currentPage - 1) * perPageSize;
-  const endIndex = startIndex + perPageSize;
-  const currentData = operator.operatorList.slice(startIndex, endIndex);
+  const startIndex = (currentPage - 1) * DEFAULT_PER_PAGE_SIZE;
+  const endIndex = Math.min(
+    startIndex + DEFAULT_PER_PAGE_SIZE - 1,
+    operator.operatorList.length - 1
+  );
+  const currentPageData = operator.operatorList.slice(startIndex, endIndex + 1);
 
   const handlePageChange = (event: any, page: number) => {
     setCurrentPage(page);
@@ -243,6 +259,7 @@ const OperatorStatusList = (): JSX.Element => {
             marginLeft: 18,
             marginRight: 12,
           }}
+          onClick={handleRefresh}
         >
           最新化
         </Button>
@@ -260,6 +277,10 @@ const OperatorStatusList = (): JSX.Element => {
       inputShopNameSetted,
     } = searchParams;
 
+    if (!searchDefaultParams || searchDefaultParams !== searchParams) {
+      setSearchDefaultParams(searchParams);
+    }
+
     const param: SH1APIOPE044RequestBody = {
       ncoLocation: selectedNcoLocation,
       roleNo: selectedRoleNo,
@@ -274,6 +295,31 @@ const OperatorStatusList = (): JSX.Element => {
 
     setOperator(response.data);
     setCurrentPage(1);
+  };
+
+  const handleRefresh = async () => {
+    const {
+      selectedNcoLocation,
+      selectedRoleNo,
+      selectedBusinessRole,
+      selectedOperatorStatus,
+      inputShopNoSetted,
+      inputShopNameSetted,
+    } = searchDefaultParams;
+
+    const param: SH1APIOPE044RequestBody = {
+      ncoLocation: selectedNcoLocation,
+      roleNo: selectedRoleNo,
+      businessRole: selectedBusinessRole,
+      operatorStatus: selectedOperatorStatus,
+      shopNoSetted: inputShopNoSetted,
+      shopNameSetted: inputShopNameSetted,
+    };
+
+    const response = await getApi(ApiIds.SH1APIOPE044, param);
+    console.log("response", response);
+
+    setOperator(response.data);
   };
 
   /**
@@ -409,7 +455,7 @@ const OperatorStatusList = (): JSX.Element => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {currentData.map((operatorRow: Operator, index: number) => (
+            {currentPageData.map((operatorRow: Operator, index: number) => (
               <StyledTableRow key={index}>
                 <StyledTableCell component="th" scope="row" align="center">
                   {operatorRow.operatorID}
@@ -446,7 +492,9 @@ const OperatorStatusList = (): JSX.Element => {
       <Box display="flex" justifyContent="flex-end" style={{ marginTop: 10 }}>
         <Stack spacing={2}>
           <Pagination
-            count={Math.ceil(operator.operatorList.length / perPageSize)}
+            count={Math.ceil(
+              operator.operatorList.length / DEFAULT_PER_PAGE_SIZE
+            )}
             variant="outlined"
             shape="rounded"
             page={currentPage}
