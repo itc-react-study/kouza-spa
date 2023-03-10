@@ -185,49 +185,12 @@ const OperatorStatusList = (): JSX.Element => {
     setCurrentPage(1);
   };
 
-  const handlePageChange = (
-    event: React.ChangeEvent<unknown>,
-    value: number
-  ) => {
-    setCurrentPage(value);
-  };
+  const startIndex = (currentPage - 1) * perPageSize;
+  const endIndex = startIndex + perPageSize;
+  const currentData = operator.operatorList.slice(startIndex, endIndex);
 
-  const displayOperatorList = () => {
-    const startIndex = (currentPage - 1) * perPageSize;
-    const endIndex = startIndex + perPageSize;
-    return operator.operatorList
-      .slice(startIndex, endIndex)
-      .map((operatorRow: Operator) => (
-        <StyledTableRow key={operatorRow.operatorID}>
-          <StyledTableCell component="th" scope="row" align="center">
-            {operatorRow.operatorID}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.operatorName}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.necLocation}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.roleName}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.operatorStatus}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.passingTime}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.shopNoSetted}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.tabletName}
-          </StyledTableCell>
-          <StyledTableCell align="center">
-            {operatorRow.businessRoleName}
-          </StyledTableCell>
-        </StyledTableRow>
-      ));
+  const handlePageChange = (event: any, page: number) => {
+    setCurrentPage(page);
   };
 
   /**
@@ -363,7 +326,39 @@ const OperatorStatusList = (): JSX.Element => {
               <StyledTableCell align="center">業務スキル</StyledTableCell>
             </TableRow>
           </TableHead>
-          <TableBody>{displayOperatorList()}</TableBody>
+          <TableBody>
+            {currentData.map((operatorRow: Operator, index: number) => (
+              <StyledTableRow key={index}>
+                <StyledTableCell component="th" scope="row" align="center">
+                  {operatorRow.operatorID}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.operatorName}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.necLocation}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.roleName}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.operatorStatus}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.passingTime}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.shopNoSetted}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.tabletName}
+                </StyledTableCell>
+                <StyledTableCell align="center">
+                  {operatorRow.businessRoleName}
+                </StyledTableCell>
+              </StyledTableRow>
+            ))}
+          </TableBody>
         </Table>
       </TableContainer>
       <Box display="flex" justifyContent="flex-end" style={{ marginTop: 10 }}>
