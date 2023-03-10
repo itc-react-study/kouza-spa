@@ -16,16 +16,21 @@ const listStyle = {
   border: "1px solid #000",
 };
 
-const Main = () => {
+/**
+ * 描述
+ * @date 2023-03-11
+ * @returns {JSX.Element}
+ */
+const Main = (): JSX.Element => {
   const navigate = useNavigate();
-
-  const clickList = (item: Menu) => () => {
-    navigate(item.path);
-  };
 
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
   const [isLoading, setIsLoading] = useState(false);
+
+  const clickList = (item: Menu) => () => {
+    navigate(item.path);
+  };
 
   const mainContext = {
     areaErrorMessage,
