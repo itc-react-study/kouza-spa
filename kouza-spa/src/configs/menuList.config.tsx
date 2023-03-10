@@ -1,6 +1,6 @@
 import React from "react";
-import OperatorStatusList from "../pages/operator-status-list/OperatorStatusList";
-import TransactionsList from "../pages/transactions-list/TransactionsList";
+import OperatorStatusList from "../pages/main/operator-status-list/OperatorStatusList";
+import TransactionsList from "../pages/main/transactions-list/TransactionsList";
 
 export const MAIN = "/Main/";
 

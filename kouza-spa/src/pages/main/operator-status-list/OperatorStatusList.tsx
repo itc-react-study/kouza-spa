@@ -16,22 +16,22 @@ import "./OperatorStatusList.css";
 
 import Button from "@mui/material/Button";
 
-import { getApi } from "../../common/service/api.service";
-import { ApiIds } from "../../constants/api-id.constant";
+import { getApi } from "../../../common/service/api.service";
+import { ApiIds } from "../../../constants/api-id.constant";
 import {
   SH1APIOPE044RequestBody,
   SH1APIOPE044ResponseBody,
-} from "../../interfaces/api/sh1apiope044";
+} from "../../../interfaces/api/sh1apiope044";
 import {
   BUSINESS_ROLE,
   CODE_LOCATION_CD,
   ROLE_CD,
-} from "../../constants/code-list.constants";
+} from "../../../constants/code-list.constants";
 import { AxiosResponse } from "axios";
-import { MainContext } from "../../store/store";
-import { ErrorCodes } from "../../constants/error-code.constant";
-import { getMessage } from "../../common/service/message.service";
-import { KouzaMessage } from "../../interfaces/common/common";
+import { MainContext } from "../../../store/store";
+import { ErrorCodes } from "../../../constants/error-code.constant";
+import { getMessage } from "../../../common/service/message.service";
+import { KouzaMessage } from "../../../interfaces/common/common";
 
 interface List {
   code: string;

@@ -3,14 +3,20 @@
 /* eslint-disable no-unused-vars */
 import { createContext } from 'react';
 
+/**
+ * 登录画面
+ */
+export const LoginContext = createContext({
+  isLoginLoading: false,
+  setIsLoginLoading: (event: boolean) => {},
+});
+
+/**
+ * 主画面
+ */
 export const MainContext = createContext({
   areaErrorMessage: '',
   setAreaErrorMessage: (event: string) => {},
   isMainLoading: false,
   setIsMainLoading: (event: boolean) => {},
-});
-
-export const LoginContext = createContext({
-  isLoginLoading: false,
-  setIsLoginLoading: (event: boolean) => {},
 });
