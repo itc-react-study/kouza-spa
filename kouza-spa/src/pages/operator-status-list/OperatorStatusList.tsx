@@ -16,6 +16,7 @@ import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 import "./OperatorStatusList.css";
+import { SelectChangeEvent } from "@mui/material/Select";
 import {
   BUSINESS_ROLE,
   CODE_LOCATION_CD,
@@ -31,6 +32,7 @@ interface List {
   code: string;
   label: string;
 }
+
 interface Operator {
   operatorID: string;
   operatorName: string;
@@ -42,6 +44,15 @@ interface Operator {
   shopNoSetted: string;
   tabletName: string;
   businessRoleName: string;
+}
+
+interface SearchParams {
+  selectedNcoLocation: string;
+  selectedRoleNo: string;
+  selectedBusinessRole: string;
+  selectedOperatorStatus: string;
+  inputShopNoSetted: string;
+  inputShopNameSetted: string;
 }
 
 const responseBody = {
@@ -92,6 +103,26 @@ const Item = styled(Paper)(({ theme }) => ({
   alignItems: "center",
 }));
 
+const StyledTableCell = styled(TableCell)(({ theme }) => ({
+  [`&.${tableCellClasses.head}`]: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  [`&.${tableCellClasses.body}`]: {
+    fontSize: 14,
+  },
+}));
+
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  "&:nth-of-type(odd)": {
+    backgroundColor: theme.palette.action.hover,
+  },
+  // hide last border
+  "&:last-child td, &:last-child th": {
+    border: 0,
+  },
+}));
+
 /**
  * オペレータ状況一覧
  *
@@ -100,14 +131,57 @@ const Item = styled(Paper)(({ theme }) => ({
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchParams, setSearchParams] = useState<SearchParams>({
+    selectedNcoLocation: "",
+    selectedRoleNo: "",
+    selectedBusinessRole: "",
+    selectedOperatorStatus: "",
+    inputShopNoSetted: "",
+    inputShopNameSetted: "",
+  });
   const perPageSize = 10;
+
+  // pagination
+  const startIndex = (currentPage - 1) * perPageSize;
+  const endIndex = startIndex + perPageSize;
+  const currentData = operator.operatorList.slice(startIndex, endIndex);
+
+  const handlePageChange = (event: any, page: number) => {
+    setCurrentPage(page);
+  };
+
+  // searchBar
+  const handleSelectChange = (
+    event: SelectChangeEvent<string>,
+    name: string
+  ) => {
+    setSearchParams((prevSearchParams) => ({
+      ...prevSearchParams,
+      [name]: event.target.value as string,
+    }));
+  };
+
+  const handleInputChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    name: string
+  ) => {
+    setSearchParams((prevSearchParams) => ({
+      ...prevSearchParams,
+      [name]: event.target.value,
+    }));
+  };
+
   /**
    * renderSelect
    *
    * @param {List[]} List
    * @return {JSX.Element}
    */
-  const renderSelect = (List: List[]): JSX.Element => {
+  const renderSelect = (
+    List: List[],
+    Value: string,
+    Name: string
+  ): JSX.Element => {
     const item = List.map((ele: List, index: number) => {
       return (
         <MenuItem key={index} value={ele.code}>
@@ -116,7 +190,15 @@ const OperatorStatusList = (): JSX.Element => {
       );
     });
 
-    return <Select sx={{ width: 180, height: 30 }}>{item}</Select>;
+    return (
+      <Select
+        sx={{ width: 180, height: 30 }}
+        value={Value}
+        onChange={(event) => handleSelectChange(event, Name)}
+      >
+        {item}
+      </Select>
+    );
   };
 
   /**
@@ -169,13 +251,22 @@ const OperatorStatusList = (): JSX.Element => {
   };
 
   const handleInquery = async () => {
+    const {
+      selectedNcoLocation,
+      selectedRoleNo,
+      selectedBusinessRole,
+      selectedOperatorStatus,
+      inputShopNoSetted,
+      inputShopNameSetted,
+    } = searchParams;
+
     const param: SH1APIOPE044RequestBody = {
-      ncoLocation: "",
-      roleNo: "",
-      businessRole: "",
-      operatorStatus: "",
-      shopNoSetted: "",
-      shopNameSetted: "",
+      ncoLocation: selectedNcoLocation,
+      roleNo: selectedRoleNo,
+      businessRole: selectedBusinessRole,
+      operatorStatus: selectedOperatorStatus,
+      shopNoSetted: inputShopNoSetted,
+      shopNameSetted: inputShopNameSetted,
     };
 
     const response = await getApi(ApiIds.SH1APIOPE044, param);
@@ -184,39 +275,6 @@ const OperatorStatusList = (): JSX.Element => {
     setOperator(response.data);
     setCurrentPage(1);
   };
-
-  const startIndex = (currentPage - 1) * perPageSize;
-  const endIndex = startIndex + perPageSize;
-  const currentData = operator.operatorList.slice(startIndex, endIndex);
-
-  const handlePageChange = (event: any, page: number) => {
-    setCurrentPage(page);
-  };
-
-  /**
-   * styleTable
-   *
-   * @returns
-   */
-  const StyledTableCell = styled(TableCell)(({ theme }) => ({
-    [`&.${tableCellClasses.head}`]: {
-      backgroundColor: theme.palette.common.black,
-      color: theme.palette.common.white,
-    },
-    [`&.${tableCellClasses.body}`]: {
-      fontSize: 14,
-    },
-  }));
-
-  const StyledTableRow = styled(TableRow)(({ theme }) => ({
-    "&:nth-of-type(odd)": {
-      backgroundColor: theme.palette.action.hover,
-    },
-    // hide last border
-    "&:last-child td, &:last-child th": {
-      border: 0,
-    },
-  }));
 
   /**
    * pagination
@@ -233,19 +291,31 @@ const OperatorStatusList = (): JSX.Element => {
           <Grid item xs={4}>
             <Item>
               <InputLabel>拠点別</InputLabel>
-              {renderSelect(CODE_LOCATION_CD)}
+              {renderSelect(
+                CODE_LOCATION_CD,
+                searchParams.selectedNcoLocation,
+                "selectedNcoLocation"
+              )}
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
               <InputLabel>権限スキル</InputLabel>
-              {renderSelect(ROLE_CD)}
+              {renderSelect(
+                ROLE_CD,
+                searchParams.selectedRoleNo,
+                "selectedRoleNo"
+              )}
             </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
               <InputLabel>業務スキル</InputLabel>
-              {renderSelect(BUSINESS_ROLE)}
+              {renderSelect(
+                BUSINESS_ROLE,
+                searchParams.selectedBusinessRole,
+                "selectedBusinessRole"
+              )}
             </Item>
           </Grid>
         </Grid>
@@ -253,7 +323,11 @@ const OperatorStatusList = (): JSX.Element => {
           <Grid item xs={4}>
             <Item>
               <InputLabel>ステータス</InputLabel>
-              {renderSelect(STATUS)}
+              {renderSelect(
+                STATUS,
+                searchParams.selectedOperatorStatus,
+                "selectedOperatorStatus"
+              )}
             </Item>
           </Grid>
           <Grid item xs={4}>
@@ -268,6 +342,10 @@ const OperatorStatusList = (): JSX.Element => {
                   borderColor: "#c4c4c4",
                   borderWidth: "1px",
                 }}
+                value={searchParams.inputShopNoSetted}
+                onChange={(event) =>
+                  handleInputChange(event, "inputShopNoSetted")
+                }
               />
             </Item>
           </Grid>
@@ -283,6 +361,10 @@ const OperatorStatusList = (): JSX.Element => {
                   borderColor: "#c4c4c4",
                   borderWidth: "1px",
                 }}
+                value={searchParams.inputShopNameSetted}
+                onChange={(event) =>
+                  handleInputChange(event, "inputShopNameSetted")
+                }
               />
             </Item>
           </Grid>
