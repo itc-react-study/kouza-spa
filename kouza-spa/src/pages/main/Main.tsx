@@ -4,7 +4,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-import { MENU_LIST } from "../../configs/MENU_LIST";
+import { MENU_LIST } from "../../configs/menuList.config";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
 

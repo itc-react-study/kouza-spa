@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
-import { getApi } from "../../common/service/ApiUtils";
+import { getApi } from "../../common/service/api.service";
 import { ApiIds } from "../../constants/api-id.constant";
 import { SH1APIDUMLGNRequestBody } from "../../interfaces/api/shiapidumlgn";
 

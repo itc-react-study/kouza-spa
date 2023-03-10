@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { PROPERTY_CONFIG } from '../../configs/PROPERTY_CONFIG';
+import { PROPERTY_CONFIG } from '../../configs/property.config';
 import { API_DI_CONFIG } from '../../constants/api-id.constant';
 
 export const getApi = async (apiIds: string, param: any) => {

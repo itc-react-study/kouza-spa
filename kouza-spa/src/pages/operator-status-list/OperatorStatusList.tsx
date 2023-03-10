@@ -16,14 +16,14 @@ import "./OperatorStatusList.css";
 
 import Button from "@mui/material/Button";
 
-import { getApi } from "../../common/service/ApiUtils";
+import { getApi } from "../../common/service/api.service";
 import { ApiIds } from "../../constants/api-id.constant";
 import { SH1APIOPE044RequestBody } from "../../interfaces/api/sh1apiope044";
 import {
   BUSINESS_ROLE,
   CODE_LOCATION_CD,
   ROLE_CD,
-} from "../../constants/code.constants";
+} from "../../constants/code-list.constants";
 
 interface List {
   code: string;
