@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 
 import CloseIcon from "@mui/icons-material/Close";
 import "./ErrorTips.css";
-import { StoreContext } from "../../../store/store";
+import { MainContext } from "../../../store/store";
 
 const ErrorTips = () => {
   const { areaErrorMessage, setAreaErrorMessage } =
-    useContext(StoreContext);
+    useContext(MainContext);
 
   const handleClose = () => {
     setAreaErrorMessage("");

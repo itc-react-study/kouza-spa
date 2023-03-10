@@ -7,8 +7,10 @@ import ListItemText from "@mui/material/ListItemText";
 import { MENU_LIST } from "../../configs/menuList.config";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
-import { StoreContext } from "../../store/store";
+import { MainContext } from "../../store/store";
 import ErrorTips from "../../common/components/error-tips/ErrorTips";
+import Backdrop from "@mui/material/Backdrop";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const listStyle = {
   border: "1px solid #000",
@@ -23,14 +25,24 @@ const Main = () => {
 
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
+  const [isLoading, setIsLoading] = useState(false);
+
+  const mainContext = {
+    areaErrorMessage,
+    setAreaErrorMessage,
+    isLoading,
+    setIsLoading,
+  };
+
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
-      <StoreContext.Provider
-        value={{
-          areaErrorMessage,
-          setAreaErrorMessage,
-        }}
-      >
+      <MainContext.Provider value={mainContext}>
+        <Backdrop
+          sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+          open={isLoading}
+        >
+          <CircularProgress color="inherit" />
+        </Backdrop>
         <Box
           sx={{
             minWidth: 200,
@@ -63,7 +75,7 @@ const Main = () => {
           <ErrorTips></ErrorTips>
           <Outlet />
         </Box>
-      </StoreContext.Provider>
+      </MainContext.Provider>
     </div>
   );
 };

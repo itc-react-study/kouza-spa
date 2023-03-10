@@ -28,7 +28,7 @@ import {
   ROLE_CD,
 } from "../../constants/code-list.constants";
 import { AxiosResponse } from "axios";
-import { StoreContext } from "../../store/store";
+import { MainContext } from "../../store/store";
 import { ErrorCodes } from "../../constants/error-code.constant";
 import { getMessage } from "../../common/service/message.service";
 import { KouzaMessage } from "../../interfaces/common/common";
@@ -67,8 +67,8 @@ const Item = styled(Paper)(({ theme }) => ({
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
 
-  const { areaErrorMessage, setAreaErrorMessage } =
-    useContext(StoreContext);
+  const { areaErrorMessage, setAreaErrorMessage, setIsLoading } =
+    useContext(MainContext);
 
   /**
    * renderSelect
@@ -134,13 +134,23 @@ const OperatorStatusList = (): JSX.Element => {
       ncoLocation: "ncoLocation",
     };
 
-    const response: AxiosResponse<SH1APIOPE044ResponseBody, any> = await getApi(
-      ApiIds.SH1APIOPE044,
-      param
-    );
+    setIsLoading(true);
 
-    setOperator(response.data);
-    console.log("response", response);
+    try {
+      const response = (await getApi(
+        ApiIds.SH1APIOPE044,
+        param
+      )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
+
+      setOperator(response.data);
+
+      console.log("response", response);
+    } catch (error: any) {
+      setAreaErrorMessage(error?.message);
+      console.log(error);
+    }
+
+    setIsLoading(false);
   };
 
   return (
