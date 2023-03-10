@@ -27,4 +27,6 @@ export interface SH1APIDUMLGNRequestBody extends ApiRequestBodyBase {
  *
  * @author Charlie
  */
-export type SH1APIDUMLGNResponseBody = ApiResponseBodyBase;
+export interface SH1APIDUMLGNResponseBody extends ApiResponseBodyBase {
+  data: object;
+}

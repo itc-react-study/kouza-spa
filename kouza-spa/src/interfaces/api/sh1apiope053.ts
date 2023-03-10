@@ -46,17 +46,19 @@ export interface SH1APIOPE053RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE053ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 一覧検索件数
-   * キー必須: N | 値必須: N
-   */
-  maskingInfoCount?: number;
+  data: {
+    /**
+     * 項目名: 一覧検索件数
+     * キー必須: N | 値必須: N
+     */
+    maskingInfoCount?: number;
 
-  /**
-   * 項目名: 機微情報一覧
-   * キー必須: N | 値必須: N
-   */
-  maskingInfoList?: MaskingInfo[];
+    /**
+     * 項目名: 機微情報一覧
+     * キー必須: N | 値必須: N
+     */
+    maskingInfoList?: MaskingInfo[];
+  };
 }
 
 /**

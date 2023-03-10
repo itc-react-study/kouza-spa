@@ -17,21 +17,23 @@ export type SH1APICOM011RequestBody = ApiRequestBodyBase;
  * @author Charlie
  */
 export interface SH1APICOM011ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 通貨のリスト
-   * キー必須: Y | 値必須: Y
-   */
-  tuukaList: {
+  data: {
     /**
-     * 項目名: 通貨コード
+     * 項目名: 通貨のリスト
      * キー必須: Y | 値必須: Y
      */
-    tuukaCode: string;
+    tuukaList: {
+      /**
+       * 項目名: 通貨コード
+       * キー必須: Y | 値必須: Y
+       */
+      tuukaCode: string;
 
-    /**
-     * 項目名: 通貨名
-     * キー必須: Y | 値必須: Y
-     */
-    tuukaMei: string;
-  }[];
+      /**
+       * 項目名: 通貨名
+       * キー必須: Y | 値必須: Y
+       */
+      tuukaMei: string;
+    }[];
+  };
 }

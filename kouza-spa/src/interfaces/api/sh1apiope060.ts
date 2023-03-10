@@ -50,57 +50,59 @@ export interface SH1APIOPE060RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE060ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 検索結果件数
-   * キー必須: N | 値必須: N
-   */
-  operatorInfoCount?: number;
-
-  /**
-   * 項目名: 担当者情報一覧
-   * キー必須: N | 値必須: N
-   */
-  operatorInfoList?: {
+  data: {
     /**
-     * 項目名: 担当者情報
+     * 項目名: 検索結果件数
      * キー必須: N | 値必須: N
      */
-    operatorInfo?: {
-      /**
-       * 項目名: 担当者ID
-       * キー必須: N | 値必須: N
-       */
-      operatorId?: string;
+    operatorInfoCount?: number;
 
+    /**
+     * 項目名: 担当者情報一覧
+     * キー必須: N | 値必須: N
+     */
+    operatorInfoList?: {
       /**
-       * 項目名: 担当者氏名
+       * 項目名: 担当者情報
        * キー必須: N | 値必須: N
        */
-      operatorName?: string;
+      operatorInfo?: {
+        /**
+         * 項目名: 担当者ID
+         * キー必須: N | 値必須: N
+         */
+        operatorId?: string;
 
-      /**
-       * 項目名: NCO拠点
-       * キー必須: N | 値必須: N
-       */
-      branchName?: string;
+        /**
+         * 項目名: 担当者氏名
+         * キー必須: N | 値必須: N
+         */
+        operatorName?: string;
 
-      /**
-       * 項目名: ステータス
-       * キー必須: N | 値必須: N
-       */
-      operatorStatus?: string;
+        /**
+         * 項目名: NCO拠点
+         * キー必須: N | 値必須: N
+         */
+        branchName?: string;
 
-      /**
-       * 項目名: ステータス表示用
-       * キー必須: N | 値必須: N
-       */
-      operatorStatusStr?: string;
+        /**
+         * 項目名: ステータス
+         * キー必須: N | 値必須: N
+         */
+        operatorStatus?: string;
 
-      /**
-       * 項目名: 業務スキル名
-       * キー必須: N | 値必須: N
-       */
-      businessRoleName?: string[];
-    };
-  }[];
+        /**
+         * 項目名: ステータス表示用
+         * キー必須: N | 値必須: N
+         */
+        operatorStatusStr?: string;
+
+        /**
+         * 項目名: 業務スキル名
+         * キー必須: N | 値必須: N
+         */
+        businessRoleName?: string[];
+      };
+    }[];
+  };
 }

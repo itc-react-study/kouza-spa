@@ -22,9 +22,11 @@ export interface SH1APICOM013RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APICOM013ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 店名
-   * キー必須: N | 値必須: N
-   */
-  shopName?: string;
+  data: {
+    /**
+     * 項目名: 店名
+     * キー必須: N | 値必須: N
+     */
+    shopName?: string;
+  };
 }

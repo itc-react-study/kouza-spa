@@ -100,81 +100,83 @@ export interface SH1APIOPE035RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE035ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 账号開設実行結果
-   * キー必須: Y | 値必須: Y
-   */
-  accountFinishResult: string;
-
-  /**
-   * 項目名: 電文実行結果情報
-   * キー必須: Y | 値必須: Y
-   */
-  denbunResultJouhou: {
+  data: {
     /**
-     * 項目名: 新規[普通]結果
+     * 項目名: 账号開設実行結果
      * キー必須: Y | 値必須: Y
      */
-    newKeyResult: string;
+    accountFinishResult: string;
 
     /**
-     * 項目名: 印影受付情報コード登録（IC）結果
+     * 項目名: 電文実行結果情報
      * キー必須: Y | 値必須: Y
      */
-    printAcceptInfoIcLoginResult: string;
+    denbunResultJouhou: {
+      /**
+       * 項目名: 新規[普通]結果
+       * キー必須: Y | 値必須: Y
+       */
+      newKeyResult: string;
 
-    /**
-     * 項目名: ダイレクト契約新規結果
-     * キー必須: Y | 値必須: Y
-     */
-    directNewResult: string;
+      /**
+       * 項目名: 印影受付情報コード登録（IC）結果
+       * キー必須: Y | 値必須: Y
+       */
+      printAcceptInfoIcLoginResult: string;
 
-    /**
-     * 項目名: サービス指定账号登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    appointAccountBranchLoginResult: string;
+      /**
+       * 項目名: ダイレクト契約新規結果
+       * キー必須: Y | 値必須: Y
+       */
+      directNewResult: string;
 
-    /**
-     * 項目名: E通知登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    eNoticeResult: string;
+      /**
+       * 項目名: サービス指定账号登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      appointAccountBranchLoginResult: string;
 
-    /**
-     * 項目名: ブランドデビットカード発行結果
-     * キー必須: Y | 値必須: Y
-     */
-    visaCardIssueResult: string;
+      /**
+       * 項目名: E通知登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      eNoticeResult: string;
 
-    /**
-     * 項目名: 印影受付情報コード登録（デビット）結果
-     * キー必須: Y | 値必須: Y
-     */
-    printAcceptInfoDebitLoginResult: string;
+      /**
+       * 項目名: ブランドデビットカード発行結果
+       * キー必須: Y | 値必須: Y
+       */
+      visaCardIssueResult: string;
 
-    /**
-     * 項目名: 実特法登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    oecdResult: string;
+      /**
+       * 項目名: 印影受付情報コード登録（デビット）結果
+       * キー必須: Y | 値必須: Y
+       */
+      printAcceptInfoDebitLoginResult: string;
 
-    /**
-     * 項目名: 属性登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    attributeLoginResult: string;
+      /**
+       * 項目名: 実特法登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      oecdResult: string;
 
-    /**
-     * 項目名: 本人確認記録表登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    selfComfirmationRecordResult: string;
+      /**
+       * 項目名: 属性登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      attributeLoginResult: string;
 
-    /**
-     * 項目名: KYC情報登録結果
-     * キー必須: Y | 値必須: Y
-     */
-    kycInfomationLoginResult: string;
+      /**
+       * 項目名: 本人確認記録表登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      selfComfirmationRecordResult: string;
+
+      /**
+       * 項目名: KYC情報登録結果
+       * キー必須: Y | 値必須: Y
+       */
+      kycInfomationLoginResult: string;
+    };
   };
 }

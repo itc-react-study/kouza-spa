@@ -52,21 +52,23 @@ export interface SH1APIOPE052RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE052ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: ダウンロードファイル
-   * キー必須: Y | 値必須: N
-   */
-  downloadFiles: {
+  data: {
     /**
-     * 項目名: ファイル名
-     * キー必須: N | 値必須: N
+     * 項目名: ダウンロードファイル
+     * キー必須: Y | 値必須: N
      */
-    fileName?: string;
+    downloadFiles: {
+      /**
+       * 項目名: ファイル名
+       * キー必須: N | 値必須: N
+       */
+      fileName?: string;
 
-    /**
-     * 項目名: ファイル内容
-     * キー必須: N | 値必須: N
-     */
-    fileContent?: string;
-  }[];
+      /**
+       * 項目名: ファイル内容
+       * キー必須: N | 値必須: N
+       */
+      fileContent?: string;
+    }[];
+  };
 }

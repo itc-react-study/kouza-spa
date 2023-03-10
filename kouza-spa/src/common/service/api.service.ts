@@ -1,8 +1,11 @@
-import axios from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import { PROPERTY_CONFIG } from '../../configs/property.config';
 import { API_DI_CONFIG } from '../../constants/api-id.constant';
 
-export const getApi = async (apiIds: string, param: any) => {
+export const getApi = async (
+  apiIds: string,
+  param: any
+): Promise<AxiosResponse<any, any>> => {
   const baseURL =
     process.env.NODE_ENV === 'development'
       ? PROPERTY_CONFIG.DEV_SERVER_PATH

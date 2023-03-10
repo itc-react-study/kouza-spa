@@ -16,45 +16,47 @@ export type SH1APIOPE115RequestBody = ApiRequestBodyBase;
  * @author Charlie
  */
 export interface SH1APIOPE115ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: ユーザーID
-   * キー必須: Y | 値必須: Y
-   */
-  userId: string;
-
-  /**
-   * 項目名: 所属店番
-   * キー必須: Y | 値必須: N
-   */
-  userShopNumber: string;
-
-  /**
-   * 項目名: オペレーター情報
-   * キー必須: N | 値必須: N
-   */
-  operatorInfo?: {
+  data: {
     /**
-     * 項目名: 担当者氏名
-     * キー必須: N | 値必須: N
+     * 項目名: ユーザーID
+     * キー必須: Y | 値必須: Y
      */
-    operatorName?: string;
+    userId: string;
 
     /**
-     * 項目名: NCO拠点名
-     * キー必須: N | 値必須: N
+     * 項目名: 所属店番
+     * キー必須: Y | 値必須: N
      */
-    branchName?: string;
+    userShopNumber: string;
 
     /**
-     * 項目名: 業務スキルコードリスト
+     * 項目名: オペレーター情報
      * キー必須: N | 値必須: N
      */
-    businessRoleNoList?: string[];
+    operatorInfo?: {
+      /**
+       * 項目名: 担当者氏名
+       * キー必須: N | 値必須: N
+       */
+      operatorName?: string;
 
-    /**
-     * 項目名: 権限スキル
-     * キー必須: N | 値必須: N
-     */
-    authorityID?: string;
+      /**
+       * 項目名: NCO拠点名
+       * キー必須: N | 値必須: N
+       */
+      branchName?: string;
+
+      /**
+       * 項目名: 業務スキルコードリスト
+       * キー必須: N | 値必須: N
+       */
+      businessRoleNoList?: string[];
+
+      /**
+       * 項目名: 権限スキル
+       * キー必須: N | 値必須: N
+       */
+      authorityID?: string;
+    };
   };
 }

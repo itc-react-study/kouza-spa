@@ -28,33 +28,35 @@ export interface SH1APIOPE034RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE034ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 取引開始受入判定結果区分
-   * キー必須: N | 値必須: N
-   */
-  torihikikaishiUkeireHanteiKekkaKubun?: string;
+  data: {
+    /**
+     * 項目名: 取引開始受入判定結果区分
+     * キー必須: N | 値必須: N
+     */
+    torihikikaishiUkeireHanteiKekkaKubun?: string;
 
-  /**
-   * 項目名: 取引開始時承認者コメント
-   * キー必須: N | 値必須: N
-   */
-  torihikikaishijiShouninshaComment?: string;
+    /**
+     * 項目名: 取引開始時承認者コメント
+     * キー必須: N | 値必須: N
+     */
+    torihikikaishijiShouninshaComment?: string;
 
-  /**
-   * 項目名: 楽観排他日時
-   * キー必須: N | 値必須: N
-   */
-  rakkanHaitaNichiji?: string;
+    /**
+     * 項目名: 楽観排他日時
+     * キー必須: N | 値必須: N
+     */
+    rakkanHaitaNichiji?: string;
 
-  /**
-   * 項目名: レコードステータス
-   * キー必須: N | 値必須: N
-   */
-  recodeStatus?: string;
+    /**
+     * 項目名: レコードステータス
+     * キー必須: N | 値必須: N
+     */
+    recodeStatus?: string;
 
-  /**
-   * 項目名: KYCリスク評価システム登録年月日
-   * キー必須: N | 値必須: N
-   */
-  kycRiskHyoukaSystemTourokuNengappi?: string;
+    /**
+     * 項目名: KYCリスク評価システム登録年月日
+     * キー必須: N | 値必須: N
+     */
+    kycRiskHyoukaSystemTourokuNengappi?: string;
+  };
 }

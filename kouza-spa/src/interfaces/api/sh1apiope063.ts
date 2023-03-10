@@ -22,27 +22,29 @@ export interface SH1APIOPE063RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE063ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: タブレット使用状況一覧
-   * キー必須: Y | 値必須: N
-   */
-  tabUsageInfoList: {
+  data: {
     /**
-     * 項目名: 端末名
-     * キー必須: N | 値必須: N
+     * 項目名: タブレット使用状況一覧
+     * キー必須: Y | 値必須: N
      */
-    deviceName?: string;
+    tabUsageInfoList: {
+      /**
+       * 項目名: 端末名
+       * キー必須: N | 値必須: N
+       */
+      deviceName?: string;
+
+      /**
+       * 項目名: 使用状況
+       * キー必須: N | 値必須: N
+       */
+      useStatus?: string;
+    }[];
 
     /**
-     * 項目名: 使用状況
+     * 項目名: 新規账号開設待ち状況
      * キー必須: N | 値必須: N
      */
-    useStatus?: string;
-  }[];
-
-  /**
-   * 項目名: 新規账号開設待ち状況
-   * キー必須: N | 値必須: N
-   */
-  accountNewWaiting?: string;
+    accountNewWaiting?: string;
+  };
 }

@@ -28,9 +28,11 @@ export interface SH1APIOPE059RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE059ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: ファイル
-   * キー必須: Y | 値必須: Y
-   */
-  file: string;
+  data: {
+    /**
+     * 項目名: ファイル
+     * キー必須: Y | 値必須: Y
+     */
+    file: string;
+  };
 }

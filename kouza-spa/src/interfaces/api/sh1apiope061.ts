@@ -34,62 +34,64 @@ export interface SH1APIOPE061RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE061ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: オペレーター情報
-   * キー必須: N | 値必須: N
-   */
-  operatorInfo?: {
+  data: {
     /**
-     * 項目名: 担当者ID
+     * 項目名: オペレーター情報
      * キー必須: N | 値必須: N
      */
-    operatorId?: string;
+    operatorInfo?: {
+      /**
+       * 項目名: 担当者ID
+       * キー必須: N | 値必須: N
+       */
+      operatorId?: string;
 
-    /**
-     * 項目名: 担当者氏名
-     * キー必須: N | 値必須: N
-     */
-    operatorName?: string;
+      /**
+       * 項目名: 担当者氏名
+       * キー必須: N | 値必須: N
+       */
+      operatorName?: string;
 
-    /**
-     * 項目名: NCO拠点名
-     * キー必須: N | 値必須: N
-     */
-    branchName?: string;
+      /**
+       * 項目名: NCO拠点名
+       * キー必須: N | 値必須: N
+       */
+      branchName?: string;
 
-    /**
-     * 項目名: ステータス
-     * キー必須: N | 値必須: N
-     */
-    operatorStatus?: string;
+      /**
+       * 項目名: ステータス
+       * キー必須: N | 値必須: N
+       */
+      operatorStatus?: string;
 
-    /**
-     * 項目名: 業務スキルコードリスト
-     * キー必須: N | 値必須: N
-     */
-    businessRoleNoList?: string[];
-    /**
-     * 項目名: 業務スキルコード
-     * キー必須: N | 値必須: N
-     */
-    businessRoleNo?: string;
+      /**
+       * 項目名: 業務スキルコードリスト
+       * キー必須: N | 値必須: N
+       */
+      businessRoleNoList?: string[];
+      /**
+       * 項目名: 業務スキルコード
+       * キー必須: N | 値必須: N
+       */
+      businessRoleNo?: string;
 
-    /**
-     * 項目名: 権限スキル
-     * キー必須: N | 値必須: N
-     */
-    authorityID?: string;
+      /**
+       * 項目名: 権限スキル
+       * キー必須: N | 値必須: N
+       */
+      authorityID?: string;
 
-    /**
-     * 項目名: 削除フラグ
-     * キー必須: N | 値必須: N
-     */
-    deleteFlag?: string;
+      /**
+       * 項目名: 削除フラグ
+       * キー必須: N | 値必須: N
+       */
+      deleteFlag?: string;
 
-    /**
-     * 項目名: SMTPアドレス
-     * キー必須: N | 値必須: N
-     */
-    smtpAddress?: string;
+      /**
+       * 項目名: SMTPアドレス
+       * キー必須: N | 値必須: N
+       */
+      smtpAddress?: string;
+    };
   };
 }

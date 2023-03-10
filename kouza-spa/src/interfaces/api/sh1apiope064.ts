@@ -22,9 +22,11 @@ export interface SH1APIOPE064RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE064ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 掲示板
-   * キー必須: Y | 値必須: N
-   */
-  noticeboard: string;
+  data: {
+    /**
+     * 項目名: 掲示板
+     * キー必須: Y | 値必須: N
+     */
+    noticeboard: string;
+  };
 }

@@ -81,9 +81,11 @@ export interface SH1APIOPE062RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE062ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: ステータス
-   * キー必須: N | 値必須: N
-   */
-  operatorStatus?: string;
+  data: {
+    /**
+     * 項目名: ステータス
+     * キー必須: N | 値必須: N
+     */
+    operatorStatus?: string;
+  };
 }

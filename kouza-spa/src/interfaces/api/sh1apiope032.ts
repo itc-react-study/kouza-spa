@@ -418,45 +418,47 @@ export interface SH1APIOPE032RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE032ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: KYC受付番号
-   * キー必須: N | 値必須: N
-   */
-  kycUketsukeBangou?: string;
+  data: {
+    /**
+     * 項目名: KYC受付番号
+     * キー必須: N | 値必須: N
+     */
+    kycUketsukeBangou?: string;
 
-  /**
-   * 項目名: KYCリスク評価システム登録年月日
-   * キー必須: N | 値必須: N
-   */
-  kycRiskHyoukaSystemTourokuNengappi?: string;
+    /**
+     * 項目名: KYCリスク評価システム登録年月日
+     * キー必須: N | 値必須: N
+     */
+    kycRiskHyoukaSystemTourokuNengappi?: string;
 
-  /**
-   * 項目名: 楽観排他日時
-   * キー必須: N | 値必須: N
-   */
-  rakkanHaitaNichiji?: string;
+    /**
+     * 項目名: 楽観排他日時
+     * キー必須: N | 値必須: N
+     */
+    rakkanHaitaNichiji?: string;
 
-  /**
-   * 項目名: 顧客タイプ評価
-   * キー必須: N | 値必須: N
-   */
-  kokyakuTypeHyouka?: string;
+    /**
+     * 項目名: 顧客タイプ評価
+     * キー必須: N | 値必須: N
+     */
+    kokyakuTypeHyouka?: string;
 
-  /**
-   * 項目名: 国・地方評価
-   * キー必須: N | 値必須: N
-   */
-  kuniChihouHyouka?: string;
+    /**
+     * 項目名: 国・地方評価
+     * キー必須: N | 値必須: N
+     */
+    kuniChihouHyouka?: string;
 
-  /**
-   * 項目名: 商品・サービス評価
-   * キー必須: N | 値必須: N
-   */
-  shouhinServiceHyouka?: string;
+    /**
+     * 項目名: 商品・サービス評価
+     * キー必須: N | 値必須: N
+     */
+    shouhinServiceHyouka?: string;
 
-  /**
-   * 項目名: 総合評価
-   * キー必須: N | 値必須: N
-   */
-  sougouHyouka?: string;
+    /**
+     * 項目名: 総合評価
+     * キー必須: N | 値必須: N
+     */
+    sougouHyouka?: string;
+  };
 }

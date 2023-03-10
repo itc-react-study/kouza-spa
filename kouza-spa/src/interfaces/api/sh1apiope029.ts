@@ -70,117 +70,119 @@ export interface SH1APIOPE029RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE029ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 事前照会
-   * キー必須: N | 値必須: N
-   */
-  eventBeforeList?: {
+  data: {
     /**
-     * 項目名: 店番
+     * 項目名: 事前照会
      * キー必須: N | 値必須: N
      */
-    shopNo?: string;
+    eventBeforeList?: {
+      /**
+       * 項目名: 店番
+       * キー必須: N | 値必須: N
+       */
+      shopNo?: string;
+
+      /**
+       * 項目名: 支店名
+       * キー必須: N | 値必須: N
+       */
+      subTenno?: string;
+
+      /**
+       * 項目名: CIF番号
+       * キー必須: N | 値必須: N
+       */
+      cifBangou?: string;
+
+      /**
+       * 項目名: カナ氏名
+       * キー必須: N | 値必須: N
+       */
+      kanaName?: string;
+
+      /**
+       * 項目名: 取引先名
+       * キー必須: N | 値必須: N
+       */
+      torihikiName?: string;
+
+      /**
+       * 項目名: 生年月日
+       * キー必須: N | 値必須: N
+       */
+      birthday?: string;
+
+      /**
+       * 項目名: 性別
+       * キー必須: N | 値必須: N
+       */
+      gender?: string;
+    }[];
 
     /**
-     * 項目名: 支店名
+     * 項目名: 制裁対象者
      * キー必須: N | 値必須: N
      */
-    subTenno?: string;
+    seisaitaishousha?: {
+      /**
+       * 項目名: 件数
+       * キー必須: N | 値必須: N
+       */
+      kensuu?: number;
+
+      /**
+       * 項目名: 漢字検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      kanjiSearchFlg?: string;
+
+      /**
+       * 項目名: カナ検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      kanaSearchFlg?: string;
+
+      /**
+       * 項目名: 英字検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      engSearchFlg?: string;
+    };
 
     /**
-     * 項目名: CIF番号
+     * 項目名: 各種外国PEPs・Advers Media
      * キー必須: N | 値必須: N
      */
-    cifBangou?: string;
+    kakushugaikokuPEPsAdversMedia?: {
+      /**
+       * 項目名: 件数
+       * キー必須: N | 値必須: N
+       */
+      kensuu?: number;
+
+      /**
+       * 項目名: 漢字検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      kanjiSearchFlg?: string;
+
+      /**
+       * 項目名: カナ検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      kanaSearchFlg?: string;
+
+      /**
+       * 項目名: 英字検索済否フラグ
+       * キー必須: N | 値必須: N
+       */
+      engSearchFlg?: string;
+    };
 
     /**
-     * 項目名: カナ氏名
+     * 項目名: 制裁対象者チェックシステム画面URL
      * キー必須: N | 値必須: N
      */
-    kanaName?: string;
-
-    /**
-     * 項目名: 取引先名
-     * キー必須: N | 値必須: N
-     */
-    torihikiName?: string;
-
-    /**
-     * 項目名: 生年月日
-     * キー必須: N | 値必須: N
-     */
-    birthday?: string;
-
-    /**
-     * 項目名: 性別
-     * キー必須: N | 値必須: N
-     */
-    gender?: string;
-  }[];
-
-  /**
-   * 項目名: 制裁対象者
-   * キー必須: N | 値必須: N
-   */
-  seisaitaishousha?: {
-    /**
-     * 項目名: 件数
-     * キー必須: N | 値必須: N
-     */
-    kensuu?: number;
-
-    /**
-     * 項目名: 漢字検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    kanjiSearchFlg?: string;
-
-    /**
-     * 項目名: カナ検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    kanaSearchFlg?: string;
-
-    /**
-     * 項目名: 英字検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    engSearchFlg?: string;
+    url?: string;
   };
-
-  /**
-   * 項目名: 各種外国PEPs・Advers Media
-   * キー必須: N | 値必須: N
-   */
-  kakushugaikokuPEPsAdversMedia?: {
-    /**
-     * 項目名: 件数
-     * キー必須: N | 値必須: N
-     */
-    kensuu?: number;
-
-    /**
-     * 項目名: 漢字検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    kanjiSearchFlg?: string;
-
-    /**
-     * 項目名: カナ検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    kanaSearchFlg?: string;
-
-    /**
-     * 項目名: 英字検索済否フラグ
-     * キー必須: N | 値必須: N
-     */
-    engSearchFlg?: string;
-  };
-
-  /**
-   * 項目名: 制裁対象者チェックシステム画面URL
-   * キー必須: N | 値必須: N
-   */
-  url?: string;
 }

@@ -22,51 +22,53 @@ export interface SH1APICOM014RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APICOM014ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 検索結果リスト
-   * キー必須: N | 値必須: N
-   */
-  addrList?: {
+  data: {
     /**
-     * 項目名: 郵便番号
+     * 項目名: 検索結果リスト
      * キー必須: N | 値必須: N
      */
-    postNo?: string;
+    addrList?: {
+      /**
+       * 項目名: 郵便番号
+       * キー必須: N | 値必須: N
+       */
+      postNo?: string;
 
-    /**
-     * 項目名: 代表住所(漢字)
-     * キー必須: N | 値必須: N
-     */
-    addressMainKj?: string;
+      /**
+       * 項目名: 代表住所(漢字)
+       * キー必須: N | 値必須: N
+       */
+      addressMainKj?: string;
 
-    /**
-     * 項目名: 補足住所(漢字)
-     * キー必須: N | 値必須: N
-     */
-    addressSubKanji?: string;
+      /**
+       * 項目名: 補足住所(漢字)
+       * キー必須: N | 値必須: N
+       */
+      addressSubKanji?: string;
 
-    /**
-     * 項目名: 代表住所(カナ)
-     * キー必須: N | 値必須: N
-     */
-    addressMainKn?: string;
+      /**
+       * 項目名: 代表住所(カナ)
+       * キー必須: N | 値必須: N
+       */
+      addressMainKn?: string;
 
-    /**
-     * 項目名: 補足住所(カナ)
-     * キー必須: N | 値必須: N
-     */
-    addressSubKn?: string;
+      /**
+       * 項目名: 補足住所(カナ)
+       * キー必須: N | 値必須: N
+       */
+      addressSubKn?: string;
 
-    /**
-     * 項目名: 住所郵便番号重複フラグ
-     * キー必須: N | 値必須: N
-     */
-    duplicateFlag?: string;
+      /**
+       * 項目名: 住所郵便番号重複フラグ
+       * キー必須: N | 値必須: N
+       */
+      duplicateFlag?: string;
 
-    /**
-     * 項目名: 住所コード
-     * キー必須: N | 値必須: N
-     */
-    juushoCode?: string;
-  }[];
+      /**
+       * 項目名: 住所コード
+       * キー必須: N | 値必須: N
+       */
+      juushoCode?: string;
+    }[];
+  };
 }

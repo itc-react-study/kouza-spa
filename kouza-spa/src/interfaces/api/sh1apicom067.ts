@@ -22,45 +22,47 @@ export interface SH1APICOM067RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APICOM067ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: タブレット名
-   * キー必須: N | 値必須: N
-   */
-  tabletName?: string;
+  data: {
+    /**
+     * 項目名: タブレット名
+     * キー必須: N | 値必須: N
+     */
+    tabletName?: string;
 
-  /**
-   * 項目名: 店番
-   * キー必須: N | 値必須: N
-   */
-  shopNo?: string;
+    /**
+     * 項目名: 店番
+     * キー必須: N | 値必須: N
+     */
+    shopNo?: string;
 
-  /**
-   * 項目名: 設置店名
-   * キー必須: N | 値必須: N
-   */
-  shopNameSetted?: string;
+    /**
+     * 項目名: 設置店名
+     * キー必須: N | 値必須: N
+     */
+    shopNameSetted?: string;
 
-  /**
-   * 項目名: ステータス
-   * キー必須: N | 値必須: N
-   */
-  status?: string;
+    /**
+     * 項目名: ステータス
+     * キー必須: N | 値必須: N
+     */
+    status?: string;
 
-  /**
-   * 項目名: タブレットID
-   * キー必須: N | 値必須: N
-   */
-  tabletId?: string;
+    /**
+     * 項目名: タブレットID
+     * キー必須: N | 値必須: N
+     */
+    tabletId?: string;
 
-  /**
-   * 項目名: 削除フラグ(検印待ち)
-   * キー必須: N | 値必須: N
-   */
-  delFlgEdit?: string;
+    /**
+     * 項目名: 削除フラグ(検印待ち)
+     * キー必須: N | 値必須: N
+     */
+    delFlgEdit?: string;
 
-  /**
-   * 項目名: データ有無フラグ
-   * キー必須: N | 値必須: N
-   */
-  dataUmuFlg?: string;
+    /**
+     * 項目名: データ有無フラグ
+     * キー必須: N | 値必須: N
+     */
+    dataUmuFlg?: string;
+  };
 }

@@ -40,11 +40,13 @@ export interface SH1APIOPE066RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE066ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: タブレット情報一覧
-   * キー必須: Y | 値必須: N
-   */
-  tabletInfoList: TabletInfo[];
+  data: {
+    /**
+     * 項目名: タブレット情報一覧
+     * キー必須: Y | 値必須: N
+     */
+    tabletInfoList: TabletInfo[];
+  };
 }
 
 /**

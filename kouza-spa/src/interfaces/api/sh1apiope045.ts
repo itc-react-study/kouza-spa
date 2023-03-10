@@ -76,147 +76,149 @@ export interface SH1APIOPE045RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE045ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 形式点検待ち
-   * キー必須: N | 値必須: N
-   */
-  checkWaiting?: number;
-
-  /**
-   * 項目名: オペレーション待ち
-   * キー必須: N | 値必須: N
-   */
-  operationWaiting?: number;
-
-  /**
-   * 項目名: 管理者確認待ち
-   * キー必須: N | 値必須: N
-   */
-  managerJudgementWaiting?: number;
-
-  /**
-   * 項目名: 再鑑待ち
-   * キー必須: N | 値必須: N
-   */
-  reCheckWaiting?: number;
-
-  /**
-   * 項目名: 账号開設済
-   * キー必須: N | 値必須: N
-   */
-  accountFinish?: number;
-
-  /**
-   * 項目名: 取引一覧
-   * キー必須: N | 値必須: N
-   */
-  transactionList?: {
+  data: {
     /**
-     * 項目名: 受付番号
+     * 項目名: 形式点検待ち
      * キー必須: N | 値必須: N
      */
-    acceptanceNo?: string;
+    checkWaiting?: number;
 
     /**
-     * 項目名: 支店号機名
+     * 項目名: オペレーション待ち
      * キー必須: N | 値必須: N
      */
-    branchMachine?: string;
+    operationWaiting?: number;
 
     /**
-     * 項目名: 顧客名
+     * 項目名: 管理者確認待ち
      * キー必須: N | 値必須: N
      */
-    accountName?: string;
+    managerJudgementWaiting?: number;
 
     /**
-     * 項目名: 待ち時間
+     * 項目名: 再鑑待ち
      * キー必須: N | 値必須: N
      */
-    waitingTime?: number;
+    reCheckWaiting?: number;
 
     /**
-     * 項目名: 担当者ID
+     * 項目名: 账号開設済
      * キー必須: N | 値必須: N
      */
-    operatorId?: string;
+    accountFinish?: number;
 
     /**
-     * 項目名: 担当者（フルネーム）
+     * 項目名: 取引一覧
      * キー必須: N | 値必須: N
      */
-    operatorNameFull?: string;
+    transactionList?: {
+      /**
+       * 項目名: 受付番号
+       * キー必須: N | 値必須: N
+       */
+      acceptanceNo?: string;
 
-    /**
-     * 項目名: 経過時間
-     * キー必須: N | 値必須: N
-     */
-    passingTime?: number;
+      /**
+       * 項目名: 支店号機名
+       * キー必須: N | 値必須: N
+       */
+      branchMachine?: string;
 
-    /**
-     * 項目名: 点検
-     * キー必須: N | 値必須: N
-     */
-    check?: string;
+      /**
+       * 項目名: 顧客名
+       * キー必須: N | 値必須: N
+       */
+      accountName?: string;
 
-    /**
-     * 項目名: オペレーション
-     * キー必須: N | 値必須: N
-     */
-    accountOpeningOperation?: string;
+      /**
+       * 項目名: 待ち時間
+       * キー必須: N | 値必須: N
+       */
+      waitingTime?: number;
 
-    /**
-     * 項目名: 再鑑
-     * キー必須: N | 値必須: N
-     */
-    reCheck?: string;
+      /**
+       * 項目名: 担当者ID
+       * キー必須: N | 値必須: N
+       */
+      operatorId?: string;
 
-    /**
-     * 項目名: 管理者確認
-     * キー必須: N | 値必須: N
-     */
-    managerJudgement?: string;
+      /**
+       * 項目名: 担当者（フルネーム）
+       * キー必須: N | 値必須: N
+       */
+      operatorNameFull?: string;
 
-    /**
-     * 項目名: 結果
-     * キー必須: N | 値必須: N
-     */
-    result?: string;
+      /**
+       * 項目名: 経過時間
+       * キー必須: N | 値必須: N
+       */
+      passingTime?: number;
 
-    /**
-     * 項目名: 店番
-     * キー必須: N | 値必須: N
-     */
-    shopNo?: string;
+      /**
+       * 項目名: 点検
+       * キー必須: N | 値必須: N
+       */
+      check?: string;
 
-    /**
-     * 項目名: 账号番号
-     * キー必須: N | 値必須: N
-     */
-    accountNo?: string;
+      /**
+       * 項目名: オペレーション
+       * キー必須: N | 値必須: N
+       */
+      accountOpeningOperation?: string;
 
-    /**
-     * 項目名: 支店指定
-     * キー必須: N | 値必須: N
-     */
-    shopSelected?: string;
+      /**
+       * 項目名: 再鑑
+       * キー必須: N | 値必須: N
+       */
+      reCheck?: string;
 
-    /**
-     * 項目名: 既存账号
-     * キー必須: N | 値必須: N
-     */
-    existingAccount?: string;
+      /**
+       * 項目名: 管理者確認
+       * キー必須: N | 値必須: N
+       */
+      managerJudgement?: string;
 
-    /**
-     * 項目名: ロック担当者ID
-     * キー必須: N | 値必須: N
-     */
-    lockOperatorId?: string;
+      /**
+       * 項目名: 結果
+       * キー必須: N | 値必須: N
+       */
+      result?: string;
 
-    /**
-     * 項目名: オペレーション処理ステータス
-     * キー必須: N | 値必須: N
-     */
-    operationProcessStatus?: string;
-  }[];
+      /**
+       * 項目名: 店番
+       * キー必須: N | 値必須: N
+       */
+      shopNo?: string;
+
+      /**
+       * 項目名: 账号番号
+       * キー必須: N | 値必須: N
+       */
+      accountNo?: string;
+
+      /**
+       * 項目名: 支店指定
+       * キー必須: N | 値必須: N
+       */
+      shopSelected?: string;
+
+      /**
+       * 項目名: 既存账号
+       * キー必須: N | 値必須: N
+       */
+      existingAccount?: string;
+
+      /**
+       * 項目名: ロック担当者ID
+       * キー必須: N | 値必須: N
+       */
+      lockOperatorId?: string;
+
+      /**
+       * 項目名: オペレーション処理ステータス
+       * キー必須: N | 値必須: N
+       */
+      operationProcessStatus?: string;
+    }[];
+  };
 }

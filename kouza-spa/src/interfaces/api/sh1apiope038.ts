@@ -40,27 +40,29 @@ export interface SH1APIOPE038RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE038ResponseBody extends ApiResponseBodyBase {
-  /**
-   * 項目名: 明細処理ステータス
-   * キー必須: N | 値必須: N
-   */
-  processStatus?: string;
+  data: {
+    /**
+     * 項目名: 明細処理ステータス
+     * キー必須: N | 値必須: N
+     */
+    processStatus?: string;
 
-  /**
-   * 項目名: オペレーション処理ステータス
-   * キー必須: N | 値必須: N
-   */
-  operationProcessStatus?: string;
+    /**
+     * 項目名: オペレーション処理ステータス
+     * キー必須: N | 値必須: N
+     */
+    operationProcessStatus?: string;
 
-  /**
-   * 項目名: 担当者更新後ステータス
-   * キー必須: N | 値必須: N
-   */
-  operatorStatus?: string;
+    /**
+     * 項目名: 担当者更新後ステータス
+     * キー必須: N | 値必須: N
+     */
+    operatorStatus?: string;
 
-  /**
-   * 項目名: 機微情報処理状況
-   * キー必須: N | 値必須: N
-   */
-  maskingStatus?: string;
+    /**
+     * 項目名: 機微情報処理状況
+     * キー必須: N | 値必須: N
+     */
+    maskingStatus?: string;
+  };
 }

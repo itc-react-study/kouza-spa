@@ -1462,4 +1462,6 @@ export interface SH1APIOPE040RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 
-export type SH1APIOPE040ResponseBody = ApiResponseBodyBase;
+export interface SH1APIOPE040ResponseBody extends ApiResponseBodyBase {
+  data: object;
+}

@@ -18,12 +18,16 @@ import Button from "@mui/material/Button";
 
 import { getApi } from "../../common/service/api.service";
 import { ApiIds } from "../../constants/api-id.constant";
-import { SH1APIOPE044RequestBody } from "../../interfaces/api/sh1apiope044";
+import {
+  SH1APIOPE044RequestBody,
+  SH1APIOPE044ResponseBody,
+} from "../../interfaces/api/sh1apiope044";
 import {
   BUSINESS_ROLE,
   CODE_LOCATION_CD,
   ROLE_CD,
 } from "../../constants/code-list.constants";
+import { AxiosResponse } from "axios";
 
 interface List {
   code: string;
@@ -32,29 +36,12 @@ interface List {
 
 const responseBody = {
   inStandby: 1,
-
   inHand: 1,
-
   inPostTreatment: 1,
-
   inLeave1: 1,
-
   inLeave2: 1,
-
   inLeave3: 1,
 };
-// function createData(
-//   name: string,
-//   calories: string,
-//   fat: string,
-//   carbs: string,
-//   protein: string,
-//   age: string
-// ) {
-//   return { name, calories, fat, carbs, protein, age };
-// }
-
-// const rows = [createData("1人", "1人", "1人", "1人", "1人", "1人")];
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -130,7 +117,8 @@ const OperatorStatusList = (): JSX.Element => {
       ncoLocation: "ncoLocation",
     };
 
-    const response = await getApi(ApiIds.SH1APIOPE044, param);
+    const response: AxiosResponse<SH1APIOPE044ResponseBody, any> =
+      await getApi(ApiIds.SH1APIOPE044, param);
 
     setOperator(response.data);
     console.log("response", response);
