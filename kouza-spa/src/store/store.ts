@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-export const AreaMessageContext = createContext({
+export const StoreContext = createContext({
   areaErrorMessage: '',
   setAreaErrorMessage: (event: string) => {},
 });

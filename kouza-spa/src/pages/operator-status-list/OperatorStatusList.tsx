@@ -28,7 +28,7 @@ import {
   ROLE_CD,
 } from "../../constants/code-list.constants";
 import { AxiosResponse } from "axios";
-import { AreaMessageContext } from "../../store/store";
+import { StoreContext } from "../../store/store";
 import { ErrorCodes } from "../../constants/error-code.constant";
 import { getMessage } from "../../common/service/message.service";
 import { KouzaMessage } from "../../interfaces/common/common";
@@ -68,7 +68,7 @@ const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
 
   const { areaErrorMessage, setAreaErrorMessage } =
-    useContext(AreaMessageContext);
+    useContext(StoreContext);
 
   /**
    * renderSelect

@@ -7,7 +7,7 @@ import ListItemText from "@mui/material/ListItemText";
 import { MENU_LIST } from "../../configs/menuList.config";
 import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
-import { AreaMessageContext } from "../../store/store";
+import { StoreContext } from "../../store/store";
 import ErrorTips from "../../common/components/error-tips/ErrorTips";
 
 const listStyle = {
@@ -25,7 +25,7 @@ const Main = () => {
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
-      <AreaMessageContext.Provider
+      <StoreContext.Provider
         value={{
           areaErrorMessage,
           setAreaErrorMessage,
@@ -63,7 +63,7 @@ const Main = () => {
           <ErrorTips></ErrorTips>
           <Outlet />
         </Box>
-      </AreaMessageContext.Provider>
+      </StoreContext.Provider>
     </div>
   );
 };
