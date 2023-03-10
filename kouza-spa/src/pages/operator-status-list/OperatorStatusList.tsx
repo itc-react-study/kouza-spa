@@ -160,7 +160,7 @@ const OperatorStatusList = (): JSX.Element => {
     startIndex + DEFAULT_PER_PAGE_SIZE - 1,
     operator.operatorList.length - 1
   );
-  const currentPageData = operator.operatorList.slice(startIndex, endIndex + 1);
+  const currentPageData = operator.operatorList.slice(startIndex, endIndex);
 
   const handlePageChange = (event: any, page: number) => {
     setCurrentPage(page);
