@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 
 import CloseIcon from "@mui/icons-material/Close";
-import "./Header.css";
-import { AreaMessageContext } from "../../store/store";
+import "./ErrorTips.css";
+import { AreaMessageContext } from "../../../store/store";
 
-const Header = () => {
+const ErrorTips = () => {
   const { areaErrorMessage, setAreaErrorMessage } =
     useContext(AreaMessageContext);
 
@@ -13,13 +13,13 @@ const Header = () => {
   };
 
   return (
-    <div className="header">
+    <div className="error-tips">
       {areaErrorMessage ? (
-        <div className="header-message">
-          <div className="header-message-sapn">
+        <div className="error-tips-message">
+          <div className="error-tips-message-span">
             <span>{areaErrorMessage}</span>
           </div>
-          <div className="header-message-icon">
+          <div className="error-tips-message-icon">
             <CloseIcon onClick={handleClose}></CloseIcon>
           </div>
         </div>
@@ -28,4 +28,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default ErrorTips;

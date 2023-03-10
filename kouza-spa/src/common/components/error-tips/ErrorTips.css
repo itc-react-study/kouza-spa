@@ -1,4 +1,4 @@
-.header {
+.error-tips {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
   border-bottom-width: 1px;
 }
 
-.header-message {
+.error-tips-message {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -19,14 +19,14 @@
   background-color: rgba(189, 42, 39, 0.88);
 }
 
-.header-message-sapn {
+.error-tips-message-span {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header-message-icon {
+.error-tips-message-icon {
   width: 50px;
   cursor: pointer;
 }
