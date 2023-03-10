@@ -6,11 +6,11 @@ import { createContext } from 'react';
 export const MainContext = createContext({
   areaErrorMessage: '',
   setAreaErrorMessage: (event: string) => {},
-  isLoading: false,
-  setIsLoading: (event: boolean) => {},
+  isMainLoading: false,
+  setIsMainLoading: (event: boolean) => {},
 });
 
 export const LoginContext = createContext({
-  isLoading: false,
-  setIsLoading: (event: boolean) => {},
+  isLoginLoading: false,
+  setIsLoginLoading: (event: boolean) => {},
 });

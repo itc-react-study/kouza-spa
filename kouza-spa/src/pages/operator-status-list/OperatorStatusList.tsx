@@ -67,7 +67,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
 
-  const { areaErrorMessage, setAreaErrorMessage, setIsLoading } =
+  const { areaErrorMessage, setAreaErrorMessage, setIsMainLoading } =
     useContext(MainContext);
 
   /**
@@ -134,7 +134,7 @@ const OperatorStatusList = (): JSX.Element => {
       ncoLocation: "ncoLocation",
     };
 
-    setIsLoading(true);
+    setIsMainLoading(true);
 
     try {
       const response = (await getApi(
@@ -150,7 +150,7 @@ const OperatorStatusList = (): JSX.Element => {
       console.log(error);
     }
 
-    setIsLoading(false);
+    setIsMainLoading(false);
   };
 
   return (

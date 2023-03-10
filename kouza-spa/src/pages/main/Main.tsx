@@ -9,8 +9,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
 import { MainContext } from "../../store/store";
 import ErrorTips from "../../common/components/error-tips/ErrorTips";
-import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
+import LoadingModal from "../../common/components/loading-modal/loadingModal";
 
 const listStyle = {
   border: "1px solid #000",
@@ -26,7 +25,7 @@ const Main = (): JSX.Element => {
 
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isMainLoading, setIsMainLoading] = useState(false);
 
   const clickList = (item: Menu) => () => {
     navigate(item.path);
@@ -35,19 +34,14 @@ const Main = (): JSX.Element => {
   const mainContext = {
     areaErrorMessage,
     setAreaErrorMessage,
-    isLoading,
-    setIsLoading,
+    isMainLoading,
+    setIsMainLoading,
   };
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
       <MainContext.Provider value={mainContext}>
-        <Backdrop
-          sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={isLoading}
-        >
-          <CircularProgress color="inherit" />
-        </Backdrop>
+        <LoadingModal></LoadingModal>
         <Box
           sx={{
             minWidth: 200,

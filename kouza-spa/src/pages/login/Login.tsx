@@ -9,8 +9,7 @@ import { getApi } from "../../common/service/api.service";
 import { ApiIds } from "../../constants/api-id.constant";
 import { SH1APIDUMLGNRequestBody } from "../../interfaces/api/shiapidumlgn";
 import { LoginContext } from "../../store/store";
-import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
+import LoadingModal from "../../common/components/loading-modal/loadingModal";
 
 const boxStyle = {
   width: 500,
@@ -36,9 +35,9 @@ const Login = (): JSX.Element => {
 
   const { register, handleSubmit, getValues } = useForm();
 
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoginLoading, setIsLoginLoading] = useState(false);
 
-  const loginContext = { isLoading, setIsLoading };
+  const loginContext = { isLoginLoading, setIsLoginLoading };
 
   const loadMain = async () => {
     const { userName, userPwd } = getValues();
@@ -48,11 +47,11 @@ const Login = (): JSX.Element => {
       userPwd: userPwd,
     };
 
-    setIsLoading(true);
+    setIsLoginLoading(true);
 
     const response = await getApi(ApiIds.SH1APIDUMLGN, param);
 
-    setIsLoading(false);
+    setIsLoginLoading(false);
 
     console.log(response);
 
@@ -62,12 +61,7 @@ const Login = (): JSX.Element => {
   return (
     <div className="form">
       <LoginContext.Provider value={loginContext}>
-        <Backdrop
-          sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
-          open={isLoading}
-        >
-          <CircularProgress color="inherit" />
-        </Backdrop>
+        <LoadingModal></LoadingModal>
         <Box sx={formStyle}>
           <form onSubmit={handleSubmit(loadMain)}>
             <Box sx={boxStyle}>
