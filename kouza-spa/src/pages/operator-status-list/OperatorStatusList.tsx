@@ -25,13 +25,13 @@ import {
 import { SH1APIOPE044RequestBody } from "../../assets/interfaces/api/sh1apiope044";
 import { getApi } from "../../common/service/ApiUtils";
 import { ApiIds } from "../../assets/constants/api-id.constant";
+import { useEffect } from "react";
 
 interface List {
   code: string;
   label: string;
 }
-
-type Operator = {
+interface Operator {
   operatorID: string;
   operatorName: string;
   necLocation: string;
@@ -42,7 +42,7 @@ type Operator = {
   shopNoSetted: string;
   tabletName: string;
   businessRoleName: string;
-};
+}
 
 const responseBody = {
   inStandby: 1,
@@ -99,7 +99,8 @@ const Item = styled(Paper)(({ theme }) => ({
  */
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
-
+  const [currentPage, setCurrentPage] = useState(1);
+  const perPageSize = 10;
   /**
    * renderSelect
    *
@@ -118,7 +119,11 @@ const OperatorStatusList = (): JSX.Element => {
     return <Select sx={{ width: 180, height: 30 }}>{item}</Select>;
   };
 
-  // basicTable
+  /**
+   * BasicTable
+   *
+   * @returns
+   */
   const BasicTable = () => {
     return (
       <Box display="flex" justifyContent="space-between" alignItems="center">
@@ -156,7 +161,6 @@ const OperatorStatusList = (): JSX.Element => {
             marginLeft: 18,
             marginRight: 12,
           }}
-          onClick={handleInqueryUpdate}
         >
           最新化
         </Button>
@@ -178,25 +182,59 @@ const OperatorStatusList = (): JSX.Element => {
     console.log("response", response);
 
     setOperator(response.data);
+    setCurrentPage(1);
   };
 
-  const handleInqueryUpdate = async () => {
-    const param: SH1APIOPE044RequestBody = {
-      ncoLocation: "",
-      roleNo: "",
-      businessRole: "",
-      operatorStatus: "",
-      shopNoSetted: "",
-      shopNameSetted: "",
-    };
-
-    const response = await getApi(ApiIds.SH1APIOPE044, param);
-    console.log("response", response);
-
-    setOperator(response.data);
+  const handlePageChange = (
+    event: React.ChangeEvent<unknown>,
+    value: number
+  ) => {
+    setCurrentPage(value);
   };
 
-  // styleTable
+  const displayOperatorList = () => {
+    const startIndex = (currentPage - 1) * perPageSize;
+    const endIndex = startIndex + perPageSize;
+    return operator.operatorList
+      .slice(startIndex, endIndex)
+      .map((operatorRow: Operator) => (
+        <StyledTableRow key={operatorRow.operatorID}>
+          <StyledTableCell component="th" scope="row" align="center">
+            {operatorRow.operatorID}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.operatorName}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.necLocation}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.roleName}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.operatorStatus}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.passingTime}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.shopNoSetted}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.tabletName}
+          </StyledTableCell>
+          <StyledTableCell align="center">
+            {operatorRow.businessRoleName}
+          </StyledTableCell>
+        </StyledTableRow>
+      ));
+  };
+
+  /**
+   * styleTable
+   *
+   * @returns
+   */
   const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
       backgroundColor: theme.palette.common.black,
@@ -217,6 +255,13 @@ const OperatorStatusList = (): JSX.Element => {
     },
   }));
 
+  /**
+   * pagination
+   *
+   * @returns
+   */
+
+  //
   return (
     <Box sx={{ flexGrow: 1 }}>
       {/* top */}
@@ -299,9 +344,10 @@ const OperatorStatusList = (): JSX.Element => {
         </Button>
       </Box>
 
-      {/* basicTable*/}
+      {/* basicTable */}
       <BasicTable></BasicTable>
 
+      {/* styleTable */}
       <TableContainer component={Paper} style={{ marginTop: 30 }}>
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
@@ -317,46 +363,18 @@ const OperatorStatusList = (): JSX.Element => {
               <StyledTableCell align="center">業務スキル</StyledTableCell>
             </TableRow>
           </TableHead>
-          <TableBody>
-            {operator.operatorList.map((operatorRow: Operator) => (
-              <StyledTableRow key={operatorRow.operatorID}>
-                <StyledTableCell component="th" scope="row" align="center">
-                  {operatorRow.operatorID}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.operatorName}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.necLocation}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.roleName}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.operatorStatus}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.passingTime}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.shopNoSetted}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.tabletName}
-                </StyledTableCell>
-                <StyledTableCell align="center">
-                  {operatorRow.businessRoleName}
-                </StyledTableCell>
-              </StyledTableRow>
-            ))}
-          </TableBody>
+          <TableBody>{displayOperatorList()}</TableBody>
         </Table>
       </TableContainer>
-
-      {/* pagination */}
       <Box display="flex" justifyContent="flex-end" style={{ marginTop: 10 }}>
         <Stack spacing={2}>
-          <Pagination count={10} variant="outlined" shape="rounded" />
+          <Pagination
+            count={Math.ceil(operator.operatorList.length / perPageSize)}
+            variant="outlined"
+            shape="rounded"
+            page={currentPage}
+            onChange={handlePageChange}
+          />
         </Stack>
       </Box>
     </Box>
