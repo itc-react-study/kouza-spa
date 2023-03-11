@@ -122,18 +122,19 @@ const OperatorStatusList = (): JSX.Element => {
   const handleInquery = async () => {
     console.log("areaErrorMessage", areaErrorMessage);
 
-    const kouzaMessage = getMessage(ErrorCodes.C30388) as KouzaMessage;
+    // const kouzaMessage = getMessage(ErrorCodes.C30388) as KouzaMessage;
 
-    console.log("kouzaMessage", kouzaMessage);
+    // console.log("kouzaMessage", kouzaMessage);
 
-    if (kouzaMessage.display === "area") {
-      setAreaErrorMessage(kouzaMessage.message);
-    }
+    // if (kouzaMessage.display === "area") {
+    //   setAreaErrorMessage(kouzaMessage.message);
+    // }
 
     const param: SH1APIOPE044RequestBody = {
       ncoLocation: "ncoLocation",
     };
 
+    // 在发送API请求前显示loading
     setIsMainLoading(true);
 
     try {
@@ -150,6 +151,7 @@ const OperatorStatusList = (): JSX.Element => {
       console.log(error);
     }
 
+    // 在发送API请求后不显示loading
     setIsMainLoading(false);
   };
 
