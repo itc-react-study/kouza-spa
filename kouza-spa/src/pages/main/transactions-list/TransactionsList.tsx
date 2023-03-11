@@ -1,7 +1,13 @@
 import React, { useContext } from "react";
 import { MainContext } from "../../../store/store";
 
-const TransactionsList = () => {
+
+/**
+ * TransactionsList
+ *
+ * @returns {JSX.Element}
+ */
+const TransactionsList = (): JSX.Element => {
   const { setIsMainLoading } = useContext(MainContext);
 
   const handleClick = () => {

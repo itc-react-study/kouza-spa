@@ -71,7 +71,7 @@ const OperatorStatusList = (): JSX.Element => {
     useContext(MainContext);
 
   /**
-   * renderSelect
+   * renderSelect xx
    *
    * @param {List[]} List
    * @return {JSX.Element}
