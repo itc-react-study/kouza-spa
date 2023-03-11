@@ -16,7 +16,7 @@ const listStyle = {
 };
 
 /**
- * Main
+ * Main dev
  * @date 2023-03-11
  * @returns {JSX.Element}
  */
