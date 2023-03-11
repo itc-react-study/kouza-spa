@@ -1,7 +1,7 @@
 import React from "react";
 import { createHashRouter, Navigate } from "react-router-dom";
 import App from "../App";
-import { MAIN, MENU_LIST } from "../assets/configs/MENU_LIST";
+import { MAIN, MENU_LIST } from "../configs/menuList.config";
 import Main from "../pages/main/Main";
 
 /**
