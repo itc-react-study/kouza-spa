@@ -27,11 +27,11 @@ import {
   CODE_LOCATION_CD,
   ROLE_CD,
 } from "../../../constants/code-list.constants";
-import { AxiosResponse } from "axios";
+import { AxiosError, AxiosResponse } from "axios";
 import { MainContext } from "../../../store/store";
-import { ErrorCodes } from "../../../constants/error-code.constant";
-import { getMessage } from "../../../common/service/message.service";
-import { KouzaMessage } from "../../../interfaces/common/common";
+// import { ErrorCodes } from "../../../constants/error-code.constant";
+// import { getMessage } from "../../../common/service/message.service";
+// import { KouzaMessage } from "../../../interfaces/common/common";
 
 interface List {
   code: string;
@@ -146,7 +146,7 @@ const OperatorStatusList = (): JSX.Element => {
       setOperator(response.data);
 
       console.log("response", response);
-    } catch (error: any) {
+    } catch (error: AxiosError<any,any>) {
       setAreaErrorMessage(error?.message);
       console.log(error);
     }
