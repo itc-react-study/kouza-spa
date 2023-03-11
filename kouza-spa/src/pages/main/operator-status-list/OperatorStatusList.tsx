@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -27,7 +27,7 @@ import {
   CODE_LOCATION_CD,
   ROLE_CD,
 } from "../../../constants/code-list.constants";
-import { AxiosError, AxiosResponse } from "axios";
+import { AxiosResponse } from "axios";
 import { MainContext } from "../../../store/store";
 // import { ErrorCodes } from "../../../constants/error-code.constant";
 // import { getMessage } from "../../../common/service/message.service";
@@ -146,7 +146,7 @@ const OperatorStatusList = (): JSX.Element => {
       setOperator(response.data);
 
       console.log("response", response);
-    } catch (error: AxiosError<any,any>) {
+    } catch (error: any) {
       setAreaErrorMessage(error?.message);
       console.log(error);
     }
@@ -154,6 +154,12 @@ const OperatorStatusList = (): JSX.Element => {
     // 在发送API请求后不显示loading
     setIsMainLoading(false);
   };
+
+  useEffect(() => {
+    return () => {
+      setAreaErrorMessage("");
+    };
+  }, []);
 
   return (
     <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
