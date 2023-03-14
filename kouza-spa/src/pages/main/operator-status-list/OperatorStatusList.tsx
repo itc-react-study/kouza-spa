@@ -436,46 +436,7 @@ const OperatorStatusList = (): JSX.Element => {
       });
     }
   };
-  //   // console.log("areaErrorMessage", areaErrorMessage);
-  //   const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
-  //   console.log("kouzaMessage", kouzaMessage);
 
-  //   // if (kouzaMessage.display === "inline") {
-  //   //   setAreaErrorMessage(kouzaMessage.message);
-  //   // }
-
-  //   // const param: SH1APIOPE044RequestBody = {
-  //   //   shopNoSetted: "shopNoSetted",
-  //   // };
-
-  //   // 在发送API请求前显示loading
-  //   // setIsMainLoading(true);
-
-  //   // try {
-  //   //   const response = (await getApi(
-  //   //     ApiIds.SH1APIOPE044,
-  //   //     param
-  //   //   )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
-
-  //   //   setOperator(response.data);
-
-  //   //   console.log("response", response);
-  //   // } catch (error: any) {
-  //   //   setAreaErrorMessage(error?.message);
-  //   //   console.log(error);
-  //   // }
-
-  //   // 在发送API请求后不显示loading
-  //   // setIsMainLoading(false);
-  // };
-
-  // useEffect(() => {
-  //   return () => {
-  //     setAreaErrorMessage("");
-  //   };
-  // }, []);
-
-  //
   return (
     <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
       <Grid container spacing={1}>
