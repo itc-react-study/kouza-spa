@@ -29,6 +29,54 @@
       "shopNoSetted": "0123",
       "tabletName": "X002",
       "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00001",
+      "operatorName": "係員 太郎",
+      "necLocation": "日本橋",
+      "roleNo": "3",
+      "roleName": "係員",
+      "operatorStatus": "オペレーション中",
+      "passingTime": "1",
+      "shopNoSetted": "0123",
+      "tabletName": "X001",
+      "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00002",
+      "operatorName": "係員 次郎",
+      "necLocation": "日本橋",
+      "roleNo": "3",
+      "roleName": "係員",
+      "operatorStatus": "オペレーション中",
+      "passingTime": "2",
+      "shopNoSetted": "0123",
+      "tabletName": "X002",
+      "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00001",
+      "operatorName": "係員 太郎",
+      "necLocation": "日本橋",
+      "roleNo": "3",
+      "roleName": "係員",
+      "operatorStatus": "オペレーション中",
+      "passingTime": "1",
+      "shopNoSetted": "0123",
+      "tabletName": "X001",
+      "businessRoleName": "新規账号開設"
+    },
+    {
+      "operatorID": "XXX00002",
+      "operatorName": "係員 次郎",
+      "necLocation": "日本橋",
+      "roleNo": "3",
+      "roleName": "係員",
+      "operatorStatus": "オペレーション中",
+      "passingTime": "2",
+      "shopNoSetted": "0123",
+      "tabletName": "X002",
+      "businessRoleName": "新規账号開設"
     }
   ]
 }
