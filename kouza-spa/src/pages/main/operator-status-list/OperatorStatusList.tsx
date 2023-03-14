@@ -153,14 +153,9 @@ const OperatorStatusList = (): JSX.Element => {
    * 同时，还声明了一个名为setSearchParams的函数，用于更新searchParams的值。
    * 在后续的组件渲染过程中，如果调用了setSearchParams函数更新了searchParams的值，组件会重新渲染，反映新的searchParams的值。
    */
-  const [searchParams, setSearchParams] = useState<SearchParams>({
-    selectedNcoLocation: "",
-    selectedRoleNo: "",
-    selectedBusinessRole: "",
-    selectedOperatorStatus: "",
-    inputShopNoSetted: "",
-    inputShopNameSetted: "",
-  });
+  const [searchParams, setSearchParams] = useState<SearchParams>(
+    DEFAULT_SEARCH_PARAMS
+  );
   /**
    * 使用了React中的useState hook来声明了一个名为searchDefaultParams的state变量，并将其初始值设为一个对象，该对象的各个属性均为字符串类型。
    * 同时，还声明了一个名为setSearchDefaultParams的函数，用于更新searchDefaultParams的值。
@@ -170,6 +165,7 @@ const OperatorStatusList = (): JSX.Element => {
   const [searchDefaultParams, setSearchDefaultParams] = useState<SearchParams>(
     DEFAULT_SEARCH_PARAMS
   );
+  const [shouldRefresh, setShouldRefresh] = useState(false);
 
   // pagination
   // 开始页：（当前页-1）* 一页10条数据  → 减一是因为下标从0开始
@@ -373,6 +369,7 @@ const OperatorStatusList = (): JSX.Element => {
    * 最后，它使用setOperator函数将新数据设置为当前操作员数据，实现了刷新操作。
    */
   const handleRefresh = async () => {
+    setShouldRefresh(true);
     const {
       selectedNcoLocation,
       selectedRoleNo,
@@ -405,13 +402,13 @@ const OperatorStatusList = (): JSX.Element => {
    * 整个 useEffect 函数在组件挂载后只会执行一次，因为第二个参数是一个空数组，这个空数组表示该 useEffect 只在组件挂载时执行一次，不会在组件的重新渲染中重复执行。
    */
   useEffect(() => {
-    handleRefresh();
-
-    var timer = setInterval(() => {
-      handleRefresh();
-    }, 60000);
-    return () => clearInterval(timer);
-  }, []);
+    if (shouldRefresh) {
+      var timer = setInterval(() => {
+        handleRefresh();
+      }, 6000);
+      return () => clearInterval(timer);
+    }
+  }, [shouldRefresh]);
 
   return (
     <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
