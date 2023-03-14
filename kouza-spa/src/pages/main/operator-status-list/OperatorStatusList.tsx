@@ -32,9 +32,9 @@ import { getApi } from "../../../common/service/api.service";
 import { ApiIds } from "../../../constants/api-id.constant";
 import { AxiosResponse } from "axios";
 import { MainContext } from "../../../store/store";
-// import { ErrorCodes } from "../../../constants/error-code.constant";
-// import { getMessage } from "../../../common/service/message.service";
-// import { KouzaMessage } from "../../../interfaces/common/common";
+import { ErrorCodes } from "../../../constants/error-code.constant";
+import { getMessage } from "../../../common/service/message.service";
+import { KouzaMessage } from "../../../interfaces/common/common";
 
 // 定义List的类型
 interface List {
@@ -66,6 +66,10 @@ interface SearchParams {
   inputShopNameSetted: string;
 }
 
+interface InputError {
+  inputName: string;
+  errorMessage: string;
+}
 // 定义表格中，每一页显示的数据量为10条
 const DEFAULT_PER_PAGE_SIZE = 10;
 
@@ -166,6 +170,10 @@ const OperatorStatusList = (): JSX.Element => {
     DEFAULT_SEARCH_PARAMS
   );
   const [shouldRefresh, setShouldRefresh] = useState(false);
+  const [inputError, setInputError] = useState<InputError>({
+    inputName: "",
+    errorMessage: "",
+  });
 
   // pagination
   // 开始页：（当前页-1）* 一页10条数据  → 减一是因为下标从0开始
@@ -410,6 +418,64 @@ const OperatorStatusList = (): JSX.Element => {
     }
   }, [shouldRefresh]);
 
+  // // 当focus out的时候显示error message
+  // const handleOnBlur = async () => {
+
+  const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
+    const inputValue = event.target.value.trim();
+    const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
+    if (inputValue.length !== 4) {
+      setInputError({
+        inputName: "inputShopNoSetted",
+        errorMessage: kouzaMessage.message,
+      });
+    } else {
+      setInputError({
+        inputName: "",
+        errorMessage: "",
+      });
+    }
+  };
+  //   // console.log("areaErrorMessage", areaErrorMessage);
+  //   const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
+  //   console.log("kouzaMessage", kouzaMessage);
+
+  //   // if (kouzaMessage.display === "inline") {
+  //   //   setAreaErrorMessage(kouzaMessage.message);
+  //   // }
+
+  //   // const param: SH1APIOPE044RequestBody = {
+  //   //   shopNoSetted: "shopNoSetted",
+  //   // };
+
+  //   // 在发送API请求前显示loading
+  //   // setIsMainLoading(true);
+
+  //   // try {
+  //   //   const response = (await getApi(
+  //   //     ApiIds.SH1APIOPE044,
+  //   //     param
+  //   //   )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
+
+  //   //   setOperator(response.data);
+
+  //   //   console.log("response", response);
+  //   // } catch (error: any) {
+  //   //   setAreaErrorMessage(error?.message);
+  //   //   console.log(error);
+  //   // }
+
+  //   // 在发送API请求后不显示loading
+  //   // setIsMainLoading(false);
+  // };
+
+  // useEffect(() => {
+  //   return () => {
+  //     setAreaErrorMessage("");
+  //   };
+  // }, []);
+
+  //
   return (
     <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
       <Grid container spacing={1}>
@@ -472,8 +538,19 @@ const OperatorStatusList = (): JSX.Element => {
                 onChange={(event) =>
                   handleInputChange(event, "inputShopNoSetted")
                 }
+                onBlur={handleInputBlur}
               />
             </Item>
+            {inputError.inputName === "inputShopNoSetted" && (
+              <div
+                style={{
+                  color: "red",
+                  textAlign: "right",
+                }}
+              >
+                {inputError.errorMessage}
+              </div>
+            )}
           </Grid>
           <Grid item xs={4}>
             <Item>
