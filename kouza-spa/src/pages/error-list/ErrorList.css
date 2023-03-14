@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#errorMessage {
+  width: 100%;
+  height: 50px;
+  display: block;
+  background-color: pink;
+}
+
+#table {
+  width: 100%;
+  height: 450px;
+}
