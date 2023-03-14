@@ -114,7 +114,7 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: "center",
   color: theme.palette.text.secondary,
-  height: 50,
+  height: 60,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
@@ -424,7 +424,7 @@ const OperatorStatusList = (): JSX.Element => {
   const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.trim();
     const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
-    if (inputValue.length !== 4) {
+    if (inputValue.length === 0 || inputValue.length !== 4) {
       setInputError({
         inputName: "inputShopNoSetted",
         errorMessage: kouzaMessage.message,
@@ -486,32 +486,40 @@ const OperatorStatusList = (): JSX.Element => {
           <Grid item xs={4}>
             <Item>
               <InputLabel>店番</InputLabel>
-              <input
-                type="text"
-                style={{
-                  width: "174px",
-                  height: "26px",
-                  borderRadius: "4px",
-                  borderColor: "#c4c4c4",
-                  borderWidth: "1px",
-                }}
-                value={searchParams.inputShopNoSetted}
-                onChange={(event) =>
-                  handleInputChange(event, "inputShopNoSetted")
-                }
-                onBlur={handleInputBlur}
-              />
-            </Item>
-            {inputError.inputName === "inputShopNoSetted" && (
-              <div
-                style={{
-                  color: "red",
-                  textAlign: "right",
-                }}
-              >
-                {inputError.errorMessage}
+              <div style={{ position: "relative" }}>
+                <input
+                  type="text"
+                  style={{
+                    width: "174px",
+                    height: "26px",
+                    borderRadius: "4px",
+                    borderColor: "#c4c4c4",
+                    borderWidth: "1px",
+                    display: "flex",
+                    flexWrap: "wrap",
+                    flexDirection: "column",
+                  }}
+                  value={searchParams.inputShopNoSetted}
+                  onChange={(event) =>
+                    handleInputChange(event, "inputShopNoSetted")
+                  }
+                  onBlur={handleInputBlur}
+                />
+                {inputError.inputName === "inputShopNoSetted" && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      bottom: "-20px",
+                      right: "7px",
+                      fontSize: "12px",
+                      color: "red",
+                    }}
+                  >
+                    {inputError.errorMessage}
+                  </div>
+                )}
               </div>
-            )}
+            </Item>
           </Grid>
           <Grid item xs={4}>
             <Item>
