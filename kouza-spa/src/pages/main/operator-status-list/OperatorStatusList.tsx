@@ -180,7 +180,7 @@ const OperatorStatusList = (): JSX.Element => {
    */
   const endIndex = Math.min(
     startIndex + DEFAULT_PER_PAGE_SIZE - 1,
-    operator.operatorList.length - 1
+    operator.operatorList.length
   );
   /**
    * slice函数是JavaScript数组的一个方法，用于返回一个从原数组中指定位置开始取出的一段新数组。slice函数取出了从startIndex到endIndex之间的数据，这个数据就是当前页需要显示的数据列表。
@@ -249,8 +249,8 @@ const OperatorStatusList = (): JSX.Element => {
    */
   const renderSelect = (
     List: List[],
-    Name: string,
-    Value: string
+    Value: string,
+    Name: string
   ): JSX.Element => {
     const item = List.map((ele: List, index: number) => {
       return (
@@ -405,7 +405,7 @@ const OperatorStatusList = (): JSX.Element => {
     if (shouldRefresh) {
       var timer = setInterval(() => {
         handleRefresh();
-      }, 6000);
+      }, 60000);
       return () => clearInterval(timer);
     }
   }, [shouldRefresh]);
