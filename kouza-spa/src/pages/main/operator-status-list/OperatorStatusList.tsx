@@ -424,7 +424,7 @@ const OperatorStatusList = (): JSX.Element => {
   const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.trim();
     const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
-    if (inputValue.length === 0 || inputValue.length !== 4) {
+    if (inputValue.length !== 4 || isNaN(Number(inputValue))) {
       setInputError({
         inputName: "inputShopNoSetted",
         errorMessage: kouzaMessage.message,
