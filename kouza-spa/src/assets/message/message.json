@@ -1,0 +1,1812 @@
+{
+  "30001": {
+    "display": "area",
+    "message": "ステータスが同じため変更できません"
+  },
+  "30002": {
+    "display": "inline",
+    "message": "店番は4桁で入力してください"
+  },
+  "30003": {
+    "display": "inline",
+    "message": "店番は4桁で入力してください"
+  },
+  "30004": {
+    "display": "area",
+    "message": "処理対象の明細がありません"
+  },
+  "30005": {
+    "display": "popup",
+    "message": "担当している明細がありますが別の明細を処理しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30006": {
+    "display": "area",
+    "message": "別のオペレーターが処理中です"
+  },
+  "30007": {
+    "display": "area",
+    "message": "操作権限スキルがありません"
+  },
+  "30008": {
+    "display": "area",
+    "message": "本人が取り扱った明細は処理できません"
+  },
+  "30009": {
+    "display": "area",
+    "message": "再鑑が未済です"
+  },
+  "30010": {
+    "display": "area",
+    "message": "管理者確認が未済です"
+  },
+  "30011": {
+    "display": "popup",
+    "message": "担当している明細がありますが別の明細を処理しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30012": {
+    "display": "inline",
+    "message": "取引時確認備考欄に使用不可の文字が含まれています"
+  },
+  "30013": {
+    "display": "inline",
+    "message": "メモ欄に使用不可の文字が含まれています"
+  },
+  "30015": {
+    "display": "area",
+    "message": "マスキング処理を選択してください"
+  },
+  "30016": {
+    "display": "area",
+    "message": "点検結果を選択してください"
+  },
+  "30017": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30018": {
+    "display": "inline",
+    "message": "{0}桁の{1}で入力してください"
+  },
+  "30019": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30020": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30021": {
+    "display": "inline",
+    "message": "生年月日の「年」は{1}桁の{2}で入力してください"
+  },
+  "30022": {
+    "display": "inline",
+    "message": "生年月日の「月」は{1}桁の{2}で入力してください"
+  },
+  "30023": {
+    "display": "inline",
+    "message": "生年月日の「日」は{1}桁の{2}で入力してください"
+  },
+  "30024": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。10～11桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30025": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30026": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}文字以内の英・数・記号（半角）で入力してください"
+  },
+  "30027": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30028": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30030": {
+    "display": "inline",
+    "message": "電話番号（携帯）を入力してください"
+  },
+  "30031": {
+    "display": "inline",
+    "message": "メールアドレスを入力してください"
+  },
+  "30032": {
+    "display": "inline",
+    "message": "おなまえ（カナ）修正欄を入力してください"
+  },
+  "30033": {
+    "display": "inline",
+    "message": "自宅郵便番号修正欄を入力してください"
+  },
+  "30035": {
+    "display": "inline",
+    "message": "おところ（カナ）修正欄を入力してください"
+  },
+  "30036": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30037": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30038": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30039": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30042": {
+    "display": "area",
+    "message": "該当する住所が存在しません"
+  },
+  "30043": {
+    "display": "popup",
+    "message": "（検索結果の住所をリスト表示する）",
+    "addition": {
+      "buttons": ["キャンセル", "OK"]
+    }
+  },
+  "30044": {
+    "display": "popup",
+    "message": "問診開始しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30049": {
+    "display": "area",
+    "message": "住所検索ボタンを押下してください"
+  },
+  "30050": {
+    "display": "area",
+    "message": "人格区分を選択してください"
+  },
+  "30051": {
+    "display": "area",
+    "message": "書類名を入力してください"
+  },
+  "30052": {
+    "display": "area",
+    "message": "書類名を入力してください"
+  },
+  "30054": {
+    "display": "area",
+    "message": "日本国籍の場合、おなまえ（英字）は不要です"
+  },
+  "30055": {
+    "display": "area",
+    "message": "おなまえ（英字）と事前照会タブの英字名なしチェックを確認してください"
+  },
+  "30056": {
+    "display": "area",
+    "message": "取引目的を選択してください"
+  },
+  "30057": {
+    "display": "area",
+    "message": "業種を選択してください"
+  },
+  "30058": {
+    "display": "area",
+    "message": "業種その他(詳細)を入力してください"
+  },
+  "30059": {
+    "display": "area",
+    "message": "個人事業主/自営業(詳細)を入力してください"
+  },
+  "30060": {
+    "display": "area",
+    "message": "勤務先名（カナ）を入力してください"
+  },
+  "30061": {
+    "display": "area",
+    "message": "勤務先名（漢字）を入力してください"
+  },
+  "30062": {
+    "display": "area",
+    "message": "勤務先郵便番号を入力してください"
+  },
+  "30063": {
+    "display": "area",
+    "message": "勤務先住所を入力してください"
+  },
+  "30064": {
+    "display": "area",
+    "message": "勤務先電話番号を入力してください"
+  },
+  "30065": {
+    "display": "area",
+    "message": "制裁対象国とのお取引・海外資産を選択してください"
+  },
+  "30066": {
+    "display": "area",
+    "message": "お取引・資産の内容を入力してください"
+  },
+  "30067": {
+    "display": "area",
+    "message": "制裁対象国1を選択してください"
+  },
+  "30068": {
+    "display": "area",
+    "message": "制裁対象国を選択する場合、上から順に詰めて選択してください"
+  },
+  "30069": {
+    "display": "area",
+    "message": "該当する制裁対象国に同じ国が複数選択されています"
+  },
+  "30071": {
+    "display": "area",
+    "message": "国籍3を選択する場合は国籍2も選択してください"
+  },
+  "30072": {
+    "display": "area",
+    "message": "国籍1～3の選択肢が重複しています"
+  },
+  "30073": {
+    "display": "area",
+    "message": "在留資格を選択してください"
+  },
+  "30074": {
+    "display": "area",
+    "message": "在留資格その他を入力してください"
+  },
+  "30075": {
+    "display": "area",
+    "message": "許可年月日を入力してください"
+  },
+  "30076": {
+    "display": "area",
+    "message": "在留期間満了日を入力してください"
+  },
+  "30077": {
+    "display": "area",
+    "message": "入国6カ月超確認を選択してください"
+  },
+  "30078": {
+    "display": "area",
+    "message": "居住国を選択してください"
+  },
+  "30079": {
+    "display": "area",
+    "message": "資産を入力してください"
+  },
+  "30080": {
+    "display": "area",
+    "message": "資産の背景を入力してください"
+  },
+  "30081": {
+    "display": "area",
+    "message": "収入を入力してください"
+  },
+  "30082": {
+    "display": "area",
+    "message": "収入の背景を入力してください"
+  },
+  "30083": {
+    "display": "area",
+    "message": "外国送金目的を入力してください"
+  },
+  "30084": {
+    "display": "area",
+    "message": "送金相手国1を選択してください"
+  },
+  "30085": {
+    "display": "area",
+    "message": "送金相手国3を選択する場合は送金相手国2も選択してください"
+  },
+  "30086": {
+    "display": "area",
+    "message": "送金相手国に同じ国が複数選択されています"
+  },
+  "30087": {
+    "display": "area",
+    "message": "送金取引通貨種類1を選択してください"
+  },
+  "30088": {
+    "display": "area",
+    "message": "送金取引通貨種類3を選択する場合は送金取引通貨種類2も選択してください"
+  },
+  "30089": {
+    "display": "area",
+    "message": "送金取引通貨種類には同じ通貨が複数選択されています"
+  },
+  "30090": {
+    "display": "area",
+    "message": "200万円超/回の目的を入力してください"
+  },
+  "30091": {
+    "display": "area",
+    "message": "通常月1,000万円超の目的を入力してください"
+  },
+  "30092": {
+    "display": "area",
+    "message": "店名検索ボタンを押下してください"
+  },
+  "30093": {
+    "display": "area",
+    "message": "店番を確認の上、店名検索ボタンを押下してください"
+  },
+  "30094": {
+    "display": "area",
+    "message": "おなまえ（カナ）が18文字を超えています<br>カード固有氏名を入力してください"
+  },
+  "30095": {
+    "display": "area",
+    "message": "キャッシュカードデザインでキャラクターありは選択できません"
+  },
+  "30096": {
+    "display": "area",
+    "message": "通帳タイプがEco通帳の場合、<br>ダイレクトのお申し込みまたはサービス指定口座登録が必要です"
+  },
+  "30097": {
+    "display": "area",
+    "message": "商品種類ダイレクトのサービス指定を選択してください"
+  },
+  "30098": {
+    "display": "area",
+    "message": "印鑑区分が印鑑レスの場合、有通帳を選択できません"
+  },
+  "30099": {
+    "display": "area",
+    "message": "ダイレクトのお申し込みまたはサービス指定口座登録が必要です"
+  },
+  "30100": {
+    "display": "area",
+    "message": "ワンタイムパスワードが未選択です"
+  },
+  "30101": {
+    "display": "area",
+    "message": "ログインパスワード登録が未選択です"
+  },
+  "30102": {
+    "display": "area",
+    "message": "15歳未満や中学生はブランドデビットカード申込不可"
+  },
+  "30103": {
+    "display": "area",
+    "message": "ブランドデビットカードデザインを選択してください"
+  },
+  "30104": {
+    "display": "area",
+    "message": "ローマ字氏名を入力してください"
+  },
+  "30105": {
+    "display": "area",
+    "message": "通帳受取方法を選択してください"
+  },
+  "30106": {
+    "display": "area",
+    "message": "おなまえ（漢字）が入力されていないため、ATMでの通帳発行は行えません"
+  },
+  "30107": {
+    "display": "area",
+    "message": "印鑑区分が相違しています"
+  },
+  "30108": {
+    "display": "area",
+    "message": "印鑑区分が相違しています"
+  },
+  "30109": {
+    "display": "area",
+    "message": "印鑑区分が相違しています"
+  },
+  "30110": {
+    "display": "area",
+    "message": "開設支店の店番と被リンクCIFの店番が相違しています"
+  },
+  "30111": {
+    "display": "area",
+    "message": "既にスーパー普通預金を保有しています"
+  },
+  "30112": {
+    "display": "area",
+    "message": "既にダイレクト契約があります"
+  },
+  "30113": {
+    "display": "area",
+    "message": "このCIFにはリンクできません事前照会タブの人格区分を確認して下さい"
+  },
+  "30114": {
+    "display": "area",
+    "message": "このCIFにはリンクできません事前照会タブの禁通登録を確認して下さい"
+  },
+  "30115": {
+    "display": "area",
+    "message": "このCIFにはリンクできません事前照会タブの人格区分を確認して下さい"
+  },
+  "30116": {
+    "display": "area",
+    "message": "ﾏﾈﾛﾝCDD 確認要"
+  },
+  "30117": {
+    "display": "area",
+    "message": "このCIFにはリンクできません事前照会タブの人格区分を確認して下さい"
+  },
+  "30118": {
+    "display": "area",
+    "message": "このCIFにはリンクできません口座開設数の上限を超えています"
+  },
+  "30119": {
+    "display": "area",
+    "message": "区分不整合"
+  },
+  "30120": {
+    "display": "area",
+    "message": "被リンクCIFの本人確認が未済です"
+  },
+  "30121": {
+    "display": "area",
+    "message": "このCIFにはリンクできません事前照会タブの居住性区分を確認して下さい"
+  },
+  "30122": {
+    "display": "popup",
+    "message": "ローマ字氏名が19文字を超えています。確認のうえ19文字以内にしてください。",
+    "addition": {
+      "buttons": ["はい"]
+    }
+  },
+  "30127": {
+    "display": "area",
+    "message": "住所検索ボタンを押下してください"
+  },
+  "30128": {
+    "display": "area",
+    "message": "問診を終了してください"
+  },
+  "30129": {
+    "display": "area",
+    "message": "点検結果を選択してください"
+  },
+  "30130": {
+    "display": "popup",
+    "message": "顧客情報に修正がありませんが再鑑に回付しますか　",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30131": {
+    "display": "popup",
+    "message": "顧客情報に修正がありませんが再鑑に回付しますか　",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30132": {
+    "display": "area",
+    "message": "修正済みにチェックしてください"
+  },
+  "30133": {
+    "display": "popup",
+    "message": "再鑑へ回付します",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30134": {
+    "display": "area",
+    "message": "点検結果を選択してください"
+  },
+  "30135": {
+    "display": "area",
+    "message": "再鑑へ回付してください"
+  },
+  "30136": {
+    "display": "area",
+    "message": "この画面で次へは押下できません"
+  },
+  "30137": {
+    "display": "popup",
+    "message": "形式点検を終了します",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30138": {
+    "display": "popup",
+    "message": "問診終了しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30139": {
+    "display": "area",
+    "message": "問診を終了してください"
+  },
+  "30140": {
+    "display": "popup",
+    "message": "管理者確認へ回付します",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30141": {
+    "display": "area",
+    "message": "問診を終了してください。受付不可押下後は問診できません。"
+  },
+  "30142": {
+    "display": "popup",
+    "message": "受付不可の理由を選択してください<br>　　□複数口座<br>　　□不正口・コンプラJM等<br>　　□顧客都合<br>　　□その他",
+    "addition": {
+      "buttons": ["戻る", "受付終了"]
+    }
+  },
+  "30143": {
+    "display": "area",
+    "message": "受付不可理由を選択してください"
+  },
+  "30148": {
+    "display": "area",
+    "message": "問診を終了してください。受付可押下後は問診できません。"
+  },
+  "30149": {
+    "display": "area",
+    "message": "次へまたは再鑑を押下してください"
+  },
+  "30150": {
+    "display": "area",
+    "message": "顧客情報が修正されています<br>再鑑へ回付してください"
+  },
+  "30151": {
+    "display": "area",
+    "message": "リスク評価照会を実施してください"
+  },
+  "30152": {
+    "display": "area",
+    "message": "リスク評価結果登録を実施してください"
+  },
+  "30153": {
+    "display": "area",
+    "message": "リスク評価承認結果反映を実施してください"
+  },
+  "30154": {
+    "display": "area",
+    "message": "リスク評価受入方針が謝絶です"
+  },
+  "30155": {
+    "display": "area",
+    "message": "CDD EDD情報等が変更されています<br>再度リスク評価照会を実施してください"
+  },
+  "30157": {
+    "display": "area",
+    "message": "ローマ字氏名が19文字を超えています。確認のうえ19文字以内にしてください。"
+  },
+  "30158": {
+    "display": "popup",
+    "message": "以下のいずれかに該当しています<br>・不正口<br>・コンプラJM<br>・KYC謝絶先<br>・経済制裁者<br>・マネロン注意<br>・商標無断使用者",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30159": {
+    "display": "popup",
+    "message": "以下のいずれかに該当しています<br>・マネロン対策不十分国の居住者<br>・なりすましの疑いがある<br>・取引時確認事項に偽りの疑いがある<br>・外国PEPs<br>・外国PEPsの疑いあり",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30160": {
+    "display": "popup",
+    "message": "口座開設しますか？",
+    "addition": {
+      "buttons": ["戻る", "はい"]
+    }
+  },
+  "30161": {
+    "display": "area",
+    "message": "問診を終了してください"
+  },
+  "30162": {
+    "display": "popup",
+    "message": "口座開設未済です<br>エラータブで内容を確認してください",
+    "addition": {
+      "buttons": ["完了"]
+    }
+  },
+  "30163": {
+    "display": "popup",
+    "message": "口座開設に成功しました<br>以下の処理がエラーです。エラータブで内容を確認してください。<br>{0}",
+    "addition": {
+      "buttons": ["完了"]
+    }
+  },
+  "30164": {
+    "display": "popup",
+    "message": "口座開設が完了しました",
+    "addition": {
+      "buttons": ["完了"]
+    }
+  },
+  "30165": {
+    "display": "inline",
+    "message": "メモ欄に使用不可の文字が含まれています"
+  },
+  "30168": {
+    "display": "area",
+    "message": "住所検索ボタンを押下してください"
+  },
+  "30169": {
+    "display": "inline",
+    "message": "メモ欄に使用不可の文字が含まれています"
+  },
+  "30172": {
+    "display": "popup",
+    "message": "お客さまへの説明は終了していますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30173": {
+    "display": "popup",
+    "message": "受付不可の理由を選択してください<br>　　□複数口座<br>　　□不正口・コンプラJM等<br>　　□顧客都合<br>　　□その他",
+    "addition": {
+      "buttons": ["戻る", "受付終了"]
+    }
+  },
+  "30174": {
+    "display": "inline",
+    "message": "受付日が未来日付です"
+  },
+  "30175": {
+    "display": "inline",
+    "message": "受付日が不正な日付です"
+  },
+  "30176": {
+    "display": "inline",
+    "message": "店番は4桁で入力してください"
+  },
+  "30177": {
+    "display": "area",
+    "message": "明細は処理中です"
+  },
+  "30178": {
+    "display": "area",
+    "message": "この明細は再鑑できません"
+  },
+  "30179": {
+    "display": "area",
+    "message": "操作権限スキルがありません"
+  },
+  "30185": {
+    "display": "area",
+    "message": "ローマ字氏名が19文字を超えています。確認のうえ19文字以内にしてください。"
+  },
+  "30186": {
+    "display": "popup",
+    "message": "再鑑へ回付します",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30192": {
+    "display": "area",
+    "message": "ローマ字氏名が19文字を超えています。確認のうえ19文字以内にしてください。"
+  },
+  "30193": {
+    "display": "popup",
+    "message": "{0}<br><br>以下の登録はSBTで処理済みです<br>{1}<br>",
+    "addition": {
+      "buttons": ["戻る", "確定"]
+    }
+  },
+  "30194": {
+    "display": "area",
+    "message": "再送信する項目をすべて選択してください"
+  },
+  "30195": {
+    "display": "popup",
+    "message": "{0}"
+  },
+  "30196": {
+    "display": "popup",
+    "message": "{0}",
+    "addition": {
+      "buttons": ["完了"]
+    }
+  },
+  "30197": {
+    "display": "inline",
+    "message": "受付日が未来日付です"
+  },
+  "30198": {
+    "display": "inline",
+    "message": "不正な日付です"
+  },
+  "30199": {
+    "display": "inline",
+    "message": "受付番号は13桁で入力してください"
+  },
+  "30200": {
+    "display": "inline",
+    "message": "店番は4桁で入力してください"
+  },
+  "30201": {
+    "display": "inline",
+    "message": "店番は3桁で入力してください"
+  },
+  "30202": {
+    "display": "inline",
+    "message": "口座番号は7桁で入力してください"
+  },
+  "30203": {
+    "display": "inline",
+    "message": "受付日が未来日付です"
+  },
+  "30204": {
+    "display": "inline",
+    "message": "受付日が不正な日付です"
+  },
+  "30205": {
+    "display": "inline",
+    "message": "受付番号は13桁で入力してください"
+  },
+  "30206": {
+    "display": "inline",
+    "message": "店番は3桁で入力してください"
+  },
+  "30207": {
+    "display": "area",
+    "message": "印刷する明細を選択してください"
+  },
+  "30208": {
+    "display": "area",
+    "message": "印刷する明細がありません"
+  },
+  "30209": {
+    "display": "inline",
+    "message": "yyyy/mm/ddで入力してください"
+  },
+  "30210": {
+    "display": "inline",
+    "message": "未来日付の入力はできません"
+  },
+  "30211": {
+    "display": "inline",
+    "message": "yyyy/mm/ddで入力してください"
+  },
+  "30212": {
+    "display": "inline",
+    "message": "未来日付の入力はできません"
+  },
+  "30213": {
+    "display": "area",
+    "message": "検索開始日が入力されていません"
+  },
+  "30214": {
+    "display": "area",
+    "message": "検索終了日が入力されていません"
+  },
+  "30215": {
+    "display": "area",
+    "message": "検索期間の入力が不正です"
+  },
+  "30216": {
+    "display": "area",
+    "message": "業務統計ファイルを選択してください"
+  },
+  "30217": {
+    "display": "inline",
+    "message": "受付日が未来日付です"
+  },
+  "30218": {
+    "display": "inline",
+    "message": "受付日が不正な日付です"
+  },
+  "30219": {
+    "display": "inline",
+    "message": "受付番号は13桁で入力してください"
+  },
+  "30220": {
+    "display": "area",
+    "message": "明細は処理中です"
+  },
+  "30221": {
+    "display": "area",
+    "message": "この明細は再鑑できません"
+  },
+  "30222": {
+    "display": "area",
+    "message": "操作権限がありません"
+  },
+  "30223": {
+    "display": "inline",
+    "message": "オペレータIDの形式が違います"
+  },
+  "30224": {
+    "display": "inline",
+    "message": "オペレータIDの形式が違います"
+  },
+  "30225": {
+    "display": "area",
+    "message": "処理中です"
+  },
+  "30226": {
+    "display": "area",
+    "message": "この申請は検印できません"
+  },
+  "30227": {
+    "display": "area",
+    "message": "操作権限がありません"
+  },
+  "30228": {
+    "display": "area",
+    "message": "オペレータIDを入力してください"
+  },
+  "30229": {
+    "display": "area",
+    "message": "既に使用されているオペレータIDです"
+  },
+  "30230": {
+    "display": "area",
+    "message": "操作権限がありません"
+  },
+  "30231": {
+    "display": "inline",
+    "message": "氏名に使用不可の文字が含まれています"
+  },
+  "30233": {
+    "display": "area",
+    "message": "氏名が入力されていません"
+  },
+  "30234": {
+    "display": "area",
+    "message": "NCO拠点が選択されていません"
+  },
+  "30235": {
+    "display": "area",
+    "message": "担当業務が選択されていません"
+  },
+  "30236": {
+    "display": "area",
+    "message": "権限スキルが選択されていません"
+  },
+  "30237": {
+    "display": "popup",
+    "message": "申請を取り消しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30238": {
+    "display": "inline",
+    "message": "yyyy/mm/ddで入力してください"
+  },
+  "30239": {
+    "display": "inline",
+    "message": "未来日付の入力はできません"
+  },
+  "30240": {
+    "display": "inline",
+    "message": "yyyy/mm/ddで入力してください"
+  },
+  "30241": {
+    "display": "inline",
+    "message": "未来日付の入力はできません"
+  },
+  "30242": {
+    "display": "area",
+    "message": "検索開始日が入力されていません"
+  },
+  "30243": {
+    "display": "area",
+    "message": "検索終了日が入力されていません"
+  },
+  "30244": {
+    "display": "area",
+    "message": "検索期間の入力が不正です"
+  },
+  "30245": {
+    "display": "area",
+    "message": "対象ファイルを選択してください"
+  },
+  "30246": {
+    "display": "area",
+    "message": "アクセス履歴ファイルを選択してください"
+  },
+  "30247": {
+    "display": "inline",
+    "message": "店番は4桁で入力してください"
+  },
+  "30248": {
+    "display": "inline",
+    "message": "設置店番の形式が違います"
+  },
+  "30249": {
+    "display": "inline",
+    "message": "端末特定情報は数字8桁で入力してください"
+  },
+  "30250": {
+    "display": "area",
+    "message": "明細は処理中です"
+  },
+  "30251": {
+    "display": "area",
+    "message": "本人が取り扱った明細は処理できません"
+  },
+  "30252": {
+    "display": "area",
+    "message": "操作権限がありません"
+  },
+  "30253": {
+    "display": "area",
+    "message": "端末特定情報は数字8桁で入力してください"
+  },
+  "30254": {
+    "display": "area",
+    "message": "端末特定情報を入力してください"
+  },
+  "30255": {
+    "display": "area",
+    "message": "既に登録済みの端末特定情報です"
+  },
+  "30256": {
+    "display": "inline",
+    "message": "タブレット名に使用不可の文字が含まれています"
+  },
+  "30257": {
+    "display": "inline",
+    "message": "設置店番の形式が違います"
+  },
+  "30259": {
+    "display": "area",
+    "message": "タブレット名を入力してください"
+  },
+  "30260": {
+    "display": "area",
+    "message": "設置店番は4桁で入力してください"
+  },
+  "30261": {
+    "display": "area",
+    "message": "既に登録済みの端末特定情報です"
+  },
+  "30262": {
+    "display": "popup",
+    "message": "申請を取り消しますか",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30263": {
+    "display": "area",
+    "message": "居住者日本人の場合、英字名なしチェックをはずしてください"
+  },
+  "30264": {
+    "display": "area",
+    "message": "非居住者・外国人でおなまえ（英字）がない場合、英字名なしにチェックを付けてください"
+  },
+  "30265": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30267": {
+    "display": "area",
+    "message": "CIFを選択してください"
+  },
+  "30268": {
+    "display": "area",
+    "message": "（メッセージ検討中）"
+  },
+  "30269": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30271": {
+    "display": "area",
+    "message": "口座を選択してください"
+  },
+  "30272": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30274": {
+    "display": "area",
+    "message": "異動明細を選択してください"
+  },
+  "30275": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30276": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30279": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30280": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください<br>旧字はご利用いただけない場合があります入力可能な文字で入力してください"
+  },
+  "30281": {
+    "display": "inline",
+    "message": "{0}桁の{1}で入力してください"
+  },
+  "30282": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30283": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。10～11桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30284": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください。英数字、ハイフン、スペース等も全角で入力してください"
+  },
+  "30285": {
+    "display": "inline",
+    "message": "在留資格その他に使用不可の文字が含まれています"
+  },
+  "30286": {
+    "display": "inline",
+    "message": "許可年月日が不正な日付です"
+  },
+  "30287": {
+    "display": "inline",
+    "message": "許可年月日に過去日付を入力してください"
+  },
+  "30288": {
+    "display": "inline",
+    "message": "在留期間満了日が不正な日付です"
+  },
+  "30289": {
+    "display": "inline",
+    "message": "在留期間満了日に未来日付を入力してください"
+  },
+  "30290": {
+    "display": "inline",
+    "message": "{0}桁以内の{1}で入力してください"
+  },
+  "30291": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30292": {
+    "display": "inline",
+    "message": "{0}桁以内の{1}で入力してください"
+  },
+  "30293": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30294": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30295": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30296": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30298": {
+    "display": "inline",
+    "message": "受入方針のコメントに使用不可の文字が含まれています"
+  },
+  "30299": {
+    "display": "area",
+    "message": "PEPs等チェックを選択してください"
+  },
+  "30300": {
+    "display": "area",
+    "message": "取引目的を選択してください"
+  },
+  "30301": {
+    "display": "area",
+    "message": "業種を選択してください"
+  },
+  "30302": {
+    "display": "area",
+    "message": "業種その他(詳細)を入力してください"
+  },
+  "30303": {
+    "display": "area",
+    "message": "個人事業主/自営業(詳細)を入力してください"
+  },
+  "30304": {
+    "display": "area",
+    "message": "勤務先名（カナ）を入力してください"
+  },
+  "30305": {
+    "display": "area",
+    "message": "勤務先名（漢字）を入力してください"
+  },
+  "30306": {
+    "display": "area",
+    "message": "勤務先郵便番号を入力してください"
+  },
+  "30307": {
+    "display": "area",
+    "message": "勤務先住所を入力してください"
+  },
+  "30308": {
+    "display": "area",
+    "message": "勤務先電話番号を入力してください"
+  },
+  "30309": {
+    "display": "area",
+    "message": "制裁対象国を選択してください"
+  },
+  "30310": {
+    "display": "area",
+    "message": "制裁対象国1を選択してください"
+  },
+  "30311": {
+    "display": "area",
+    "message": "制裁対象国を選択する場合、上から順に詰めて選択してください"
+  },
+  "30312": {
+    "display": "area",
+    "message": "該当する制裁対象国に同じ国が複数選択されています"
+  },
+  "30313": {
+    "display": "area",
+    "message": "取引/資産を入力してください"
+  },
+  "30314": {
+    "display": "area",
+    "message": "国籍2が未選択です"
+  },
+  "30315": {
+    "display": "area",
+    "message": "国籍1～3の選択肢が重複しています"
+  },
+  "30317": {
+    "display": "area",
+    "message": "在留資格を選択してください"
+  },
+  "30318": {
+    "display": "area",
+    "message": "在留資格その他を入力してください"
+  },
+  "30320": {
+    "display": "area",
+    "message": "許可年月日の入力は不要です"
+  },
+  "30321": {
+    "display": "area",
+    "message": "許可年月日を入力してください"
+  },
+  "30323": {
+    "display": "area",
+    "message": "在留期間満了日の入力は不要です"
+  },
+  "30324": {
+    "display": "area",
+    "message": "在留期間満了日を入力してください"
+  },
+  "30325": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30326": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30327": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30328": {
+    "display": "area",
+    "message": "入国6カ月超確認を選択してください"
+  },
+  "30329": {
+    "display": "area",
+    "message": "居住国に「日本」を選択してください"
+  },
+  "30330": {
+    "display": "area",
+    "message": "居住国に「日本」を選択してください"
+  },
+  "30332": {
+    "display": "area",
+    "message": "居住国に「日本」以外を選択してください"
+  },
+  "30333": {
+    "display": "area",
+    "message": "資産を入力してください"
+  },
+  "30334": {
+    "display": "area",
+    "message": "資産の背景を入力してください"
+  },
+  "30335": {
+    "display": "area",
+    "message": "収入を入力してください"
+  },
+  "30336": {
+    "display": "area",
+    "message": "収入の背景を入力してください"
+  },
+  "30337": {
+    "display": "area",
+    "message": "外国送金目的を入力してください"
+  },
+  "30338": {
+    "display": "area",
+    "message": "送金相手国1を選択してください"
+  },
+  "30339": {
+    "display": "area",
+    "message": "送金相手国を選択する場合、上から順に詰めて選択してください"
+  },
+  "30340": {
+    "display": "area",
+    "message": "送金相手国に同じ国が複数選択されています"
+  },
+  "30341": {
+    "display": "area",
+    "message": "送金取引通貨種類1を選択してください"
+  },
+  "30342": {
+    "display": "area",
+    "message": "送金取引通貨種類を選択する場合、上から順に詰めて選択してください"
+  },
+  "30343": {
+    "display": "area",
+    "message": "送金取引通貨種類には同じ通貨が複数選択されています"
+  },
+  "30344": {
+    "display": "area",
+    "message": "200万円超/回の目的を入力してください"
+  },
+  "30345": {
+    "display": "area",
+    "message": "通常月1,000万円超の目的を入力してください"
+  },
+  "30346": {
+    "display": "area",
+    "message": "人格区分を選択してください"
+  },
+  "30347": {
+    "display": "area",
+    "message": "リスク評価承認結果反映を実施してください"
+  },
+  "30348": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30350": {
+    "display": "area",
+    "message": "リスク評価照会を実施してください"
+  },
+  "30351": {
+    "display": "area",
+    "message": "受入判定登録済みです"
+  },
+  "30352": {
+    "display": "area",
+    "message": "受入方針を選択してください"
+  },
+  "30353": {
+    "display": "area",
+    "message": "受入方針のコメントを入力してください"
+  },
+  "30354": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30356": {
+    "display": "area",
+    "message": "承認は不要です"
+  },
+  "30357": {
+    "display": "area",
+    "message": "受入判定登録を実施してください"
+  },
+  "30358": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30360": {
+    "display": "area",
+    "message": "承認待ちです"
+  },
+  "30361": {
+    "display": "inline",
+    "message": "店番は3桁で入力してください"
+  },
+  "30362": {
+    "display": "inline",
+    "message": "店番は3桁で入力してください"
+  },
+  "30363": {
+    "display": "inline",
+    "message": "ローマ字氏名に使用不可の文字が含まれています"
+  },
+  "30364": {
+    "display": "inline",
+    "message": "名・姓の間にスペースを入力してください"
+  },
+  "30365": {
+    "display": "inline",
+    "message": "カード固有氏名に使用不可の文字が含まれています"
+  },
+  "30367": {
+    "display": "area",
+    "message": "該当する店名が存在しません"
+  },
+  "30368": {
+    "display": "inline",
+    "message": "{1}文字以内の全角文字で入力してください"
+  },
+  "30371": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30373": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30374": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30375": {
+    "display": "area",
+    "message": "明治45年7月30日以降の日付を入力してください"
+  },
+  "30377": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30378": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30379": {
+    "display": "area",
+    "message": "明治45年7月30日以降の日付を入力してください"
+  },
+  "30381": {
+    "display": "area",
+    "message": "システムエラーが発生しました"
+  },
+  "30382": {
+    "display": "area",
+    "message": "システムエラーが発生しました"
+  },
+  "30383": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30384": {
+    "display": "area",
+    "message": "{0}"
+  },
+  "30385": {
+    "display": "area",
+    "message": "紙通帳を選択している場合は名前（漢字）を28文字以下で入力してください"
+  },
+  "30386": {
+    "display": "area",
+    "message": "確認書類を選択してください"
+  },
+  "30387": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30388": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30389": {
+    "display": "area",
+    "message": "入国6カ月超確認は不要です"
+  },
+  "30390": {
+    "display": "area",
+    "message": "居住国に「日本」を選択してください"
+  },
+  "30391": {
+    "display": "area",
+    "message": "居住国に「日本」を選択してください"
+  },
+  "30392": {
+    "display": "area",
+    "message": "居住国に「日本」以外を選択してください"
+  },
+  "30393": {
+    "display": "area",
+    "message": "紙通帳を選択している場合は名前（漢字）を28文字以下で入力してください"
+  },
+  "30394": {
+    "display": "area",
+    "message": "紙通帳を選択している場合は名前（漢字）を28文字以下で入力してください"
+  },
+  "30395": {
+    "display": "inline",
+    "message": "{1}文字以内の全角文字で入力してください"
+  },
+  "30397": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30399": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30401": {
+    "display": "inline",
+    "message": "{0}桁の{1}で入力してください"
+  },
+  "30402": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30403": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30404": {
+    "display": "inline",
+    "message": "生年月日の「年」は{1}桁の{2}で入力してください"
+  },
+  "30405": {
+    "display": "inline",
+    "message": "生年月日の「月」は{1}桁の{2}で入力してください"
+  },
+  "30406": {
+    "display": "inline",
+    "message": "生年月日の「日」は{1}桁の{2}で入力してください"
+  },
+  "30407": {
+    "display": "inline",
+    "message": "おなまえ（カナ）修正欄を入力してください"
+  },
+  "30408": {
+    "display": "inline",
+    "message": "自宅郵便番号修正欄を入力してください"
+  },
+  "30410": {
+    "display": "inline",
+    "message": "おところ（カナ）修正欄を入力してください"
+  },
+  "30411": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30412": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30413": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30414": {
+    "display": "inline",
+    "message": "生年月日修正欄を入力してください"
+  },
+  "30415": {
+    "display": "area",
+    "message": "紙通帳を選択している場合は名前（漢字）を28文字以下で入力してください"
+  },
+  "30416": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30417": {
+    "display": "area",
+    "message": "正しい生年月日を入力してください"
+  },
+  "30418": {
+    "display": "area",
+    "message": "明治45年7月30日以降の日付を入力してください"
+  },
+  "30419": {
+    "display": "area",
+    "message": "新規[普通]がSBT処理のため再送信できません。<br>すべての項目をSBTで処理してください。"
+  },
+  "30420": {
+    "display": "area",
+    "message": "ダイレクト契約新規または、サービス指定口座登録がSBT処理済みのため再送信できません。E通知登録はSBTで処理してください。"
+  },
+  "30421": {
+    "display": "area",
+    "message": "本人確認記録表登録がSBT処理済みのため再送信できません。KYC情報登録はSBTで処理してください。"
+  },
+  "30422": {
+    "display": "area",
+    "message": "居住国を選択してください"
+  },
+  "30423": {
+    "display": "area",
+    "message": "紙通帳を選択している場合は名前（漢字）を28文字以下で入力してください"
+  },
+  "30424": {
+    "display": "inline",
+    "message": "{1}文字以内の全角文字で入力してください"
+  },
+  "30425": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30426": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30427": {
+    "display": "inline",
+    "message": "{0}桁の{1}で入力してください"
+  },
+  "30428": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30429": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30430": {
+    "display": "inline",
+    "message": "生年月日の「年」は{1}桁の{2}で入力してください"
+  },
+  "30431": {
+    "display": "inline",
+    "message": "生年月日の「月」は{1}桁の{2}で入力してください"
+  },
+  "30432": {
+    "display": "inline",
+    "message": "生年月日の「日」は{1}桁の{2}で入力してください"
+  },
+  "30433": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。10～11桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30434": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30435": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}文字以内の英・数・記号（半角）で入力してください"
+  },
+  "30436": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30437": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30438": {
+    "display": "inline",
+    "message": "電話番号（携帯）を入力してください"
+  },
+  "30439": {
+    "display": "inline",
+    "message": "メールアドレスを入力してください"
+  },
+  "30440": {
+    "display": "inline",
+    "message": "おなまえ（カナ）を入力してください"
+  },
+  "30441": {
+    "display": "inline",
+    "message": "自宅郵便番号を入力してください"
+  },
+  "30443": {
+    "display": "inline",
+    "message": "おところ（カナ）を入力してください"
+  },
+  "30444": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30445": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30446": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30447": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30448": {
+    "display": "inline",
+    "message": "{1}文字以内の全角文字で入力してください"
+  },
+  "30449": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30450": {
+    "display": "inline",
+    "message": "{1}文字以内の{2}で入力してください"
+  },
+  "30451": {
+    "display": "inline",
+    "message": "{0}桁の{1}で入力してください"
+  },
+  "30452": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30453": {
+    "display": "inline",
+    "message": "{0}文字以内の{1}で入力してください"
+  },
+  "30454": {
+    "display": "inline",
+    "message": "生年月日の「年」は{1}桁の{2}で入力してください"
+  },
+  "30455": {
+    "display": "inline",
+    "message": "生年月日の「月」は{1}桁の{2}で入力してください"
+  },
+  "30456": {
+    "display": "inline",
+    "message": "生年月日の「日」は{1}桁の{2}で入力してください"
+  },
+  "30457": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。10～11桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30458": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}桁の{1}（ハイフンなし）で入力してください"
+  },
+  "30459": {
+    "display": "inline",
+    "message": "入力内容が正しくありません。{0}文字以内の英・数・記号（半角）で入力してください"
+  },
+  "30460": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30461": {
+    "display": "inline",
+    "message": "書類名に使用不可の文字が含まれています"
+  },
+  "30462": {
+    "display": "inline",
+    "message": "電話番号（携帯）を入力してください"
+  },
+  "30463": {
+    "display": "inline",
+    "message": "メールアドレスを入力してください"
+  },
+  "30464": {
+    "display": "inline",
+    "message": "おなまえ（カナ）を入力してください"
+  },
+  "30465": {
+    "display": "inline",
+    "message": "自宅郵便番号を入力してください"
+  },
+  "30467": {
+    "display": "inline",
+    "message": "おところ（カナ）を入力してください"
+  },
+  "30468": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30469": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30470": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30471": {
+    "display": "inline",
+    "message": "生年月日を入力してください"
+  },
+  "30472": {
+    "display": "area",
+    "message": "設置店番が存在しません"
+  },
+  "30473": {
+    "display": "popup",
+    "message": "SBTには異なる字形で登録されます。<br>印鑑票とSBTの字形は一致していますか？<br>・{0}",
+    "addition": {
+      "buttons": ["いいえ", "はい"]
+    }
+  },
+  "30474": {
+    "display": "inline",
+    "message": "店名に使用不可の文字が含まれています"
+  },
+  "30475": {
+    "display": "inline",
+    "message": "店名に使用不可の文字が含まれています"
+  },
+  "30476": {
+    "display": "area",
+    "message": "連絡事項に使用不可の文字が含まれています"
+  },
+  "30477": {
+    "display": "inline",
+    "message": "店名に使用不可の文字が含まれています"
+  },
+  "30478": {
+    "display": "inline",
+    "message": "店名に使用不可の文字が含まれています"
+  },
+  "30479": {
+    "display": "inline",
+    "message": "店名に使用不可の文字が含まれています"
+  },
+  "30480": {
+    "display": "inline",
+    "message": "オペレータ名に使用不可の文字が含まれています"
+  },
+  "30481": {
+    "display": "area",
+    "message": "コメントに使用不可の文字が含まれています"
+  },
+  "30482": {
+    "display": "inline",
+    "message": "タブレット名に使用不可の文字が含まれています"
+  },
+  "30483": {
+    "display": "inline",
+    "message": "設置店名に使用不可の文字が含まれています"
+  },
+  "30484": {
+    "display": "inline",
+    "message": "カード固有氏名が18文字を超えています。濁点を含めた文字数を18文字以内にしてください。"
+  },
+  "30485": {
+    "display": "inline",
+    "message": "おなまえ（カナ）が{0}文字を超えています。濁点を含めた文字数を{0}文字以内にしてください。"
+  },
+  "30486": {
+    "display": "inline",
+    "message": "おところ（カナ）が{0}文字を超えています。濁点を含めた文字数を{0}文字以内にしてください。"
+  },
+  "30487": {
+    "display": "inline",
+    "message": "勤務先名（カナ）が{0}文字を超えています。濁点を含めた文字数を{0}文字以内にしてください。"
+  },
+  "30488": {
+    "display": "area",
+    "message": "現住所確認を選択してください"
+  },
+  "30489": {
+    "display": "area",
+    "message": "CIF登録を選択してください"
+  },
+  "30490": {
+    "display": "area",
+    "message": "事前照会タブでサービス指定口座登録する口座を選択してください"
+  },
+  "30491": {
+    "display": "area",
+    "message": "受付日と拠点別を選択してください"
+  },
+  "30492": {
+    "display": "area",
+    "message": "受付日と拠点別を選択してください"
+  },
+  "30493": {
+    "display": "area",
+    "message": "別ユーザーの印刷処理中のため、しばらくしてから再実行してください"
+  },
+  "30494": {
+    "display": "area",
+    "message": "別ユーザーの印刷処理中のため、しばらくしてから再実行してください"
+  }
+}

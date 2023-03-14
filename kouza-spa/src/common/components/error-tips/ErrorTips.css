@@ -1,0 +1,32 @@
+.error-tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  min-width: 1020px;
+  border-bottom-color: rgb(227, 227, 227);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.error-tips-message {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  color: #fff;
+  background-color: rgba(189, 42, 39, 0.88);
+}
+
+.error-tips-message-span {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-tips-message-icon {
+  width: 50px;
+  cursor: pointer;
+}
