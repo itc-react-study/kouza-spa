@@ -1,0 +1,6 @@
+.btn {
+  width: 150px;
+  position: relative;
+  left: 44%;
+  transition: transformX(-50%);
+}
