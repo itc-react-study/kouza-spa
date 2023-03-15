@@ -1,6 +1,7 @@
 import React from "react";
 import OperatorStatusList from "../pages/main/operator-status-list/OperatorStatusList";
 import TransactionsList from "../pages/main/transactions-list/TransactionsList";
+import ErrorList from "../pages/main/error-list/ErrorList";
 
 export const MAIN = "/Main/";
 
@@ -20,7 +21,7 @@ export const MENU_LIST = [
   {
     path: MAIN + "ErrorList",
     title: "エラー処理未済一覧",
-    element: <TransactionsList />,
+    element: <ErrorList />,
   },
   {
     path: MAIN + "TransactionsForReference",
