@@ -75,3 +75,17 @@ export const STATUS=[
   },
 ];
 
+export const NCO_LOCATION_CD = [
+  { code: '', label: ' ' },
+  { code: '1', label: '新宿' },
+  { code: '2', label: '青葉台' },
+  { code: '3', label: '谷町' },
+  { code: '4', label: '日本橋' },
+  { code: '5', label: '新川' },
+];
+
+export const ACCOUNT_FINISH_STATUS = [
+  { code: '', label: ' ' },
+  { code: '1', label: '済' },
+  { code: '0', label: '未済' },
+];
