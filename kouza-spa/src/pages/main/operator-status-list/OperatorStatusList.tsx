@@ -169,7 +169,10 @@ const OperatorStatusList = (): JSX.Element => {
   const [searchDefaultParams, setSearchDefaultParams] = useState<SearchParams>(
     DEFAULT_SEARCH_PARAMS
   );
+
+  // 是否自动更新
   const [shouldRefresh, setShouldRefresh] = useState(false);
+  // 设置报错信息
   const [inputError, setInputError] = useState<InputError>({
     inputName: "",
     errorMessage: "",
@@ -181,7 +184,7 @@ const OperatorStatusList = (): JSX.Element => {
   /**
    * 结束页：
    * 1. startIndex + DEFAULT_PER_PAGE_SIZE - 1，表示当前页的结束位置，因为数组索引从0开始，所以需要将索引加上DEFAULT_PER_PAGE_SIZE - 1。
-   * 2. operator.operatorList.length - 1，表示数据总数减一，因为数组索引从0开始。
+   * 2. operator.operatorList.length
    *
    * Math.min函数的作用是取两个值中的较小值。这是为了确保当前页的结束位置不会超过数据总数。
    * 如果计算出来的结束位置超过了数据总数，那么就取数据总数减一作为当前页的结束位置。这样可以避免数组越界的错误。
@@ -418,9 +421,7 @@ const OperatorStatusList = (): JSX.Element => {
     }
   }, [shouldRefresh]);
 
-  // // 当focus out的时候显示error message
-  // const handleOnBlur = async () => {
-
+  // 当focus out的时候显示error message
   const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.trim();
     const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
