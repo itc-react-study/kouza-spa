@@ -2,7 +2,7 @@
   "kensuu": 120,
   "errorList": [
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000001",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -22,7 +22,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000002",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -43,7 +43,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000003",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -64,7 +64,7 @@
       "lockOperatorId": "30098002"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000004",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -85,7 +85,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000005",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -106,7 +106,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000006",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -127,7 +127,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000007",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -147,7 +147,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000008",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -167,7 +167,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000009",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -187,7 +187,7 @@
       "lockOperatorId": "30098001"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000010",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -206,7 +206,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000011",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -225,7 +225,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000012",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -244,7 +244,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000013",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -263,7 +263,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000014",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -282,7 +282,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "1000000000015",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -301,7 +301,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -320,7 +320,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -339,7 +339,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -358,7 +358,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -377,7 +377,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -396,7 +396,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -415,7 +415,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -434,7 +434,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -453,7 +453,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -472,7 +472,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -491,7 +491,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -510,7 +510,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -529,7 +529,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -548,7 +548,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -567,7 +567,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -586,7 +586,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -605,7 +605,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -624,7 +624,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -643,7 +643,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -662,7 +662,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -681,7 +681,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -700,7 +700,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -719,7 +719,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -738,7 +738,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -757,7 +757,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -776,7 +776,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -795,7 +795,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -814,7 +814,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -833,7 +833,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -852,7 +852,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -871,7 +871,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -890,7 +890,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -909,7 +909,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -928,7 +928,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -947,7 +947,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -966,7 +966,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -985,7 +985,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1004,7 +1004,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1023,7 +1023,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1042,7 +1042,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1061,7 +1061,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1080,7 +1080,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1099,7 +1099,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1118,7 +1118,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1137,7 +1137,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1156,7 +1156,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1175,7 +1175,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1194,7 +1194,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1213,7 +1213,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1232,7 +1232,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1251,7 +1251,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1270,7 +1270,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1289,7 +1289,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1308,7 +1308,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1327,7 +1327,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1346,7 +1346,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1365,7 +1365,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1384,7 +1384,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1403,7 +1403,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1422,7 +1422,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1441,7 +1441,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1460,7 +1460,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1479,7 +1479,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1498,7 +1498,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1517,7 +1517,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1536,7 +1536,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1555,7 +1555,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1574,7 +1574,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1593,7 +1593,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1612,7 +1612,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1631,7 +1631,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1650,7 +1650,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1669,7 +1669,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1688,7 +1688,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1707,7 +1707,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1726,7 +1726,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1745,7 +1745,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1764,7 +1764,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1783,7 +1783,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1802,7 +1802,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1821,7 +1821,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1840,7 +1840,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1859,7 +1859,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1878,7 +1878,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1897,7 +1897,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -1916,7 +1916,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1935,7 +1935,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1954,7 +1954,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -1973,7 +1973,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -1992,7 +1992,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -2011,7 +2011,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -2030,7 +2030,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2049,7 +2049,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2068,7 +2068,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2087,7 +2087,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2106,7 +2106,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -2125,7 +2125,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -2144,7 +2144,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
@@ -2163,7 +2163,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -2182,7 +2182,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -2201,7 +2201,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
@@ -2220,7 +2220,7 @@
       "appointAccountBranchLogin": "NG"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2239,7 +2239,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2258,7 +2258,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
@@ -2277,7 +2277,7 @@
       "appointAccountBranchLogin": "未送信"
     },
     {
-      "acceptanceDate": "20201225",
+      "acceptanceDate": "2020.12.25",
       "acceptanceNo": "0000123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
