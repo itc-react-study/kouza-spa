@@ -177,6 +177,7 @@ const OperatorStatusList = (): JSX.Element => {
     inputName: "",
     errorMessage: "",
   });
+  const { setIsMainLoading } = useContext(MainContext);
 
   // pagination
   // 开始页：（当前页-1）* 一页10条数据  → 减一是因为下标从0开始
@@ -367,11 +368,21 @@ const OperatorStatusList = (): JSX.Element => {
       shopNameSetted: inputShopNameSetted,
     };
 
-    const response = await getApi(ApiIds.SH1APIOPE044, param);
-    console.log("response", response);
+    // 在发送API请求前显示loading
+    setIsMainLoading(true);
 
-    setOperator(response.data);
-    setCurrentPage(1);
+    try {
+      const response = await getApi(ApiIds.SH1APIOPE044, param);
+      console.log("response", response);
+
+      setOperator(response.data);
+      setCurrentPage(1);
+    } catch (error: any) {
+      console.log(error);
+    }
+
+    // 在发送API请求后不显示loading
+    setIsMainLoading(false);
   };
 
   /**
@@ -399,10 +410,20 @@ const OperatorStatusList = (): JSX.Element => {
       shopNameSetted: inputShopNameSetted,
     };
 
-    const response = await getApi(ApiIds.SH1APIOPE044, param);
-    console.log("response", response);
+    // 在发送API请求前显示loading
+    setIsMainLoading(true);
 
-    setOperator(response.data);
+    try {
+      const response = await getApi(ApiIds.SH1APIOPE044, param);
+      console.log("response", response);
+
+      setOperator(response.data);
+    } catch (error: any) {
+      console.log(error);
+    }
+
+    // 在发送API请求后不显示loading
+    setIsMainLoading(false);
   };
 
   /**
@@ -500,7 +521,7 @@ const OperatorStatusList = (): JSX.Element => {
                     flexWrap: "wrap",
                     flexDirection: "column",
                   }}
-                  value={searchParams.inputShopNoSetted}
+                  // value={searchParams.inputShopNoSetted}
                   onChange={(event) =>
                     handleInputChange(event, "inputShopNoSetted")
                   }
