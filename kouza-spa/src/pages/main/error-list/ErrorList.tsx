@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -10,7 +10,13 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Select from "@mui/material/Select";
 import dayjs from "dayjs";
-// import TextField from "@mui/material/TextField";
+import Pagination from "@mui/material/Pagination";
+import Stack from "@mui/material/Stack";
+import {
+  DataGridPro,
+  GridColDef,
+  GridPinnedColumns,
+} from "@mui/x-data-grid-pro";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -52,7 +58,7 @@ interface ErrorList {
   printAcceptInfoIcLogin: string;
   printAcceptInfoDebitLogin: string;
   appointAccountBranchLogin: string;
-  attributeLogi: string;
+  attributeLogin: string;
   kycInfomationLogin: string;
   selfComfirmationRecord: string;
   printLogin: string;
@@ -74,6 +80,25 @@ interface InputError {
   errorMessage: string;
 }
 
+interface CustomHeaderProps {
+  field: string;
+  headerName: string;
+}
+
+// 头部设计样式
+const Item = styled(Paper)(({ theme }) => ({
+  padding: theme.spacing(5),
+  paddingTop: 8,
+  paddingBottom: 8,
+  textAlign: "center",
+  color: theme.palette.text.secondary,
+  height: 40,
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  boxShadow: "none",
+}));
+
 const DEFAULT_PER_PAGE_SIZE = 10;
 
 const DEFAULT_SEARCH_PARAMS: SearchParams = {
@@ -89,7 +114,7 @@ const responseBody = {
   errorList: [
     {
       acceptanceDate: "2023.11.11",
-      acceptanceNo: "0290000040101",
+      acceptanceNo: "123456789",
       lastName: "山田　太郎",
       states: "処理中",
       newKey: "NG",
@@ -111,47 +136,203 @@ const responseBody = {
   ],
 };
 
-// 头部设计样式
-const Item = styled(Paper)(({ theme }) => ({
-  padding: theme.spacing(5),
-  paddingTop: 8,
-  paddingBottom: 8,
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-  height: 40,
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-  boxShadow: "none",
-}));
+const CustomHeader = ({ field, headerName }: CustomHeaderProps): GridColDef => {
+  return {
+    field,
+    headerName,
+    width: 100,
+    headerClassName: "header",
+    headerAlign: "center",
+    renderHeader: (params) => (
+      <div
+        style={{
+          whiteSpace: "pre-wrap",
+          wordWrap: "break-word",
+          wordBreak: "break-all",
+          height: "auto",
+          lineHeight: "100%",
+          margin: "0",
+        }}
+      >
+        {params.colDef.headerName}
+      </div>
+    ),
+  };
+};
 
+const CustomCell = ({ value }: { value: string }) => {
+  if (value === "NG") {
+    return (
+      <div
+        style={{
+          backgroundColor: "pink",
+          height: "100%",
+          width: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {value}
+      </div>
+    );
+  }
+  return <div>{value}</div>;
+};
+
+const tableHeaderColumns: GridColDef[] = [
+  {
+    ...CustomHeader({ field: "acceptanceDate", headerName: "受付日" }),
+    renderCell: (params) => (
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {params.value}
+      </div>
+    ),
+  },
+  {
+    ...CustomHeader({ field: "acceptanceNo", headerName: "受付番号" }),
+    renderCell: (params) => (
+      <a
+        href="https://www.itec-bridge.co.jp/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {params.value}
+      </a>
+    ),
+  },
+  {
+    ...CustomHeader({ field: "lastName", headerName: "氏名" }),
+  },
+  {
+    ...CustomHeader({ field: "states", headerName: "ステータス" }),
+  },
+  {
+    ...CustomHeader({ field: "newKey", headerName: "新規[普通]" }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "printAcceptInfoIcLogin",
+      headerName: "印影受付情報コード登録（IC）",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({ field: "directNew", headerName: "ダイレクト契約新規" }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "appointAccountBranchLogin",
+      headerName: "指定账号登録",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({ field: "eNotice", headerName: "E通知登録" }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "brandDebitCard",
+      headerName: "ブランドデビットカード発行",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "printAcceptInfoDebitLogin",
+      headerName: "印影受付情報コード登録（デビット)",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({ field: "oecd", headerName: "実特法" }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+
+  {
+    ...CustomHeader({
+      field: "attributeLogin",
+      headerName: "属性登録",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "kycInfomationLogin",
+      headerName: "KYC情報登録",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "selfComfirmationRecord",
+      headerName: "本人確認記録表",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "printLogin",
+      headerName: "印影レス登録",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "recordImagLogin",
+      headerName: "記録表イメージ登録",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "errorOperatorId",
+      headerName: "エラー処理担当者",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+  {
+    ...CustomHeader({
+      field: "errorReexamOperatorId",
+      headerName: "エラー処理再鑑者",
+    }),
+    renderCell: (params) => <CustomCell value={params.value} />,
+  },
+];
+
+/**
+ * ErrorList
+ */
 const ErrorList = (): JSX.Element => {
-  const [error, setError] = useState<any>(responseBody);
+  const [errorLists, setErrorLists] = useState<any>(responseBody);
   const [searchParams, setSearchParams] = useState<SearchParams>(
     DEFAULT_SEARCH_PARAMS
   );
   const [searchDefaultParams, setSearchDefaultParams] = useState<SearchParams>(
     DEFAULT_SEARCH_PARAMS
   );
+  const [shouldRefresh, setShouldRefresh] = useState(false);
   const [inputError, setInputError] = useState<InputError>({
     inputName: "",
     errorMessage: "",
   });
-  const [shouldRefresh, setShouldRefresh] = useState(false);
+  const [errorListRowsCount, setErrorListRowsCount] = useState<number>(
+    responseBody.errorList.length
+  );
   const [currentPage, setCurrentPage] = useState(1);
   const { setIsMainLoading } = useContext(MainContext);
-  const [result, setResult] = useState(0);
-
-  // 头部
-  const handleSelectChange = (
-    event: SelectChangeEvent<string>,
-    name: string
-  ) => {
-    setSearchParams((prevSearchParams) => ({
-      ...prevSearchParams,
-      [name]: event.target.value as string,
-    }));
-  };
+  const [pinnedColumns, setPinnedColumns] = React.useState<GridPinnedColumns>({
+    left: ["acceptanceDate", "acceptanceNo", "lastName", "states"],
+  });
 
   // 下拉菜单
   const renderSelect = (
@@ -178,6 +359,17 @@ const ErrorList = (): JSX.Element => {
     );
   };
 
+  // 头部
+  const handleSelectChange = (
+    event: SelectChangeEvent<string>,
+    name: string
+  ) => {
+    setSearchParams((prevSearchParams) => ({
+      ...prevSearchParams,
+      [name]: event.target.value as string,
+    }));
+  };
+
   // input
   const handleInputChange = (
     event: React.ChangeEvent<HTMLInputElement>,
@@ -189,12 +381,29 @@ const ErrorList = (): JSX.Element => {
     }));
   };
 
+  // 受付日
+  const handleAcceptanceDateChange = (date: dayjs.Dayjs | null) => {
+    const formattedDate = date?.format("YYYY.MM.DD") ?? "";
+    setSearchParams((prevSearchParams) => ({
+      ...prevSearchParams,
+      selectAcceptanceDate: formattedDate,
+    }));
+  };
+
+  // pagination
+  const startIndex = (currentPage - 1) * DEFAULT_PER_PAGE_SIZE;
+  const endIndex = Math.min(
+    startIndex + DEFAULT_PER_PAGE_SIZE - 1,
+    errorLists.errorList.length
+  );
+  const currentPageData = errorLists.errorList.slice(startIndex, endIndex);
+
+  const handlePageChange = (event: any, page: number) => {
+    setCurrentPage(page);
+  };
+
   // 检索btn触发
   const handleInquery = async () => {
-    // 搜索结果
-    const result = error.errorList.length;
-    setResult(result);
-
     const {
       selectAcceptanceDate,
       selectBranchName,
@@ -223,7 +432,8 @@ const ErrorList = (): JSX.Element => {
       const response = await getApi(ApiIds.SH1APIOPE050, param);
       console.log("response", response);
 
-      setError(response.data);
+      setErrorLists(response.data);
+      setErrorListRowsCount(response.data.errorList.length);
       setCurrentPage(1);
     } catch (error: any) {
       console.log(error);
@@ -232,6 +442,16 @@ const ErrorList = (): JSX.Element => {
     // 在发送API请求后不显示loading
     setIsMainLoading(false);
   };
+
+  // 自动更新
+  useEffect(() => {
+    if (shouldRefresh) {
+      var timer = setInterval(() => {
+        handleRefresh();
+      }, 60000);
+      return () => clearInterval(timer);
+    }
+  }, [shouldRefresh]);
 
   // input error message
   const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
@@ -276,22 +496,13 @@ const ErrorList = (): JSX.Element => {
       const response = await getApi(ApiIds.SH1APIOPE050, param);
       console.log("response", response);
 
-      setError(response.data);
+      setErrorLists(response.data);
     } catch (error: any) {
       console.log(error);
     }
 
     // 在发送API请求后不显示loading
     setIsMainLoading(false);
-  };
-
-  // 受付日
-  const handleAcceptanceDateChange = (date: dayjs.Dayjs | null) => {
-    const formattedDate = date?.format("YYYY.MM.DD") ?? "";
-    setSearchParams((prevSearchParams) => ({
-      ...prevSearchParams,
-      selectAcceptanceDate: formattedDate,
-    }));
   };
 
   // card
@@ -302,7 +513,8 @@ const ErrorList = (): JSX.Element => {
           <Grid container item spacing={1}>
             <Grid item xs={4}>
               <Item>
-                <InputLabel>受付日</InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>受付日</InputLabel>
+
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                   <DemoContainer components={["DatePicker"]}>
                     <DatePicker
@@ -315,7 +527,7 @@ const ErrorList = (): JSX.Element => {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <InputLabel>拠点別</InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>拠点別</InputLabel>
                 {renderSelect(
                   NCO_LOCATION_CD,
                   searchParams.selectBranchName,
@@ -325,7 +537,9 @@ const ErrorList = (): JSX.Element => {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <InputLabel>口座開設済/未済</InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>
+                  口座開設済/未済
+                </InputLabel>
                 {renderSelect(
                   ACCOUNT_FINISH_STATUS,
                   searchParams.selectAccountFinishFlag,
@@ -337,7 +551,7 @@ const ErrorList = (): JSX.Element => {
           <Grid container item spacing={1}>
             <Grid item xs={4}>
               <Item>
-                <InputLabel>店番</InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>店番</InputLabel>
                 <div style={{ position: "relative" }}>
                   <input
                     type="text"
@@ -375,7 +589,7 @@ const ErrorList = (): JSX.Element => {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <InputLabel>店名</InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>店名</InputLabel>
                 <input
                   type="text"
                   style={{
@@ -405,10 +619,12 @@ const ErrorList = (): JSX.Element => {
 
   return (
     <Box sx={{ padding: "16px 16px" }}>
+      {/* card */}
       <Card variant="outlined">{card}</Card>
 
+      {/* 检索结果和最新化按钮 */}
       <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-        <div style={{ flexGrow: 1 }}>検索結果 {result}件</div>
+        <div style={{ flexGrow: 1 }}>検索結果 {errorListRowsCount}件</div>
         <Button
           variant="contained"
           style={{
@@ -424,6 +640,43 @@ const ErrorList = (): JSX.Element => {
           最新化
         </Button>
       </div>
+
+      {/* 固定列表格 */}
+      <Box sx={{ flexGrow: 1, width: "100%" }}>
+        {/*  */}
+        <Box
+          textAlign="center"
+          alignItems="center"
+          justifyContent="center"
+          sx={{ mt: 1, width: "83.5vw" }}
+        >
+          <DataGridPro
+            rows={currentPageData}
+            getRowId={(index) => index}
+            columns={tableHeaderColumns.map((col) => ({
+              ...col,
+              align: "center",
+            }))}
+            pinnedColumns={pinnedColumns}
+            autoHeight
+            hideFooterRowCount
+            disableRowSelectionOnClick
+          />
+        </Box>
+        <Box display="flex" justifyContent="flex-end" style={{ marginTop: 10 }}>
+          <Stack spacing={2}>
+            <Pagination
+              count={Math.ceil(
+                errorLists.errorList.length / DEFAULT_PER_PAGE_SIZE
+              )}
+              variant="outlined"
+              shape="rounded"
+              page={currentPage}
+              onChange={handlePageChange}
+            />
+          </Stack>
+        </Box>
+      </Box>
     </Box>
   );
 };

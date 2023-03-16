@@ -3,7 +3,7 @@
   "errorList": [
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000001",
+      "acceptanceNo": "100000001",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -23,7 +23,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000002",
+      "acceptanceNo": "100000002",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -44,7 +44,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000003",
+      "acceptanceNo": "100000003",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -65,7 +65,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000004",
+      "acceptanceNo": "100000004",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -86,7 +86,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000005",
+      "acceptanceNo": "100000005",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -107,7 +107,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000006",
+      "acceptanceNo": "100000006",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -128,7 +128,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000007",
+      "acceptanceNo": "100000007",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -148,7 +148,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000008",
+      "acceptanceNo": "100000008",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -168,7 +168,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000009",
+      "acceptanceNo": "100000009",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -188,7 +188,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000010",
+      "acceptanceNo": "100000010",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -207,7 +207,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000011",
+      "acceptanceNo": "100000011",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -226,7 +226,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000012",
+      "acceptanceNo": "100000012",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -245,7 +245,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000013",
+      "acceptanceNo": "100000013",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -264,7 +264,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000014",
+      "acceptanceNo": "100000014",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -283,7 +283,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "1000000000015",
+      "acceptanceNo": "100000015",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -302,7 +302,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -321,7 +321,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -340,7 +340,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -359,7 +359,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -378,7 +378,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -397,7 +397,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -416,7 +416,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -435,7 +435,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -454,7 +454,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -473,7 +473,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -492,7 +492,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -511,7 +511,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -530,7 +530,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -549,7 +549,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -568,7 +568,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -587,7 +587,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -606,7 +606,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -625,7 +625,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -644,7 +644,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -663,7 +663,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -682,7 +682,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -701,7 +701,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -720,7 +720,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -739,7 +739,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -758,7 +758,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -777,7 +777,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -796,7 +796,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -815,7 +815,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -834,7 +834,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -853,7 +853,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -872,7 +872,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -891,7 +891,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -910,7 +910,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -929,7 +929,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -948,7 +948,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -967,7 +967,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -986,7 +986,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1005,7 +1005,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1024,7 +1024,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1043,7 +1043,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1062,7 +1062,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -1081,7 +1081,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1100,7 +1100,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1119,7 +1119,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1138,7 +1138,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1157,7 +1157,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -1176,7 +1176,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1195,7 +1195,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1214,7 +1214,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1233,7 +1233,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1252,7 +1252,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -1271,7 +1271,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1290,7 +1290,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1309,7 +1309,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1328,7 +1328,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1347,7 +1347,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -1366,7 +1366,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1385,7 +1385,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1404,7 +1404,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1423,7 +1423,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1442,7 +1442,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -1461,7 +1461,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1480,7 +1480,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1499,7 +1499,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1518,7 +1518,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1537,7 +1537,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -1556,7 +1556,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1575,7 +1575,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1594,7 +1594,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1613,7 +1613,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1632,7 +1632,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -1651,7 +1651,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1670,7 +1670,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1689,7 +1689,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1708,7 +1708,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1727,7 +1727,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -1746,7 +1746,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1765,7 +1765,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1784,7 +1784,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1803,7 +1803,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1822,7 +1822,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -1841,7 +1841,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1860,7 +1860,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1879,7 +1879,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1898,7 +1898,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -1917,7 +1917,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -1936,7 +1936,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1955,7 +1955,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -1974,7 +1974,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -1993,7 +1993,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -2012,7 +2012,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -2031,7 +2031,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2050,7 +2050,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2069,7 +2069,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2088,7 +2088,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2107,7 +2107,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "NG",
@@ -2126,7 +2126,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -2145,7 +2145,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑中",
       "newKey": "済",
@@ -2164,7 +2164,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -2183,7 +2183,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "済",
@@ -2202,7 +2202,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "再鑑待ち",
       "newKey": "NG",
@@ -2221,7 +2221,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2240,7 +2240,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2259,7 +2259,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",
@@ -2278,7 +2278,7 @@
     },
     {
       "acceptanceDate": "2020.12.25",
-      "acceptanceNo": "0000123456789",
+      "acceptanceNo": "123456789",
       "lastName": "山田　太郎",
       "states": "未着手",
       "newKey": "済",

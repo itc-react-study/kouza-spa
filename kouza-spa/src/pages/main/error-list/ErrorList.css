@@ -4,3 +4,8 @@
   left: 44%;
   transition: transformX(-50%);
 }
+
+.header {
+  background-color: black;
+  color: white;
+}
