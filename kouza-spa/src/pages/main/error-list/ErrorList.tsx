@@ -126,7 +126,7 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
 const ErrorList = (): JSX.Element => {
-  const [operator, setOperator] = useState<any>(responseBody);
+  const [error, setError] = useState<any>(responseBody);
   const [searchParams, setSearchParams] = useState<SearchParams>(
     DEFAULT_SEARCH_PARAMS
   );
@@ -140,6 +140,7 @@ const ErrorList = (): JSX.Element => {
   const [shouldRefresh, setShouldRefresh] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const { setIsMainLoading } = useContext(MainContext);
+  const [result, setResult] = useState(0);
 
   // 头部
   const handleSelectChange = (
@@ -190,6 +191,10 @@ const ErrorList = (): JSX.Element => {
 
   // 检索btn触发
   const handleInquery = async () => {
+    // 搜索结果
+    const result = error.errorList.length;
+    setResult(result);
+
     const {
       selectAcceptanceDate,
       selectBranchName,
@@ -218,7 +223,7 @@ const ErrorList = (): JSX.Element => {
       const response = await getApi(ApiIds.SH1APIOPE050, param);
       console.log("response", response);
 
-      setOperator(response.data);
+      setError(response.data);
       setCurrentPage(1);
     } catch (error: any) {
       console.log(error);
@@ -228,6 +233,7 @@ const ErrorList = (): JSX.Element => {
     setIsMainLoading(false);
   };
 
+  // input error message
   const handleInputBlur = (event: React.FocusEvent<HTMLInputElement>) => {
     const inputValue = event.target.value.trim();
     const kouzaMessage = getMessage(ErrorCodes.C30002) as KouzaMessage;
@@ -270,7 +276,7 @@ const ErrorList = (): JSX.Element => {
       const response = await getApi(ApiIds.SH1APIOPE050, param);
       console.log("response", response);
 
-      setOperator(response.data);
+      setError(response.data);
     } catch (error: any) {
       console.log(error);
     }
@@ -400,6 +406,24 @@ const ErrorList = (): JSX.Element => {
   return (
     <Box sx={{ padding: "16px 16px" }}>
       <Card variant="outlined">{card}</Card>
+
+      <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
+        <div style={{ flexGrow: 1 }}>検索結果 {result}件</div>
+        <Button
+          variant="contained"
+          style={{
+            width: 74,
+            height: 44,
+            fontSize: 12,
+            marginLeft: 18,
+            marginRight: 12,
+            flexShrink: 0,
+          }}
+          onClick={handleRefresh}
+        >
+          最新化
+        </Button>
+      </div>
     </Box>
   );
 };
