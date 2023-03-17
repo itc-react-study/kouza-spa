@@ -17,6 +17,7 @@ import {
   GridColDef,
   GridPinnedColumns,
 } from "@mui/x-data-grid-pro";
+import { makeStyles } from "@material-ui/core/styles";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -98,6 +99,16 @@ const Item = styled(Paper)(({ theme }) => ({
   alignItems: "center",
   boxShadow: "none",
 }));
+
+// date picker样式
+const useStyles = makeStyles({
+  root: {
+    "& .MuiInput-root": {
+      font: "8px",
+    },
+  },
+});
+const classes = useStyles();
 
 const DEFAULT_PER_PAGE_SIZE = 10;
 
@@ -510,15 +521,17 @@ const ErrorList = (): JSX.Element => {
     <React.Fragment>
       <CardContent>
         <Grid container spacing={1}>
-          <Grid container item spacing={1}>
+          <Grid container item spacing={0}>
             <Grid item xs={4}>
               <Item>
-                <InputLabel style={{ fontWeight: 700 }}>受付日</InputLabel>
-
+                <InputLabel style={{ fontWeight: 700, marginRight: 0 }}>
+                  受付日
+                </InputLabel>
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                   <DemoContainer components={["DatePicker"]}>
                     <DatePicker
                       format="YYYY.MM.DD"
+                      className={classes.root}
                       onChange={handleAcceptanceDateChange}
                     />
                   </DemoContainer>
@@ -549,9 +562,11 @@ const ErrorList = (): JSX.Element => {
             </Grid>
           </Grid>
           <Grid container item spacing={1}>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
               <Item>
-                <InputLabel style={{ fontWeight: 700 }}>店番</InputLabel>
+                <InputLabel style={{ fontWeight: 700, paddingLeft: 80 }}>
+                  店番
+                </InputLabel>
                 <div style={{ position: "relative" }}>
                   <input
                     type="text"
@@ -589,7 +604,9 @@ const ErrorList = (): JSX.Element => {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <InputLabel style={{ fontWeight: 700 }}>店名</InputLabel>
+                <InputLabel style={{ fontWeight: 700, paddingLeft: 80 }}>
+                  店名
+                </InputLabel>
                 <input
                   type="text"
                   style={{
@@ -643,13 +660,13 @@ const ErrorList = (): JSX.Element => {
 
       {/* 固定列表格 */}
       <Box sx={{ flexGrow: 1, width: "100%" }}>
-        {/*  */}
         <Box
           textAlign="center"
           alignItems="center"
           justifyContent="center"
-          sx={{ mt: 1, width: "83.5vw" }}
+          sx={{ mt: 1, width: "86.5vw" }}
         >
+          {/* 日期选择器 */}
           <DataGridPro
             rows={currentPageData}
             getRowId={(index) => index}
@@ -661,6 +678,7 @@ const ErrorList = (): JSX.Element => {
             autoHeight
             hideFooterRowCount
             disableRowSelectionOnClick
+            columnHeaderHeight={88}
           />
         </Box>
         <Box display="flex" justifyContent="flex-end" style={{ marginTop: 10 }}>
