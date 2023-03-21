@@ -17,7 +17,6 @@ import {
   GridColDef,
   GridPinnedColumns,
 } from "@mui/x-data-grid-pro";
-import { makeStyles } from "@material-ui/core/styles";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -99,16 +98,6 @@ const Item = styled(Paper)(({ theme }) => ({
   alignItems: "center",
   boxShadow: "none",
 }));
-
-// date picker样式
-const useStyles = makeStyles({
-  root: {
-    "& .MuiInput-root": {
-      font: "8px",
-    },
-  },
-});
-const classes = useStyles();
 
 const DEFAULT_PER_PAGE_SIZE = 10;
 
@@ -524,14 +513,11 @@ const ErrorList = (): JSX.Element => {
           <Grid container item spacing={0}>
             <Grid item xs={4}>
               <Item>
-                <InputLabel style={{ fontWeight: 700, marginRight: 0 }}>
-                  受付日
-                </InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>受付日</InputLabel>
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                   <DemoContainer components={["DatePicker"]}>
                     <DatePicker
                       format="YYYY.MM.DD"
-                      className={classes.root}
                       onChange={handleAcceptanceDateChange}
                     />
                   </DemoContainer>
@@ -562,11 +548,9 @@ const ErrorList = (): JSX.Element => {
             </Grid>
           </Grid>
           <Grid container item spacing={1}>
-            <Grid item xs={3}>
+            <Grid item xs={4}>
               <Item>
-                <InputLabel style={{ fontWeight: 700, paddingLeft: 80 }}>
-                  店番
-                </InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>店番</InputLabel>
                 <div style={{ position: "relative" }}>
                   <input
                     type="text"
@@ -604,9 +588,7 @@ const ErrorList = (): JSX.Element => {
             </Grid>
             <Grid item xs={4}>
               <Item>
-                <InputLabel style={{ fontWeight: 700, paddingLeft: 80 }}>
-                  店名
-                </InputLabel>
+                <InputLabel style={{ fontWeight: 700 }}>店名</InputLabel>
                 <input
                   type="text"
                   style={{
