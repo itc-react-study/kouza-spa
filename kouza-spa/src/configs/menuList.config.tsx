@@ -2,6 +2,8 @@ import React from "react";
 import OperatorStatusList from "../pages/main/operator-status-list/OperatorStatusList";
 import TransactionsList from "../pages/main/transactions-list/TransactionsList";
 import ErrorList from "../pages/main/error-list/ErrorList";
+import FormPrinting from "../pages/main/form-printing/FormPrinting";
+import MufgList from "../pages/main/form-printing/MufgList";
 
 export const MAIN = "/Main/";
 
@@ -11,13 +13,11 @@ export const MENU_LIST = [
     title: "オペレータ状況一覧",
     element: <OperatorStatusList />,
   },
-
   {
     path: MAIN + "TransactionsList",
     title: "取引一覧表示",
     element: <TransactionsList />,
   },
-
   {
     path: MAIN + "ErrorList",
     title: "エラー処理未済一覧",
@@ -31,7 +31,7 @@ export const MENU_LIST = [
   {
     path: MAIN + "FormPrinting",
     title: "帳票印刷一覧",
-    element: <TransactionsList />,
+    element: <FormPrinting />,
   },
   {
     path: MAIN + "BusinessStatisticsData",
@@ -62,5 +62,12 @@ export const MENU_LIST = [
     path: MAIN + "Tablet",
     title: "タブレット登録",
     element: <TransactionsList />,
+  },
+];
+
+export const Mufg_List = [
+  {
+    path: "MufgList",
+    element: <MufgList />,
   },
 ];
