@@ -27,7 +27,6 @@ import { getApi } from "../../../common/service/api.service";
 import { ApiIds } from "../../../constants/api-id.constant";
 import {
   SH1APIOPE050RequestBody,
-  SH1APIOPE050ResponseBody,
 } from "../../../interfaces/api/sh1apiope050";
 import {
   NCO_LOCATION_CD,
@@ -45,7 +44,7 @@ interface List {
   label: string;
 }
 
-interface ErrorList {
+interface IErrorList {
   acceptanceDate: string;
   acceptanceNo: string;
   lastName: string;
@@ -114,6 +113,27 @@ const responseBody = {
   errorList: [
     {
       acceptanceDate: "2023.11.11",
+      acceptanceNo: "123456789",
+      lastName: "山田　太郎",
+      states: "処理中",
+      newKey: "NG",
+      directNew: "済",
+      eNotice: "済",
+      brandDebitCard: "済",
+      oecd: "済",
+      printAcceptInfoIcLogin: "済",
+      printAcceptInfoDebitLogin: "済",
+      appointAccountBranchLogin: "済",
+      attributeLogin: "済",
+      kycInfomationLogin: "済",
+      selfComfirmationRecord: "済",
+      printLogin: "済",
+      recordImagLogin: "済",
+      errorOperatorId: "",
+      errorReexamOperatorId: "",
+    },
+    {
+      acceptanceDate: "2023.11.12",
       acceptanceNo: "123456789",
       lastName: "山田　太郎",
       states: "処理中",
@@ -402,6 +422,13 @@ const ErrorList = (): JSX.Element => {
     setCurrentPage(page);
   };
 
+  const rows = currentPageData.map((item: IErrorList, index: number) => {
+    return {
+      id: index,
+      ...item,
+    };
+  });
+
   // 检索btn触发
   const handleInquery = async () => {
     const {
@@ -650,8 +677,8 @@ const ErrorList = (): JSX.Element => {
         >
           {/* 日期选择器 */}
           <DataGridPro
-            rows={currentPageData}
-            getRowId={(index) => index}
+            rows={rows}
+            getRowId={(row) => row.id}
             columns={tableHeaderColumns.map((col) => ({
               ...col,
               align: "center",
