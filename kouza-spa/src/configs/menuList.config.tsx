@@ -1,4 +1,5 @@
 import React from "react";
+import FormalCheck from "../pages/main/formal-check/FormalCheck";
 import OperatorStatusList from "../pages/main/operator-status-list/OperatorStatusList";
 import TransactionsList from "../pages/main/transactions-list/TransactionsList";
 
@@ -14,7 +15,7 @@ export const MENU_LIST = [
   {
     path: MAIN + "TransactionsList",
     title: "取引一覧表示",
-    element: <TransactionsList />,
+    element: <FormalCheck />,
   },
 
   {
