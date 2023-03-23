@@ -73,9 +73,7 @@ Axios.interceptors.response.use(
     return res;
   },
   (err) => {
-    setTimeout(() => {
-      hideLoading();
-    }, 500);
+    hideLoading();
 
     return Promise.reject(err);
   }

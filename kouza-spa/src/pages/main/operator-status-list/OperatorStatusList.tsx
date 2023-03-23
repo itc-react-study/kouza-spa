@@ -29,6 +29,7 @@ import {
 } from "../../../constants/code-list.constants";
 import { AxiosResponse } from "axios";
 import { MainContext } from "../../../store/store";
+import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.service";
 // import { ErrorCodes } from "../../../constants/error-code.constant";
 // import { getMessage } from "../../../common/service/message.service";
 // import { KouzaMessage } from "../../../interfaces/common/common";
@@ -148,11 +149,7 @@ const OperatorStatusList = (): JSX.Element => {
     }
   };
 
-  useEffect(() => {
-    return () => {
-      setAreaErrorMessage("");
-    };
-  }, []);
+  useSetAreaErrorMessageEffect();
 
   return (
     <Box sx={{ flexGrow: 1, padding: "16px 16px" }}>
