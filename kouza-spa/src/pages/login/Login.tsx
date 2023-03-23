@@ -41,9 +41,11 @@ const Login = (): JSX.Element => {
       userPwd: userPwd,
     };
 
-    const response = await getApi(ApiIds.SH1APIDUMLGN, param, true, false);
+    // const response = await getApi(ApiIds.SH1APIDUMLGN, param, true, false);
 
-    await getApi(ApiIds.SH1APIDUMLGN, param, false, true);
+    // await getApi(ApiIds.SH1APIDUMLGN, param, false, true);
+
+    const response = await getApi(ApiIds.SH1APIDUMLGN, param);
 
     console.log(response);
 
