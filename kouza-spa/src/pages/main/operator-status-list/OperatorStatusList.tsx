@@ -67,8 +67,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const OperatorStatusList = (): JSX.Element => {
   const [operator, setOperator] = useState<any>(responseBody);
 
-  const { areaErrorMessage, setAreaErrorMessage, setIsMainLoading } =
-    useContext(MainContext);
+  const { areaErrorMessage, setAreaErrorMessage } = useContext(MainContext);
 
   /**
    * renderSelect xx
@@ -134,9 +133,6 @@ const OperatorStatusList = (): JSX.Element => {
       ncoLocation: "ncoLocation",
     };
 
-    // 在发送API请求前显示loading
-    setIsMainLoading(true);
-
     try {
       const response = (await getApi(
         ApiIds.SH1APIOPE044,
@@ -150,9 +146,6 @@ const OperatorStatusList = (): JSX.Element => {
       setAreaErrorMessage(error?.message);
       console.log(error);
     }
-
-    // 在发送API请求后不显示loading
-    setIsMainLoading(false);
   };
 
   useEffect(() => {

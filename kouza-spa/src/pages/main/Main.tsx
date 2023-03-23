@@ -9,7 +9,6 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
 import { MainContext } from "../../store/store";
 import ErrorTips from "../../common/components/error-tips/ErrorTips";
-import LoadingModal from "../../common/components/loading-modal/loadingModal";
 
 const listStyle = {
   border: "1px solid #000",
@@ -25,8 +24,6 @@ const Main = (): JSX.Element => {
 
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
-  const [isMainLoading, setIsMainLoading] = useState(false);
-
   const clickList = (item: Menu) => () => {
     navigate(item.path);
   };
@@ -34,14 +31,11 @@ const Main = (): JSX.Element => {
   const mainContext = {
     areaErrorMessage,
     setAreaErrorMessage,
-    isMainLoading,
-    setIsMainLoading,
   };
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
       <MainContext.Provider value={mainContext}>
-        <LoadingModal></LoadingModal>
         <Box
           sx={{
             minWidth: 200,

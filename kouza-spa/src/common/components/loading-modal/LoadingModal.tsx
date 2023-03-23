@@ -1,7 +1,6 @@
 import Backdrop from "@mui/material/Backdrop";
 import CircularProgress from "@mui/material/CircularProgress";
-import React, { useContext } from "react";
-import { LoginContext, MainContext } from "../../../store/store";
+import React from "react";
 
 /**
  * LoadingModal sss
@@ -9,13 +8,10 @@ import { LoginContext, MainContext } from "../../../store/store";
  * @returns {JSX.Element}
  */
 const LoadingModal = (): JSX.Element => {
-  const { isMainLoading } = useContext(MainContext);
-  const { isLoginLoading } = useContext(LoginContext);
-
   return (
     <Backdrop
+      open
       sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
-      open={isMainLoading || isLoginLoading}
     >
       <CircularProgress color="inherit" />
     </Backdrop>
