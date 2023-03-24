@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
 import "./InspectBtn.css";
 
+const defaultClass = "cir-icon-grey";
+const circleCss = "cir-icon-white";
 const defaultStyle: React.CSSProperties = {
   color: "#979797",
   backgroundColor: "#e3e3e3",
@@ -13,12 +15,9 @@ const clearStyle: React.CSSProperties = {
   color: "#fff",
   backgroundColor: "#ed9347",
 };
-const defaultClass = "cir-icon-grey";
-
-const circleCss = "cir-icon-white";
 
 /**
- * InspectBtn
+ * 点検ボタン
  * @returns {JSX.Element}
  */
 const InspectBtn = (): JSX.Element => {

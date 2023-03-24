@@ -4,7 +4,6 @@ import React from "react";
 
 /**
  * LoadingModal
- * @date 2023-03-11
  * @returns {JSX.Element}
  */
 const LoadingModal = (): JSX.Element => {

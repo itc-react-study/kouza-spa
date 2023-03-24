@@ -2,13 +2,9 @@
   font-size: 12px;
 }
 
-.title {
+.customer-box-title {
   background: #e3e3e3;
   padding-left: 5px;
-}
-
-.bold{
-  font-weight: bold;
 }
 
 .content-box {
@@ -51,6 +47,10 @@
 
 .flag-style-middle-day {
   width: 20%;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .right {

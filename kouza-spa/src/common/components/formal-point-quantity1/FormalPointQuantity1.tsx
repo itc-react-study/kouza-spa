@@ -8,14 +8,14 @@ import "./FormalPointQuantity1.css";
 import InspectBtn from "../inspect-btn/InspectBtn";
 
 /**
- * FormalPointQuantity1
+ * 形式点検 顧客情報
  * @returns {JSX.Element}
  */
 const FormalPointQuantity1 = (): JSX.Element => {
   return (
     <div className="customer-box">
       {/* 顧客情報 */}
-      <div className="title">顧客情報</div>
+      <div className="customer-box-title">顧客情報</div>
 
       <div className="content-box">
         <div>
@@ -230,7 +230,7 @@ const FormalPointQuantity1 = (): JSX.Element => {
       </div>
 
       {/* 本人確認情報 */}
-      <div className="title">本人確認情報</div>
+      <div className="customer-box-title">本人確認情報</div>
 
       <div className="content-box">
         <div>
