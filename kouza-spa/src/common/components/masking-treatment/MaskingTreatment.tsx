@@ -7,8 +7,9 @@ import "./MaskingTreatment.css";
 
 const TextArea = styled(TextField)({
   width: "100%",
-  ".css-85zwa9-MuiInputBase-root-MuiFilledInput-root": {
-    paddingTop: 0,
+  ".css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root": {
+    paddingTop: 4,
+    paddingBottom: 4,
   },
 });
 
@@ -78,12 +79,12 @@ const MaskingTreatment = (): JSX.Element => {
 
       <section>
         <div>取引時確認備考欄</div>
-        <TextArea multiline rows={2} variant="filled" />
+        <TextArea multiline rows={2} variant="outlined" />
       </section>
 
       <section>
         <div>メモ欄</div>
-        <TextArea multiline rows={2} variant="filled" />
+        <TextArea multiline rows={2} variant="outlined" />
       </section>
 
       <section className="masking-treatment-btn-box">
