@@ -41,18 +41,6 @@ const responseBody = {
 
   inLeave3: 1,
 };
-// function createData(
-//   name: string,
-//   calories: string,
-//   fat: string,
-//   carbs: string,
-//   protein: string,
-//   age: string
-// ) {
-//   return { name, calories, fat, carbs, protein, age };
-// }
-
-// const rows = [createData("1人", "1人", "1人", "1人", "1人", "1人")];
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -95,7 +83,7 @@ const OperatorStatusList = (): JSX.Element => {
   const BasicTable = () => {
     return (
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+        <Table sx={{ minWidth: 650, float: "left" }} aria-label="simple table">
           <TableHead>
             <TableRow>
               <TableCell align="center">待機中</TableCell>
@@ -119,6 +107,21 @@ const OperatorStatusList = (): JSX.Element => {
             </TableRow>
           </TableBody>
         </Table>
+
+        <div
+          style={{
+            textAlign: "center",
+            float: "right",
+          }}
+        >
+          <Button
+            style={{ width: 120 }}
+            variant="contained"
+            onClick={handleInquery}
+          >
+            最新化
+          </Button>
+        </div>
       </TableContainer>
     );
   };
@@ -176,12 +179,9 @@ const OperatorStatusList = (): JSX.Element => {
         </Grid>
       </Grid>
 
-      <Box
+      <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: 100,
+          textAlign: "center",
         }}
       >
         <Button
@@ -191,7 +191,7 @@ const OperatorStatusList = (): JSX.Element => {
         >
           検索
         </Button>
-      </Box>
+      </div>
 
       <BasicTable></BasicTable>
     </Box>
