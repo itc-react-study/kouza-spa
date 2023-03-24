@@ -18,7 +18,9 @@ const Axios = axios.create({
   timeout: 20000, // 设置超时时长
 });
 
-// 显示loading
+/**
+ * 显示loading
+ */
 const showLoading = () => {
   if (requestCount === 0) {
     const dom = document.createElement("div");
@@ -31,7 +33,9 @@ const showLoading = () => {
   requestCount++;
 };
 
-// 隐藏loading
+/**
+ * 隐藏loading
+ */
 const hideLoading = () => {
   requestCount--;
 
@@ -80,10 +84,13 @@ Axios.interceptors.response.use(
 );
 
 /**
- *
- * @param apiIds
- * @param param
- * @returns
+ * Description placeholder
+ * @async
+ * @param {string} apiIds
+ * @param {*} param
+ * @param {?boolean} [isShowLoading]
+ * @param {?boolean} [isHideLoading]
+ * @returns {Promise<AxiosResponse<any, any>>}
  */
 export const getApi = async (
   apiIds: string,

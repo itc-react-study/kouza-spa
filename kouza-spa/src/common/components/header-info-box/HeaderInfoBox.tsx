@@ -1,7 +1,11 @@
 import React from "react";
 import "./HeaderInfoBox.css";
 
-const HeaderInfoBox = () => {
+/**
+ * HeaderInfoBox
+ * @returns {JSX.Element}
+ */
+const HeaderInfoBox = (): JSX.Element => {
   return (
     <div className="header-info-box">
       <div>

@@ -3,7 +3,11 @@ import FormalPointQuantity1 from "../../../common/components/formal-point-quanti
 import HeaderInfoBox from "../../../common/components/header-info-box/HeaderInfoBox";
 import "./FormalCheck.css";
 
-const FormalCheck = () => {
+/**
+ * 形式点検
+ * @returns {JSX.Element}
+ */
+const FormalCheck = (): JSX.Element => {
   return (
     <div className="formal-check">
       <section className="info-box">

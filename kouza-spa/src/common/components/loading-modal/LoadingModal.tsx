@@ -3,7 +3,7 @@ import CircularProgress from "@mui/material/CircularProgress";
 import React from "react";
 
 /**
- * LoadingModal sss
+ * LoadingModal
  * @date 2023-03-11
  * @returns {JSX.Element}
  */

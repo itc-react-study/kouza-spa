@@ -1,6 +1,10 @@
 import React from "react";
 
-const FormalPointQuantity1 = () => {
+/**
+ * FormalPointQuantity1
+ * @returns {JSX.Element}
+ */
+const FormalPointQuantity1 = (): JSX.Element => {
   return (
     <div className="customer-box">
       <div className="title">顧客情報</div>

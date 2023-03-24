@@ -1,6 +1,9 @@
 import { useContext, useEffect } from "react";
 import { MainContext } from "../../store/store";
 
+/**
+ * Description placeholder
+ */
 export const useSetAreaErrorMessageEffect = () => {
   const { setAreaErrorMessage } = useContext(MainContext);
 
