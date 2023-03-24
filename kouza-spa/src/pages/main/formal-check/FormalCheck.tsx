@@ -1,6 +1,7 @@
 import React from "react";
 import FormalPointQuantity1 from "../../../common/components/formal-point-quantity1/FormalPointQuantity1";
 import HeaderInfoBox from "../../../common/components/header-info-box/HeaderInfoBox";
+import MaskingTreatment from "../../../common/components/masking-treatment/MaskingTreatment";
 import "./FormalCheck.css";
 
 /**
@@ -20,7 +21,11 @@ const FormalCheck = (): JSX.Element => {
             <FormalPointQuantity1></FormalPointQuantity1>
           </div>
 
-          <div className="left-down"></div>
+          <div className="shadow-box"></div>
+
+          <div className="left-down">
+            <MaskingTreatment></MaskingTreatment>
+          </div>
         </div>
         <div className="detail-content-right"></div>
       </section>
