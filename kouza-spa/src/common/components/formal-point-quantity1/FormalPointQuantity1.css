@@ -1,0 +1,79 @@
+.customer-box {
+  font-size: 12px;
+}
+
+.title {
+  background: #e3e3e3;
+  padding-left: 5px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.content-box {
+  padding: 5px 5px 10px 5px;
+}
+
+.flag-style {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.flag-style-left {
+  width: 20%;
+}
+
+.flag-style-middle {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.flag-style-right {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.flag-style-middle-select {
+  width: 40%;
+}
+
+.flag-style-middle-year {
+  width: 20%;
+}
+
+.flag-style-middle-month {
+  width: 20%;
+}
+
+.flag-style-middle-day {
+  width: 20%;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+.address-left {
+  width: 40%;
+}
+
+.address-right {
+  width: 60%;
+}
+
+.item1 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.item2 {
+  justify-content: center;
+  width: 20%;
+}
