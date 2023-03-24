@@ -18,16 +18,15 @@
 
 .detail-content-right {
   width: calc(100% - 340px - 12px);
-  background: yellow;
+  background: red;
 }
 
 .detail-content-left .left-up {
   width: 100%;
+  height: calc(100% - 275px);
   border: 1px solid #e3e3e3;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  position: relative;
-  height: calc(100% - 275px);
   overflow-y: auto;
 }
 
@@ -42,7 +41,7 @@
 }
 
 hr {
-  background-color: #e3e3e3;
-  border: none;
   height: 1px;
+  border: none;
+  background-color: #e3e3e3;
 }
