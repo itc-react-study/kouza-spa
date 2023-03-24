@@ -18,7 +18,7 @@
 
 .detail-content-right {
   width: calc(100% - 340px - 12px);
-  background: red;
+  background: #e3e3e3;
 }
 
 .detail-content-left .left-up {

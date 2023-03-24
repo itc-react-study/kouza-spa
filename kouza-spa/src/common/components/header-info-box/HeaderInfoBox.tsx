@@ -2,7 +2,7 @@ import React from "react";
 import "./HeaderInfoBox.css";
 
 /**
- * ヘッダー情報
+ * 明細ヘッダ
  * @returns {JSX.Element}
  */
 const HeaderInfoBox = (): JSX.Element => {

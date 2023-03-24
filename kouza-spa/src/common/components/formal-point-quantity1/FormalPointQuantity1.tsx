@@ -17,7 +17,7 @@ const FormalPointQuantity1 = (): JSX.Element => {
       {/* 顧客情報 */}
       <div className="customer-box-title">顧客情報</div>
 
-      <div className="content-box">
+      <div className="customer-box-content">
         <div>
           {/* おなまえ */}
           <div className="flag-style">
@@ -232,7 +232,7 @@ const FormalPointQuantity1 = (): JSX.Element => {
       {/* 本人確認情報 */}
       <div className="customer-box-title">本人確認情報</div>
 
-      <div className="content-box">
+      <div className="customer-box-content">
         <div>
           <div className="flag-style">
             <div className="flag-style-left item1 bold">
