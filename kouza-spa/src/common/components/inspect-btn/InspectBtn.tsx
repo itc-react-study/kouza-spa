@@ -25,12 +25,18 @@ const InspectBtn = (): JSX.Element => {
   const [clear, setClear] = useState(defaultStyle);
   const [circleClass, setCircleClass] = useState(defaultClass);
 
+  /**
+   * handleCircle
+   */
   const handleCircle = () => {
     setCircle(circleStyle);
     setClear(defaultStyle);
     setCircleClass(circleCss);
   };
 
+  /**
+   * handleClose
+   */
   const handleClose = () => {
     setCircle(defaultStyle);
     setClear(clearStyle);
