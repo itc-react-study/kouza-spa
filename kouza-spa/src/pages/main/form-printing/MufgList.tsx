@@ -11,6 +11,7 @@ import Paper from "@mui/material/Paper";
 import Select from "@mui/material/Select";
 import dayjs from "dayjs";
 import Pagination from "@mui/material/Pagination";
+import * as XLSX from "xlsx";
 import { DataGrid, GridValueGetterParams } from "@mui/x-data-grid";
 import { DataGridPro, GridColDef } from "@mui/x-data-grid-pro";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
@@ -25,15 +26,13 @@ import {
   SH1APIOPE051RequestBody,
   SH1APIOPE051ResponseBody,
 } from "../../../interfaces/api/sh1apiope051";
-import {
-  NCO_LOCATION_CD,
-  ACCOUNT_FINISH_STATUS,
-} from "../../../constants/code-list.constants";
+import { NCO_LOCATION_CD } from "../../../constants/code-list.constants";
 import { ErrorCodes } from "../../../constants/error-code.constant";
 import { getMessage } from "../../../common/service/message.service";
 import { KouzaMessage } from "../../../interfaces/common/common";
 import { MainContext } from "../../../store/store";
 import Stack from "@mui/material/Stack";
+import { PanoramaFishEye } from "@mui/icons-material";
 
 // 设置List的类型
 interface List {
@@ -159,6 +158,27 @@ const CustomCell = ({ value }: { value: string }) => {
   return <div>{value}</div>;
 };
 
+const CustomCellFlag = ({ value }: { value: string }) => {
+  if (value === "0") {
+    return <div></div>;
+  } else if (value === "1") {
+    return (
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexGrow: 1,
+          fontWeight: 700,
+        }}
+      >
+        ＊
+      </div>
+    );
+  }
+  return <div>{value}</div>;
+};
+
 const tableHeaderColumns: GridColDef[] = [
   {
     ...CustomHeader({ field: "serialNumber", headerName: "連番" }),
@@ -254,7 +274,7 @@ const tableHeaderColumns: GridColDef[] = [
         {params.colDef.headerName}
       </div>
     ),
-    renderCell: (params) => <CustomCell value={params.value} />,
+    renderCell: (params) => <CustomCellFlag value={params.value} />,
   },
 ];
 
@@ -279,7 +299,8 @@ const MufgList = (): JSX.Element => {
     responseBody.CardToriList.length
   );
   const [currentPage, setCurrentPage] = useState(1);
-  const { setIsMainLoading } = useContext(MainContext);
+  const { areaErrorMessage, setAreaErrorMessage, setIsMainLoading } =
+    useContext(MainContext);
 
   // 下拉菜单
   const renderSelect = (
@@ -370,22 +391,31 @@ const MufgList = (): JSX.Element => {
       shopName: inputShopName,
     };
 
-    // 在发送API请求前显示loading
-    setIsMainLoading(true);
+    // area error message
+    if (
+      searchParams.selectAcceptanceDate !== "" &&
+      searchParams.selectBranchName !== ""
+    ) {
+      setIsMainLoading(true);
 
-    try {
-      const response = await getApi(ApiIds.SH1APIOPE051, param);
-      console.log("response", response);
+      try {
+        const response = await getApi(ApiIds.SH1APIOPE051, param);
+        console.log("response", response);
 
-      setCardToriLists(response.data);
-      setCardToriListsRowsCount(response.data.CardToriList.length);
-      setCurrentPage(1);
-    } catch (error: any) {
-      console.log(error);
+        setCardToriLists(response.data);
+        setCardToriListsRowsCount(response.data.CardToriList.length);
+        setCurrentPage(1);
+      } catch (error: any) {
+        console.log(error);
+      }
+      setIsMainLoading(false);
+    } else {
+      const kouzaMessage = getMessage(ErrorCodes.C30491) as KouzaMessage;
+      if (kouzaMessage.display === "area") {
+        setAreaErrorMessage(kouzaMessage.message);
+      }
+      return;
     }
-
-    // 在发送API请求后不显示loading
-    setIsMainLoading(false);
   };
 
   // input error message
@@ -533,6 +563,22 @@ const MufgList = (): JSX.Element => {
     </React.Fragment>
   );
 
+  // printing
+  // export all
+  const handleExportAll = async () => {
+    const sheetData = rows.map((item: ICardTori) => [
+      item.serialNumber,
+      item.shopNo,
+      item.accountBranchName,
+      item.furikanaName,
+      item.acceptanceNo,
+    ]);
+    const workbook = XLSX.utils.book_new();
+    const worksheet = XLSX.utils.aoa_to_sheet([...sheetData]);
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+    XLSX.writeFile(workbook, "data.xlsx");
+  };
+
   //
   return (
     <Box sx={{ padding: "16px 16px" }}>
@@ -577,6 +623,8 @@ const MufgList = (): JSX.Element => {
             className="btn"
             variant="contained"
             style={{ marginTop: 10, backgroundColor: "#c21818" }}
+            onClick={handleExportAll}
+            // onChange={handlePrinted}
           >
             一括印刷
           </Button>
