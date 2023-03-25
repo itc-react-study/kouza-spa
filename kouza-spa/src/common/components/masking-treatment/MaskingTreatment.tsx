@@ -49,9 +49,7 @@ const MaskingTreatment = (): JSX.Element => {
   return (
     <div className="masking-treatment">
       <section className="masking-treatment-mask-box">
-        <div className="masking-treatment-masking-label">
-          <span>マスキング処理</span>
-        </div>
+        <div className="masking-treatment-masking-label">マスキング処理</div>
 
         <div className="masking-treatment-masking-radio">
           <div>
@@ -79,12 +77,22 @@ const MaskingTreatment = (): JSX.Element => {
 
       <section>
         <div>取引時確認備考欄</div>
-        <TextArea multiline rows={2} variant="outlined" />
+        <TextArea
+          multiline
+          rows={2}
+          variant="outlined"
+          inputProps={{ maxLength: 45 }}
+        />
       </section>
 
       <section>
         <div>メモ欄</div>
-        <TextArea multiline rows={2} variant="outlined" />
+        <TextArea
+          multiline
+          rows={2}
+          variant="outlined"
+          inputProps={{ maxLength: 62 }}
+        />
       </section>
 
       <section className="masking-treatment-btn-box">
