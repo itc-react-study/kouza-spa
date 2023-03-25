@@ -15,8 +15,8 @@
   justify-content: center;
   align-items: center;
   height: 44px;
-  color: #fff;
   background-color: rgba(189, 42, 39, 0.88);
+  color: #fff;
 }
 
 .error-tips-message-span {

@@ -6,10 +6,7 @@ import { createContext } from 'react';
 /**
  * 登录画面
  */
-export const LoginContext = createContext({
-  isLoginLoading: false,
-  setIsLoginLoading: (event: boolean) => {},
-});
+export const LoginContext = createContext({});
 
 /**
  * 主画面
@@ -17,6 +14,4 @@ export const LoginContext = createContext({
 export const MainContext = createContext({
   areaErrorMessage: '',
   setAreaErrorMessage: (event: string) => {},
-  isMainLoading: false,
-  setIsMainLoading: (event: boolean) => {},
 });

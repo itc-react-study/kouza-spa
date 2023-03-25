@@ -1,0 +1,37 @@
+.masking-treatment {
+  padding: 10px;
+}
+
+.masking-treatment-mask-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.masking-treatment-masking-label {
+  display: flex;
+  align-items: center;
+  width: 7rem;
+}
+
+.masking-treatment-masking-radio {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 7rem);
+}
+
+.masking-treatment-masking-radio div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.masking-treatment-btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 13px;
+}

@@ -25,8 +25,6 @@ const Main = (): JSX.Element => {
 
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
-  const [isMainLoading, setIsMainLoading] = useState(false);
-
   const clickList = (item: Menu) => () => {
     navigate(item.path);
   };
@@ -34,14 +32,11 @@ const Main = (): JSX.Element => {
   const mainContext = {
     areaErrorMessage,
     setAreaErrorMessage,
-    isMainLoading,
-    setIsMainLoading,
   };
 
   return (
     <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
       <MainContext.Provider value={mainContext}>
-        <LoadingModal></LoadingModal>
         <Box
           sx={{
             minWidth: 200,

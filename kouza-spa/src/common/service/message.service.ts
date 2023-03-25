@@ -2,10 +2,10 @@ import messages from '../../assets/message/message.json';
 import { KouzaMessage, KouzaMessages } from '../../interfaces/common/common';
 
 /**
- *
- * @param key
- * @param args
- * @returns
+ * Description placeholder
+ * @param {keyof KouzaMessages} key
+ * @param {...string[]} args
+ * @returns {KouzaMessage}
  */
 export const getMessage = (
   key: keyof KouzaMessages,

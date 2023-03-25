@@ -177,7 +177,7 @@ const OperatorStatusList = (): JSX.Element => {
     inputName: "",
     errorMessage: "",
   });
-  const { setIsMainLoading } = useContext(MainContext);
+  // const { setIsMainLoading } = useContext(MainContext);
 
   // pagination
   // 开始页：（当前页-1）* 一页10条数据  → 减一是因为下标从0开始
@@ -368,9 +368,6 @@ const OperatorStatusList = (): JSX.Element => {
       shopNameSetted: inputShopNameSetted,
     };
 
-    // 在发送API请求前显示loading
-    setIsMainLoading(true);
-
     try {
       const response = await getApi(ApiIds.SH1APIOPE044, param);
       console.log("response", response);
@@ -382,7 +379,7 @@ const OperatorStatusList = (): JSX.Element => {
     }
 
     // 在发送API请求后不显示loading
-    setIsMainLoading(false);
+    // setIsMainLoading(false);
   };
 
   /**
@@ -411,7 +408,7 @@ const OperatorStatusList = (): JSX.Element => {
     };
 
     // 在发送API请求前显示loading
-    setIsMainLoading(true);
+    // setIsMainLoading(true);
 
     try {
       const response = await getApi(ApiIds.SH1APIOPE044, param);
@@ -421,9 +418,6 @@ const OperatorStatusList = (): JSX.Element => {
     } catch (error: any) {
       console.log(error);
     }
-
-    // 在发送API请求后不显示loading
-    setIsMainLoading(false);
   };
 
   /**
