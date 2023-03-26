@@ -5,16 +5,33 @@ import TextField from "@mui/material/TextField";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
-import { getApi } from "../../common/service/ApiUtils";
-import { ApiIds } from "../../assets/constants/api-id.constant";
-import { SH1APIDUMLGNRequestBody } from "../../assets/interfaces/api/shiapidumlgn";
+import { getApi } from "../../common/service/api.service";
+import { ApiIds } from "../../constants/api-id.constant";
+import { SH1APIDUMLGNRequestBody } from "../../interfaces/api/shiapidumlgn";
+
+const boxStyle = {
+  width: 500,
+  maxWidth: "100%",
+  marginBottom: 5,
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+};
+
+const formStyle = {
+  width: 500,
+  border: "1px solid #000",
+  padding: "40px 40px",
+};
 
 /**
- * 描述
+ * Login
  * @returns {JSX.Element}
  */
 const Login = (): JSX.Element => {
   const navigate = useNavigate();
+
+  const { register, handleSubmit, getValues } = useForm();
 
   const loadMain = async () => {
     const { userName, userPwd } = getValues();
@@ -24,28 +41,15 @@ const Login = (): JSX.Element => {
       userPwd: userPwd,
     };
 
+    // const response = await getApi(ApiIds.SH1APIDUMLGN, param, true, false);
+
+    // await getApi(ApiIds.SH1APIDUMLGN, param, false, true);
+
     const response = await getApi(ApiIds.SH1APIDUMLGN, param);
 
     console.log(response);
 
     navigate("/Main");
-  };
-
-  const { register, handleSubmit, getValues } = useForm();
-
-  const boxStyle = {
-    width: 500,
-    maxWidth: "100%",
-    marginBottom: 5,
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
-  const formStyle = {
-    width: 500,
-    border: "1px solid #000",
-    padding: "40px 40px",
   };
 
   return (

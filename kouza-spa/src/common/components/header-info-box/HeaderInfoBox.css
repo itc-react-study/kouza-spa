@@ -1,0 +1,25 @@
+.header-info-box {
+  padding: 5px 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.header-info-box-title {
+  font-weight: bold;
+}
+
+.header-info-box div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 30px;
+}
+
+.header-info-box div li {
+  list-style: none;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+}
+
+.header-info-box div li span:first-child {
+  margin-right: 0.57rem;
+}
