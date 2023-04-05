@@ -1,18 +1,17 @@
+import React from "react";
 import styled from "@emotion/styled";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import Paper from "@mui/material/Paper";
 import Select from "@mui/material/Select";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell, { tableCellClasses } from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TextField from "@mui/material/TextField";
-import React, { useContext } from "react";
+import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.service";
 import { CODE_LOCATION_CD } from "../../../constants/code-list.constants";
-import { MainContext } from "../../../store/store";
+
 import "./TransactionsList.css";
 
 interface List {
@@ -89,6 +88,8 @@ const TransactionsList = (): JSX.Element => {
 
     return <Select sx={{ width: "100%", height: 30 }}>{item}</Select>;
   };
+
+  useSetAreaErrorMessageEffect();
 
   return (
     <div className="transactions-list">
