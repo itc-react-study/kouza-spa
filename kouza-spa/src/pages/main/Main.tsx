@@ -12,6 +12,7 @@ import ErrorTips from "../../common/components/error-tips/ErrorTips";
 
 const listStyle = {
   border: "1px solid #000",
+  height: 50,
 };
 
 /**
@@ -38,8 +39,7 @@ const Main = (): JSX.Element => {
       <MainContext.Provider value={mainContext}>
         <Box
           sx={{
-            minWidth: 200,
-            width: "10vw",
+            minWidth: 244,
             background: "#24292e",
             color: "#FFF",
           }}

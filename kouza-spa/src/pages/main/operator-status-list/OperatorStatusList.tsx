@@ -71,7 +71,7 @@ const OperatorStatusList = (): JSX.Element => {
   const { areaErrorMessage, setAreaErrorMessage } = useContext(MainContext);
 
   /**
-   * renderSelect xx
+   * renderSelect
    *
    * @param {List[]} List
    * @return {JSX.Element}

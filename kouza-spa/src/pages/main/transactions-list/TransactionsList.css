@@ -1,0 +1,54 @@
+.transactions-list {
+  padding: 16px 16px 0px 16px;
+}
+
+.transactions-list-status {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 104px;
+  padding: 14px 14px 0px 14px;
+  border: 1px solid #e3e3e3;
+}
+
+.transactions-list-status-div {
+  display: flex;
+  align-items: center;
+}
+
+.transactions-list-status-div-left {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  flex: 4;
+  font-weight: bold;
+}
+
+.transactions-list-status-div-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 6;
+  height: 30px;
+}
+
+.transactions-sub-table {
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+}
+
+.transactions-sub-table-left {
+  flex: 9;
+}
+
+.transactions-sub-table-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  height: 64px;
+  padding-right: 14px;
+  border: 1px solid #e3e3e3;
+  border-left: none;
+}
