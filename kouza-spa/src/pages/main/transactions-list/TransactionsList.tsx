@@ -11,6 +11,8 @@ import TableRow from "@mui/material/TableRow";
 import TextField from "@mui/material/TextField";
 import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.service";
 import { CODE_LOCATION_CD } from "../../../constants/code-list.constants";
+import { DataGridPro, GridColDef, GridRowsProp } from "@mui/x-data-grid-pro";
+import { randomTraderName } from "@mui/x-data-grid-generator";
 
 import "./TransactionsList.css";
 
@@ -28,9 +30,8 @@ const TextInput = styled(TextField)({
   },
 });
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
+const StyledTableCell = styled(TableCell)({
   [`&.${tableCellClasses.head}`]: {
-    minWidth: 200,
     height: 32,
     padding: 0,
     backgroundColor: "#000",
@@ -38,19 +39,29 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
     border: "1px solid #e3e3e3",
   },
   [`&.${tableCellClasses.body}`]: {
-    minWidth: 200,
     height: 32,
     padding: 0,
     fontSize: 14,
     border: "1px solid #e3e3e3",
   },
-}));
+});
 
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
+const StyledTableRow = styled(TableRow)({
   "&:nth-of-type(odd)": {
     backgroundColor: "#fff",
   },
-}));
+});
+
+const StyledDataGridPro = styled(DataGridPro)({
+  ".css-1st16a5-MuiDataGrid-pinnedColumnHeaders": {
+    backgroundColor: "#000",
+    color: "#fff",
+  },
+  ".css-gl260s-MuiDataGrid-columnHeadersInner": {
+    backgroundColor: "#000",
+    color: "#fff",
+  },
+});
 
 const createData = (
   name: string,
@@ -63,6 +74,222 @@ const createData = (
 };
 
 const rows = [createData("2件", "2件", "2件", "2件", "2件")];
+
+const gridColumns: GridColDef[] = [
+  {
+    headerName: "受付番号",
+    field: "acceptanceNo",
+    width: 123,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "支店号機名",
+    field: "branchMachine",
+    width: 130,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "顧客名",
+    field: "accountName",
+    width: 230,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "待ち\r\n時間",
+    field: "waitingTime",
+    width: 50,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: " 担当者（フルネーム）",
+    field: "operatorNameFull",
+    width: 115,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: " 経過時間",
+    field: "passingTime",
+    width: 50,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "点 検",
+    field: "check",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "オペレー<br />ション",
+    field: "accountOpeningOperation",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "再 鑑",
+    field: "reCheck",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "管理者<br />確認",
+    field: "managerJudgement",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "結 果",
+    width: 230,
+    field: "result",
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "店 番",
+    field: "shopNo",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+  {
+    headerName: "口座番号",
+    field: "accountNo",
+    width: 200,
+    headerAlign: "center",
+    align: "center",
+    disableColumnMenu: true,
+    sortable: false,
+    filterable: false,
+  },
+];
+
+const gridRows: GridRowsProp = [
+  {
+    id: 1,
+    acceptanceNo: randomTraderName(),
+    branchMachine: randomTraderName(),
+    accountName: 25,
+    waitingTime: randomTraderName(),
+    operatorNameFull: randomTraderName(),
+    passingTime: randomTraderName(),
+    check: randomTraderName,
+    accountOpeningOperation: randomTraderName(),
+    reCheck: randomTraderName(),
+    managerJudgement: 25,
+    result: randomTraderName(),
+    shopNo: randomTraderName(),
+    accountNo: randomTraderName(),
+  },
+  {
+    id: 2,
+    acceptanceNo: randomTraderName(),
+    branchMachine: randomTraderName(),
+    accountName: 25,
+    waitingTime: randomTraderName(),
+    operatorNameFull: randomTraderName(),
+    passingTime: randomTraderName(),
+    check: randomTraderName,
+    accountOpeningOperation: randomTraderName(),
+    reCheck: randomTraderName(),
+    managerJudgement: 25,
+    result: randomTraderName(),
+    shopNo: randomTraderName(),
+    accountNo: randomTraderName(),
+  },
+  {
+    id: 3,
+    acceptanceNo: randomTraderName(),
+    branchMachine: randomTraderName(),
+    accountName: 25,
+    waitingTime: randomTraderName(),
+    operatorNameFull: randomTraderName(),
+    passingTime: randomTraderName(),
+    check: randomTraderName,
+    accountOpeningOperation: randomTraderName(),
+    reCheck: randomTraderName(),
+    managerJudgement: 25,
+    result: randomTraderName(),
+    shopNo: randomTraderName(),
+    accountNo: randomTraderName(),
+  },
+  {
+    id: 4,
+    acceptanceNo: randomTraderName(),
+    branchMachine: randomTraderName(),
+    accountName: 25,
+    waitingTime: randomTraderName(),
+    operatorNameFull: randomTraderName(),
+    passingTime: randomTraderName(),
+    check: randomTraderName,
+    accountOpeningOperation: randomTraderName(),
+    reCheck: randomTraderName(),
+    managerJudgement: 25,
+    result: randomTraderName(),
+    shopNo: randomTraderName(),
+    accountNo: randomTraderName(),
+  },
+  {
+    id: 5,
+    acceptanceNo: randomTraderName(),
+    branchMachine: randomTraderName(),
+    accountName: 25,
+    waitingTime: randomTraderName(),
+    operatorNameFull: randomTraderName(),
+    passingTime: randomTraderName(),
+    check: randomTraderName,
+    accountOpeningOperation: randomTraderName(),
+    reCheck: randomTraderName(),
+    managerJudgement: 25,
+    result: randomTraderName(),
+    shopNo: randomTraderName(),
+    accountNo: randomTraderName(),
+  },
+];
 
 /**
  * TransactionsList
@@ -196,7 +423,26 @@ const TransactionsList = (): JSX.Element => {
         </div>
       </div>
 
-      <div className="transactions-table"></div>
+      <div className="transactions-table" style={{ height: 400 }}>
+        <StyledDataGridPro
+          hideFooter
+          showColumnVerticalBorder
+          showCellVerticalBorder
+          rowHeight={30}
+          rows={gridRows}
+          columns={gridColumns}
+          pinnedColumns={{
+            left: [
+              "acceptanceNo",
+              "branchMachine",
+              "accountName",
+              "waitingTime",
+              "operatorNameFull",
+              "passingTime",
+            ],
+          }}
+        />
+      </div>
     </div>
   );
 };

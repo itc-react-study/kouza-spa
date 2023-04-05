@@ -63,6 +63,7 @@ const Main = (): JSX.Element => {
             flex: 1,
             display: "flex",
             flexDirection: "column",
+            minWidth: 1036,
           }}
         >
           <ErrorTips></ErrorTips>
