@@ -10,7 +10,10 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TextField from "@mui/material/TextField";
 import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.service";
-import { CODE_LOCATION_CD } from "../../../constants/code-list.constants";
+import {
+  CODE_LOCATION_CD,
+  TREATMENT_STATUS,
+} from "../../../constants/code-list.constants";
 import { DataGridPro, GridColDef, GridRowsProp } from "@mui/x-data-grid-pro";
 
 import "./TransactionsList.css";
@@ -553,6 +556,33 @@ const gridRows: GridRowsProp = [
   },
 ];
 
+const OPERATOR_INFO_LIST = [
+  {
+    code: "0",
+    label: "竹元",
+  },
+  {
+    code: "1",
+    label: "山本",
+  },
+  {
+    code: "2",
+    label: "井山",
+  },
+  {
+    code: "3",
+    label: "藤井",
+  },
+  {
+    code: "4",
+    label: "金杉",
+  },
+  {
+    code: "5",
+    label: "杉野",
+  },
+];
+
 /**
  * TransactionsList
  *
@@ -599,7 +629,7 @@ const TransactionsList = (): JSX.Element => {
             <span>担当者名</span>
           </div>
           <div className="transactions-list-status-div-right">
-            {renderSelect(CODE_LOCATION_CD)}
+            {renderSelect(OPERATOR_INFO_LIST)}
           </div>
         </div>
         {/* 処理状況 */}
@@ -608,7 +638,7 @@ const TransactionsList = (): JSX.Element => {
             <span>処理状況</span>
           </div>
           <div className="transactions-list-status-div-right">
-            {renderSelect(CODE_LOCATION_CD)}
+            {renderSelect(TREATMENT_STATUS)}
           </div>
         </div>
         {/* 設置店番 */}
