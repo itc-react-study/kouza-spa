@@ -12,6 +12,10 @@
   border: 1px solid #e3e3e3;
 }
 
+.transactions-list-table {
+  height: calc(100vh - 460px);
+}
+
 .transactions-list-status-div {
   display: flex;
   align-items: center;
@@ -32,17 +36,17 @@
   height: 30px;
 }
 
-.transactions-sub-table {
+.transactions-list-subTable {
   display: flex;
   align-items: center;
   margin: 12px 0px;
 }
 
-.transactions-sub-table-left {
+.transactions-list-subTable-left {
   flex: 9;
 }
 
-.transactions-sub-table-right {
+.transactions-list-subTable-right {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -51,4 +55,25 @@
   padding-right: 14px;
   border: 1px solid #e3e3e3;
   border-left: none;
+}
+
+.transactions-list-information {
+  height: 142px;
+  padding: 10px 15px 6px;
+  margin-top: 10px;
+  border: 1px solid #e3e3e3;
+}
+
+.transactions-list-information-button {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.transactions-list-information-button p {
+  margin-right: 10px;
+}
+
+.transactions-list-information-textArea {
+  margin-top: 10px;
 }

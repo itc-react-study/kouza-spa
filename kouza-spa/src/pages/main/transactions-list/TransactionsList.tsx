@@ -12,7 +12,6 @@ import TextField from "@mui/material/TextField";
 import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.service";
 import { CODE_LOCATION_CD } from "../../../constants/code-list.constants";
 import { DataGridPro, GridColDef, GridRowsProp } from "@mui/x-data-grid-pro";
-import { randomTraderName } from "@mui/x-data-grid-generator";
 
 import "./TransactionsList.css";
 
@@ -27,6 +26,12 @@ const TextInput = styled(TextField)({
   },
   ".css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input": {
     height: 30,
+  },
+});
+
+const TextArea = styled(TextField)({
+  ".css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root": {
+    padding: "4px 11px",
   },
 });
 
@@ -63,6 +68,11 @@ const StyledDataGridPro = styled(DataGridPro)({
   },
 });
 
+const StyledButton = styled(Button)({
+  width: 100,
+  height: 30,
+});
+
 const createData = (
   name: string,
   calories: string,
@@ -82,9 +92,7 @@ const gridColumns: GridColDef[] = [
     width: 123,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "支店号機名",
@@ -92,9 +100,7 @@ const gridColumns: GridColDef[] = [
     width: 130,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "顧客名",
@@ -102,39 +108,31 @@ const gridColumns: GridColDef[] = [
     width: 230,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
-    headerName: "待ち\r\n時間",
+    headerName: "待ち時間",
     field: "waitingTime",
-    width: 50,
+    width: 100,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: " 担当者（フルネーム）",
     field: "operatorNameFull",
-    width: 115,
+    width: 200,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: " 経過時間",
     field: "passingTime",
-    width: 50,
+    width: 100,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "点 検",
@@ -142,19 +140,15 @@ const gridColumns: GridColDef[] = [
     width: 80,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
-    headerName: "オペレー<br />ション",
+    headerName: "オペレーション",
     field: "accountOpeningOperation",
-    width: 80,
+    width: 150,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "再 鑑",
@@ -162,19 +156,15 @@ const gridColumns: GridColDef[] = [
     width: 80,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
-    headerName: "管理者<br />確認",
+    headerName: "管理者確認",
     field: "managerJudgement",
-    width: 80,
+    width: 150,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "結 果",
@@ -182,9 +172,7 @@ const gridColumns: GridColDef[] = [
     field: "result",
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "店 番",
@@ -192,9 +180,7 @@ const gridColumns: GridColDef[] = [
     width: 80,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
   },
   {
     headerName: "口座番号",
@@ -202,92 +188,368 @@ const gridColumns: GridColDef[] = [
     width: 200,
     headerAlign: "center",
     align: "center",
-    disableColumnMenu: true,
     sortable: false,
-    filterable: false,
+  },
+  {
+    headerName: "支店指定",
+    field: "shopSelected",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    sortable: false,
+  },
+  {
+    headerName: "既存口座",
+    field: "existingAccount",
+    width: 80,
+    headerAlign: "center",
+    align: "center",
+    sortable: false,
   },
 ];
 
 const gridRows: GridRowsProp = [
   {
     id: 1,
-    acceptanceNo: randomTraderName(),
-    branchMachine: randomTraderName(),
-    accountName: 25,
-    waitingTime: randomTraderName(),
-    operatorNameFull: randomTraderName(),
-    passingTime: randomTraderName(),
-    check: randomTraderName,
-    accountOpeningOperation: randomTraderName(),
-    reCheck: randomTraderName(),
-    managerJudgement: 25,
-    result: randomTraderName(),
-    shopNo: randomTraderName(),
-    accountNo: randomTraderName(),
+    acceptanceNo: "2111000001101",
+    branchMachine: "本店003",
+    accountName: "山田　太郎",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "未済",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
   },
   {
     id: 2,
-    acceptanceNo: randomTraderName(),
-    branchMachine: randomTraderName(),
-    accountName: 25,
-    waitingTime: randomTraderName(),
-    operatorNameFull: randomTraderName(),
-    passingTime: randomTraderName(),
-    check: randomTraderName,
-    accountOpeningOperation: randomTraderName(),
-    reCheck: randomTraderName(),
-    managerJudgement: 25,
-    result: randomTraderName(),
-    shopNo: randomTraderName(),
-    accountNo: randomTraderName(),
+    acceptanceNo: "2111000002101",
+    branchMachine: "本店003",
+    accountName: "山田　太郎",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
   },
   {
     id: 3,
-    acceptanceNo: randomTraderName(),
-    branchMachine: randomTraderName(),
-    accountName: 25,
-    waitingTime: randomTraderName(),
-    operatorNameFull: randomTraderName(),
-    passingTime: randomTraderName(),
-    check: randomTraderName,
-    accountOpeningOperation: randomTraderName(),
-    reCheck: randomTraderName(),
-    managerJudgement: 25,
-    result: randomTraderName(),
-    shopNo: randomTraderName(),
-    accountNo: randomTraderName(),
+    acceptanceNo: "2111000002101",
+    branchMachine: "本店003",
+    accountName: "山田　太郎",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設済",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
   },
   {
     id: 4,
-    acceptanceNo: randomTraderName(),
-    branchMachine: randomTraderName(),
-    accountName: 25,
-    waitingTime: randomTraderName(),
-    operatorNameFull: randomTraderName(),
-    passingTime: randomTraderName(),
-    check: randomTraderName,
-    accountOpeningOperation: randomTraderName(),
-    reCheck: randomTraderName(),
-    managerJudgement: 25,
-    result: randomTraderName(),
-    shopNo: randomTraderName(),
-    accountNo: randomTraderName(),
+    acceptanceNo: "2111000002101",
+    branchMachine: "本店003",
+    accountName: "山田　太郎",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
   },
   {
     id: 5,
-    acceptanceNo: randomTraderName(),
-    branchMachine: randomTraderName(),
-    accountName: 25,
-    waitingTime: randomTraderName(),
-    operatorNameFull: randomTraderName(),
-    passingTime: randomTraderName(),
-    check: randomTraderName,
-    accountOpeningOperation: randomTraderName(),
-    reCheck: randomTraderName(),
-    managerJudgement: 25,
-    result: randomTraderName(),
-    shopNo: randomTraderName(),
-    accountNo: randomTraderName(),
+    acceptanceNo: "2111000002101",
+    branchMachine: "本店003",
+    accountName: "山田　太郎",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設未済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 6,
+    acceptanceNo: "2111000003101",
+    branchMachine: "本店003",
+    accountName: "ＭＯＪＯＯＤ　ＭＯＨＡＭＥＤ　ＭＵＺＡＭＩＬ　ＣＵＺＯＮ",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "未済",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 7,
+    acceptanceNo: "2111000004101",
+    branchMachine: "本店003",
+    accountName: "ＭＯＪＯＯＤ　ＭＯＨＡＭＥＤ　ＭＵＺＡＭＩＬ　ＣＵＺＯＮ",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 8,
+    acceptanceNo: "2111000004101",
+    branchMachine: "本店003",
+    accountName: "ＭＯＪＯＯＤ　ＭＯＨＡＭＥＤ　ＭＵＺＡＭＩＬ　ＣＵＺＯＮ",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設済",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 9,
+    acceptanceNo: "2111000004101",
+    branchMachine: "本店003",
+    accountName: "ＭＯＪＯＯＤ　ＭＯＨＡＭＥＤ　ＭＵＺＡＭＩＬ　ＣＵＺＯＮ",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 10,
+    acceptanceNo: "2111000004101",
+    branchMachine: "本店003",
+    accountName: "ＭＯＪＯＯＤ　ＭＯＨＡＭＥＤ　ＭＵＺＡＭＩＬ　ＣＵＺＯＮ",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "口座開設未済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 11,
+    acceptanceNo: "2111000005101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "未済",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 12,
+    acceptanceNo: "2111000006101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "未済",
+    reCheck: "",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 13,
+    acceptanceNo: "2111000007101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "依頼中",
+    reCheck: "未済",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 14,
+    acceptanceNo: "2111000008101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "依頼中",
+    reCheck: "未済",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 15,
+    acceptanceNo: "2111000009101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "待ち",
+    reCheck: "完了",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 16,
+    acceptanceNo: "2111000010101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "待ち",
+    reCheck: "完了",
+    managerJudgement: "25",
+    result: "",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 17,
+    acceptanceNo: "2111000010101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "完了",
+    managerJudgement: "25",
+    result: "口座開設済",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 18,
+    acceptanceNo: "2111000010101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "完了",
+    managerJudgement: "25",
+    result: "口座開設済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
+  },
+  {
+    id: 19,
+    acceptanceNo: "2111000010101",
+    branchMachine: "本店003",
+    accountName: "三菱　由依",
+    waitingTime: "13",
+    operatorNameFull: "山本太郎",
+    passingTime: "13",
+    check: "完了",
+    accountOpeningOperation: "完了",
+    reCheck: "完了",
+    managerJudgement: "25",
+    result: "口座開設未済エラー",
+    shopNo: "203",
+    accountNo: "",
+    shopSelected: "あり",
+    existingAccount: "あり",
   },
 ];
 
@@ -297,7 +559,8 @@ const gridRows: GridRowsProp = [
  * @returns {JSX.Element}
  */
 const TransactionsList = (): JSX.Element => {
-  const handleInquery = () => {};
+  const handleInquiry = () => {};
+
   /**
    * renderSelect
    *
@@ -369,19 +632,15 @@ const TransactionsList = (): JSX.Element => {
         <div className="transactions-list-status-div">
           <div className="transactions-list-status-div-left"></div>
           <div className="transactions-list-status-div-right">
-            <Button
-              style={{ width: 100 }}
-              variant="contained"
-              onClick={handleInquery}
-            >
+            <StyledButton variant="contained" onClick={handleInquiry}>
               検索
-            </Button>
+            </StyledButton>
           </div>
         </div>
       </div>
 
-      <div className="transactions-sub-table">
-        <div className="transactions-sub-table-left">
+      <div className="transactions-list-subTable">
+        <div className="transactions-list-subTable-left">
           <Table aria-label="customized table">
             <TableHead>
               <TableRow>
@@ -412,22 +671,22 @@ const TransactionsList = (): JSX.Element => {
           </Table>
         </div>
 
-        <div className="transactions-sub-table-right">
-          <Button
-            style={{ width: 100, height: 30 }}
-            variant="contained"
-            onClick={handleInquery}
-          >
-            検索
-          </Button>
+        <div className="transactions-list-subTable-right">
+          <StyledButton variant="contained" onClick={handleInquiry}>
+            最新化
+          </StyledButton>
         </div>
       </div>
 
-      <div className="transactions-table" style={{ height: 400 }}>
+      <div className="transactions-list-table">
         <StyledDataGridPro
           hideFooter
           showColumnVerticalBorder
           showCellVerticalBorder
+          disableColumnFilter
+          disableColumnMenu
+          disableColumnResize
+          disableColumnSelector
           rowHeight={30}
           rows={gridRows}
           columns={gridColumns}
@@ -442,6 +701,23 @@ const TransactionsList = (): JSX.Element => {
             ],
           }}
         />
+      </div>
+
+      <div className="transactions-list-information">
+        <div className="transactions-list-information-button">
+          <p>連絡事項</p>
+          <StyledButton variant="contained" onClick={handleInquiry}>
+            更 新
+          </StyledButton>
+        </div>
+        <div className="transactions-list-information-textArea">
+          <TextArea
+            fullWidth
+            multiline
+            rows={4}
+            defaultValue="掲示板の内容テスト用"
+          />
+        </div>
       </div>
     </div>
   );
