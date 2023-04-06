@@ -1,4 +1,5 @@
 export interface Menu {
+  isShow: boolean;
   title: string;
   path: string;
   element?: JSX.Element;

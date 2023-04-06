@@ -26,6 +26,7 @@ const Main = (): JSX.Element => {
   const [areaErrorMessage, setAreaErrorMessage] = useState("");
 
   const clickList = (item: Menu) => () => {
+    console.log("item.path", item.path);
     navigate(item.path);
   };
 
@@ -47,13 +48,15 @@ const Main = (): JSX.Element => {
           <nav aria-label="main mailbox folders">
             <List>
               {MENU_LIST.map((item: Menu, index: number) => {
-                return (
-                  <ListItem sx={listStyle} key={index}>
-                    <ListItemButton onClick={clickList(item)}>
-                      <ListItemText primary={item.title} />
-                    </ListItemButton>
-                  </ListItem>
-                );
+                if (item.isShow) {
+                  return (
+                    <ListItem sx={listStyle} key={index}>
+                      <ListItemButton onClick={clickList(item)}>
+                        <ListItemText primary={item.title} />
+                      </ListItemButton>
+                    </ListItem>
+                  );
+                }
               })}
             </List>
           </nav>

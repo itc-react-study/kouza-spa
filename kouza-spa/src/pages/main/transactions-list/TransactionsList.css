@@ -2,6 +2,12 @@
   padding: 16px 16px 0px 16px;
 }
 
+.renderAcceptanceNo {
+  color: #1890ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .transactions-list-status {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
