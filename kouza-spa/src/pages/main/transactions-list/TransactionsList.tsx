@@ -75,6 +75,11 @@ const StyledDataGridPro = styled(DataGridPro)({
 const StyledButton = styled(Button)({
   width: 100,
   height: 30,
+  background: "#6083CB",
+  "&:hover": {
+    backgroundColor: "#40a9ff",
+    color: "#fff",
+  },
 });
 
 const createData = (

@@ -1,6 +1,7 @@
 import React from "react";
 import FormalPointQuantity1 from "../../../common/components/formal-point-quantity1/FormalPointQuantity1";
 import HeaderInfoBox from "../../../common/components/header-info-box/HeaderInfoBox";
+import IdentityVerificationDocDisplay from "../../../common/components/identity-verification-doc-display/IdentityVerificationDocDisplay";
 import MaskingTreatment from "../../../common/components/masking-treatment/MaskingTreatment";
 import "./FormalCheck.css";
 
@@ -27,7 +28,16 @@ const FormalCheck = (): JSX.Element => {
             <MaskingTreatment></MaskingTreatment>
           </div>
         </div>
-        <div className="detail-content-right"></div>
+
+        <div className="detail-content-right">
+          <div className="detail-content-right-up"></div>
+
+          <div className="shadow-box"></div>
+
+          <div className="detail-content-right-down">
+            <IdentityVerificationDocDisplay></IdentityVerificationDocDisplay>
+          </div>
+        </div>
       </section>
     </div>
   );
