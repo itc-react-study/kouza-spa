@@ -1,15 +1,19 @@
 .info-box {
   height: 72px;
+  min-height: 72px;
   overflow: auto;
 }
 
 .detail-content {
   display: flex;
-  height: calc(100vh - 157px);
+  height: calc(100vh - 45px - 16px - 72px - 14px - 10px);
+  min-height: calc(700px - 45px - 16px - 72px - 14px);
   margin-top: 14px;
 }
 
 .detail-content-left {
+  display: flex;
+  flex-direction: column;
   width: 340px;
   min-width: 340px;
   max-width: 340px;
@@ -22,8 +26,8 @@
 }
 
 .detail-content-left .left-up {
+  flex: 1;
   width: 100%;
-  height: calc(100% - 275px);
   border: 1px solid #e3e3e3;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -41,6 +45,8 @@
 
 .detail-content-left .left-down {
   width: 100%;
+  height: 272px;
+  min-height: 272px;
   max-height: 272px;
   border: 1px solid #e3e3e3;
   border-top: none;

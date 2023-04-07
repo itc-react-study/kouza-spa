@@ -36,7 +36,14 @@ const Main = (): JSX.Element => {
   };
 
   return (
-    <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
+    <div
+      style={{
+        display: "flex",
+        width: "100vw",
+        height: "100vh",
+        minHeight: "700px",
+      }}
+    >
       <MainContext.Provider value={mainContext}>
         <Box
           sx={{
