@@ -13,6 +13,14 @@
 
 .identity-verification-doc-display-right {
   flex: 4;
+  padding: 20px;
+}
+
+.identity-verification-doc-display-right-all,
+.identity-verification-doc-display-right-update {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .identity-verification-doc-display-left-information {
@@ -43,4 +51,8 @@
   justify-content: center;
   align-items: center;
   margin-left: 20px;
+}
+
+.identity-verification-doc-display-right-select div {
+  margin-bottom: 2px;
 }
