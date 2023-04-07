@@ -124,12 +124,19 @@ const OPERATOR_INFO_LIST = [
 const TransactionsList = (): JSX.Element => {
   const navigate = useNavigate();
 
-  const handleRenderAcceptanceNo = () => {
+  /**
+   * 受付番号リンク跳转
+   * @returns {void}
+   */
+  const handleRenderAcceptanceNo = (): void => {
     navigate("/Main/FormalCheck");
   };
 
-  const renderAcceptanceNo = (params: any) => {
-    console.log("renderAcceptanceNo", params);
+  /**
+   * 受付番号リンク单元格渲染
+   * @returns {JSX.Element}
+   */
+  const renderAcceptanceNo = (params: any): JSX.Element => {
     return (
       <span className="renderAcceptanceNo" onClick={handleRenderAcceptanceNo}>
         {params.value}
@@ -137,6 +144,7 @@ const TransactionsList = (): JSX.Element => {
     );
   };
 
+  // DataGridPro组件列数组
   const gridColumns: GridColDef[] = [
     {
       headerName: "受付番号",
@@ -261,6 +269,7 @@ const TransactionsList = (): JSX.Element => {
     },
   ];
 
+  // DataGridPro组件行数组
   const gridRows: GridRowsProp = [
     {
       id: 1,
