@@ -9,6 +9,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./FormalCheck.css";
 import styled from "@emotion/styled";
+import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/preInquiryTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -40,16 +41,13 @@ const TabPanel = (props: TabPanelProps): JSX.Element => {
   return (
     <div
       role="tabpanel"
+      style={{ height: "calc(100% - 48px)" }}
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
+      {value === index && <React.Fragment>{children}</React.Fragment>}
     </div>
   );
 };
@@ -109,10 +107,10 @@ const FormalCheck = (): JSX.Element => {
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-              Item One
+              <PreInquiryTab />
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Item Two
+              <PreInquiryTab />
             </TabPanel>
             <TabPanel value={value} index={2}>
               Item Three
