@@ -11,6 +11,7 @@ import styled from "@emotion/styled";
 import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/PreInquiryTab";
 import IdentityVerificationDocTab from "../../../common/components/tabs/identity-verification-doc-tab/IdentityVerificationDocTab";
 import SanctionsTab from "../../../common/components/tabs/sanctions-tab/SanctionsTab";
+import RiskEvaluationTab from "../../../common/components/tabs/risk-evaluation-tab/RiskEvaluationTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -117,7 +118,7 @@ const FormalCheck = (): JSX.Element => {
               Item Three
             </TabPanel>
             <TabPanel value={value} index={3}>
-              Item Four
+              <RiskEvaluationTab></RiskEvaluationTab>
             </TabPanel>
             <TabPanel value={value} index={4}>
               Item Five

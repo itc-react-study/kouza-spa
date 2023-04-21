@@ -1,0 +1,91 @@
+.risk-evaluation-tab-title {
+  padding-left: 10px;
+  background-color: #e7e6e6;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.risk-evaluation-tab-kyc {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.risk-evaluation-tab-kyc > div:nth-child(1) {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+.risk-evaluation-tab-kyc > div:nth-child(2) {
+  flex: 6;
+}
+
+.risk-evaluation-tab-kyc > div:nth-child(3) {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.risk-evaluation-tab-grid {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  height: 200px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.risk-evaluation-tab-grid > div:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 1px solid #dfdfdf;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.risk-evaluation-tab-grid > div:nth-child(even) {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.risk-evaluation-tab-radio,
+.risk-evaluation-tab-radio > div,
+.risk-evaluation-tab-comment > div {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.risk-evaluation-tab-radio > div {
+  padding-left: 44px;
+}
+
+.risk-evaluation-tab-comment {
+  padding-left: 10px;
+}
+
+.risk-evaluation-tab-comment-left {
+  flex: 7;
+}
+
+.risk-evaluation-tab-comment-right {
+  flex: 3;
+}
+
+.risk-evaluation-tab-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 64px;
+  padding-right: 20px;
+}
+
+.top {
+  margin-top: 10px;
+}
