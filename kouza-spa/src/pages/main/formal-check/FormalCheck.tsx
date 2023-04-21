@@ -9,6 +9,7 @@ import Box from "@mui/material/Box";
 import "./FormalCheck.css";
 import styled from "@emotion/styled";
 import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/PreInquiryTab";
+import IdentityVerificationDocTab from "../../../common/components/tabs/identity-verification-doc-tab/IdentityVerificationDocTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -40,7 +41,7 @@ const TabPanel = (props: TabPanelProps): JSX.Element => {
   return (
     <div
       role="tabpanel"
-      style={{ height: "calc(100% - 48px)" }}
+      style={{ height: "calc(100% - 48px)", overflow: "auto" }}
       hidden={value !== index}
       id={`simple-tabpanel-${index}`}
       aria-labelledby={`simple-tab-${index}`}
@@ -88,7 +89,6 @@ const FormalCheck = (): JSX.Element => {
             <Box>
               <Tabs
                 value={value}
-                indicatorColor={undefined}
                 onChange={handleChange}
                 variant="fullWidth"
                 aria-label="basic tabs example"
@@ -124,7 +124,7 @@ const FormalCheck = (): JSX.Element => {
               Item Six
             </TabPanel>
             <TabPanel value={value} index={6}>
-              Item Seven
+              <IdentityVerificationDocTab></IdentityVerificationDocTab>
             </TabPanel>
           </div>
 

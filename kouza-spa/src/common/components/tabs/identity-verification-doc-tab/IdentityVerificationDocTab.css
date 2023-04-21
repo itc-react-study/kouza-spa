@@ -1,0 +1,10 @@
+.identity-verification-doc-tab {
+  height: calc(100% - 18px);
+}
+
+.identity-verification-doc-tab-title {
+  padding-left: 10px;
+  background-color: #e7e6e6;
+  font-size: 12px;
+  font-weight: bold;
+}
