@@ -5,11 +5,10 @@ import IdentityVerificationDocDisplay from "../../../common/components/identity-
 import MaskingTreatment from "../../../common/components/masking-treatment/MaskingTreatment";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./FormalCheck.css";
 import styled from "@emotion/styled";
-import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/preInquiryTab";
+import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/PreInquiryTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -110,7 +109,7 @@ const FormalCheck = (): JSX.Element => {
               <PreInquiryTab />
             </TabPanel>
             <TabPanel value={value} index={1}>
-              <PreInquiryTab />
+              Item Two
             </TabPanel>
             <TabPanel value={value} index={2}>
               Item Three

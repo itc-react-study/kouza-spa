@@ -1,5 +1,56 @@
 .pre-inquiry-tab-title {
+  padding-left: 10px;
   background-color: #e7e6e6;
   font-size: 12px;
   font-weight: bold;
+}
+
+.pre-inquiry-tab-search {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-column-gap: 10px;
+  height: 56px;
+  padding-left: 10px;
+}
+
+.pre-inquiry-tab-search-div {
+  display: flex;
+  align-items: center;
+}
+
+.pre-inquiry-tab-search-div-left {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  flex: 4;
+  font-weight: bold;
+}
+
+.pre-inquiry-tab-search-div-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 6;
+  height: 30px;
+}
+
+.pre-inquiry-tab-search-radio-left {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  flex: 9;
+  font-weight: bold;
+}
+
+.pre-inquiry-tab-search-radio-right {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  height: 30px;
+}
+
+.pre-inquiry-tab-search-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
