@@ -8,12 +8,24 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import "./FormalCheck.css";
+import styled from "@emotion/styled";
 
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
 }
+
+const tabStyle = {
+  background: "#e9e9e9",
+  marginRight: 2,
+  "&.Mui-selected": {
+    background: "#696969",
+    color: "#fff",
+  },
+};
+
+const StyledTab = styled(Tab)(tabStyle);
 
 const a11yProps = (index: number): { id: string; "aria-controls": string } => {
   return {
@@ -53,6 +65,8 @@ const FormalCheck = (): JSX.Element => {
     setValue(newValue);
   };
 
+  const tabStyle = { background: "#e9e9e9", marginRight: 0.5 };
+
   return (
     <div className="formal-check">
       <section className="info-box">
@@ -74,19 +88,24 @@ const FormalCheck = (): JSX.Element => {
 
         <div className="detail-content-right">
           <div className="detail-content-right-up">
-            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+            <Box>
               <Tabs
                 value={value}
+                indicatorColor={undefined}
                 onChange={handleChange}
+                variant="fullWidth"
                 aria-label="basic tabs example"
+                TabIndicatorProps={{
+                  sx: { backgroundColor: "transparent" },
+                }}
               >
-                <Tab label="事前照会" {...a11yProps(0)} />
-                <Tab label="制裁対象" {...a11yProps(1)} />
-                <Tab label="CDD/EDD" {...a11yProps(2)} />
-                <Tab label="リスク評価" {...a11yProps(3)} />
-                <Tab label="商品選択" {...a11yProps(4)} />
-                <Tab label="エラー" {...a11yProps(5)} />
-                <Tab label="本人確認" {...a11yProps(6)} />
+                <StyledTab sx={tabStyle} label="事前照会" {...a11yProps(0)} />
+                <StyledTab sx={tabStyle} label="制裁対象" {...a11yProps(1)} />
+                <StyledTab sx={tabStyle} label="CDD/EDD" {...a11yProps(2)} />
+                <StyledTab sx={tabStyle} label="リスク評価" {...a11yProps(3)} />
+                <StyledTab sx={tabStyle} label="商品選択" {...a11yProps(4)} />
+                <StyledTab sx={tabStyle} label="エラー" {...a11yProps(5)} />
+                <StyledTab sx={tabStyle} label="本人確認" {...a11yProps(6)} />
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
