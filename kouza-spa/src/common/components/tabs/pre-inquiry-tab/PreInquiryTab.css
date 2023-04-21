@@ -7,6 +7,7 @@
 
 .pre-inquiry-tab-search {
   display: grid;
+  align-items: center;
   grid-template-columns: 2fr repeat(4, 1fr);
   grid-column-gap: 10px;
   height: 56px;
@@ -53,4 +54,92 @@
   align-items: center;
   justify-content: flex-end;
   padding-right: 20px;
+}
+
+.pre-inquiry-tab-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 44px;
+  padding-right: 20px;
+}
+
+.pre-inquiry-tab-cif {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1.5fr 4fr 1.5fr 1fr;
+  height: 42px;
+  padding-left: 10px;
+}
+
+.pre-inquiry-tab-label {
+  font-weight: bold;
+}
+
+.pre-inquiry-tab-value {
+  padding-left: 20px;
+}
+
+.pre-inquiry-tab-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  height: 100%;
+  color: #fff;
+  background-color: #000;
+}
+
+.pre-inquiry-tab-address {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.pre-inquiry-tab-address-left {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.pre-inquiry-tab-address-right {
+  flex: 8.5;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.pre-inquiry-tab-tips {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  padding-left: 10px;
+}
+
+.pre-inquiry-tab-tips-label {
+  font-weight: bold;
+  margin-right: 12px;
+}
+
+.pre-inquiry-tab-tips-value {
+  margin-right: 22px;
+}
+
+.pre-inquiry-tab-edd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+}
+
+.pre-inquiry-tab-edd-input {
+  width: 80%;
 }
