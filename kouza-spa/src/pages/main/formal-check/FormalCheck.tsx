@@ -10,6 +10,7 @@ import "./FormalCheck.css";
 import styled from "@emotion/styled";
 import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/PreInquiryTab";
 import IdentityVerificationDocTab from "../../../common/components/tabs/identity-verification-doc-tab/IdentityVerificationDocTab";
+import SanctionsTab from "../../../common/components/tabs/sanctions-tab/SanctionsTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -19,6 +20,7 @@ interface TabPanelProps {
 
 const tabStyle = {
   background: "#e9e9e9",
+  color: "#000",
   marginRight: 2,
   "&.Mui-selected": {
     background: "#696969",
@@ -106,10 +108,10 @@ const FormalCheck = (): JSX.Element => {
               </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-              <PreInquiryTab />
+              <PreInquiryTab></PreInquiryTab>
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Item Two
+              <SanctionsTab></SanctionsTab>
             </TabPanel>
             <TabPanel value={value} index={2}>
               Item Three

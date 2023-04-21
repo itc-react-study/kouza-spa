@@ -77,9 +77,9 @@ const rows = [
 ];
 
 /**
- * PreInquiryTab
- *
- * @returns {JSX.Element} }
+ * 画面ID: SH1SCROPE024
+ * 画面名: 事前照会タブ
+ * @returns {JSX.Element}
  */
 const PreInquiryTab = (): JSX.Element => {
   return (
