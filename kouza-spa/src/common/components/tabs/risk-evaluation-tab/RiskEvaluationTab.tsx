@@ -57,7 +57,13 @@ const TabRadio = () => {
   );
 };
 
-const RiskEvaluationTab = () => {
+/**
+ * 画面ID: SH1SCROPE027
+ * 画面名: リスク評価タブ
+ *
+ * @returns {JSX.Element}
+ */
+const RiskEvaluationTab = (): JSX.Element => {
   return (
     <div className="risk-evaluation-tab">
       <div className="risk-evaluation-tab-title">KYCリスク評価</div>
