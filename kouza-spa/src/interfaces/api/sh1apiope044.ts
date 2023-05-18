@@ -52,6 +52,7 @@ export interface SH1APIOPE044RequestBody extends ApiRequestBodyBase {
  * @author Charlie
  */
 export interface SH1APIOPE044ResponseBody extends ApiResponseBodyBase {
+  [x: string]: any;
   data: {
     /**
      * 項目名: 待機中
