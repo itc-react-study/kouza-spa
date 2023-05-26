@@ -236,10 +236,7 @@ const CddEddTab = () => {
         <div>資 産</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            <TextField fullWidth></TextField>
           </div>
           <div className="cdd-edd-tab-info-grid-text between">
             <span>千円</span>
@@ -256,10 +253,7 @@ const CddEddTab = () => {
         <div>資産の背景</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            <TextField fullWidth></TextField>
           </div>
           <div className="cdd-edd-tab-info-grid-text between">
             <span>千円</span>
