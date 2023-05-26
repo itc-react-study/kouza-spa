@@ -8,7 +8,20 @@ import Select from "@mui/material/Select";
 
 import TextField from "@mui/material/TextField";
 import React from "react";
+import {
+  SIDE_JOB_CD,
+  MONTHLY_TRADE_AMOUNT_CD_DB,
+  BUSINESS_CD,
+  ZAIRYUU_SHIKAKU_CODE,
+  COUNTRY_CODE,
+  CURRENCY_CODE
+} from "../../../../constants/code-list.constants";
 import "./CddEddTab.css";
+
+interface List {
+  code: string;
+  label: string;
+}
 
 const StyledButton = styled(Button)({
   width: 57,
@@ -24,6 +37,29 @@ const StyledButton = styled(Button)({
   },
 });
 
+/**
+ * renderSelect
+ *
+ * @param {List[]} List
+ * @return {JSX.Element}
+ */
+const renderSelect = (List: List[]): JSX.Element => {
+  const item = List.map((ele: List, index: number) => {
+    return (
+      <MenuItem key={index} value={ele.code}>
+        {ele.label}
+      </MenuItem>
+    );
+  });
+
+  return <Select fullWidth>{item}</Select>;
+};
+
+/**
+ * 画面ID: SH1SCROPE026
+ * 画面名: CDDEDDタブタブ实装
+ * @returns {JSX.Element}
+ */
 const CddEddTab = () => {
   return (
     <div className="cdd-edd-tab">
@@ -106,48 +142,33 @@ const CddEddTab = () => {
           <div>通常月の取引予定額</div>
           <div>
             <div className="cdd-edd-tab-info-grid-select">
-              <Select fullWidth>
-                <MenuItem value={10}>居住者日本人</MenuItem>
-                <MenuItem value={20}>非居住者・外国人</MenuItem>
-              </Select>
+              {renderSelect(MONTHLY_TRADE_AMOUNT_CD_DB)}
             </div>
           </div>
 
           <div>職 業</div>
           <div>
             <div className="cdd-edd-tab-info-grid-select">
-              <Select fullWidth>
-                <MenuItem value={10}>居住者日本人</MenuItem>
-                <MenuItem value={20}>非居住者・外国人</MenuItem>
-              </Select>
+              {renderSelect(SIDE_JOB_CD)}
             </div>
             <div className="cdd-edd-tab-info-grid-text">業種その他(詳細)</div>
 
             <div className="cdd-edd-tab-info-grid-select">
-              <Select fullWidth>
-                <MenuItem value={10}>居住者日本人</MenuItem>
-                <MenuItem value={20}>非居住者・外国人</MenuItem>
-              </Select>
+              {renderSelect(SIDE_JOB_CD)}
             </div>
           </div>
 
           <div>業 種</div>
           <div>
             <div className="cdd-edd-tab-info-grid-select">
-              <Select fullWidth>
-                <MenuItem value={10}>居住者日本人</MenuItem>
-                <MenuItem value={20}>非居住者・外国人</MenuItem>
-              </Select>
+              {renderSelect(BUSINESS_CD)}
             </div>
             <div className="cdd-edd-tab-info-grid-text">
               個人事業主/自営業(詳細)
             </div>
 
             <div className="cdd-edd-tab-info-grid-select">
-              <Select fullWidth>
-                <MenuItem value={10}>居住者日本人</MenuItem>
-                <MenuItem value={20}>非居住者・外国人</MenuItem>
-              </Select>
+              {renderSelect(BUSINESS_CD)}
             </div>
           </div>
 
@@ -194,32 +215,23 @@ const CddEddTab = () => {
         <div>
           <div className="cdd-edd-tab-info-grid-select">
             <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
+              <MenuItem value={10}>あり</MenuItem>
+              <MenuItem value={20}>なし</MenuItem>
             </Select>
           </div>
         </div>
         <div>制裁対象国1</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">制裁対象国2</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">制裁対象国3</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
         </div>
         <div>取引/資産</div>
@@ -243,10 +255,7 @@ const CddEddTab = () => {
             <span>収入の背景</span>
           </div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            <TextField fullWidth></TextField>
           </div>
         </div>
 
@@ -260,10 +269,7 @@ const CddEddTab = () => {
             <span>資産の背景</span>
           </div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            <TextField fullWidth></TextField>
           </div>
         </div>
       </div>
@@ -274,41 +280,26 @@ const CddEddTab = () => {
         <div>国籍1</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">国籍2</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">国籍3</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
         </div>
 
         <div>在留資格</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(ZAIRYUU_SHIKAKU_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text"></div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(ZAIRYUU_SHIKAKU_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">許可年月日</div>
           <div className="cdd-edd-tab-info-grid-select">
@@ -336,10 +327,7 @@ const CddEddTab = () => {
           </div>
           <div className="cdd-edd-tab-info-grid-text">居住国</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
         </div>
       </div>
@@ -357,55 +345,40 @@ const CddEddTab = () => {
         <div>送金相手国1</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">送金相手国2</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">送金相手国3</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(COUNTRY_CODE)}
           </div>
         </div>
 
         <div>送金通貨種類1</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(CURRENCY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">送金通貨種類2</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(CURRENCY_CODE)}
           </div>
           <div className="cdd-edd-tab-info-grid-text">送金通貨種類3</div>
           <div className="cdd-edd-tab-info-grid-select">
-            <Select fullWidth>
-              <MenuItem value={10}>居住者日本人</MenuItem>
-              <MenuItem value={20}>非居住者・外国人</MenuItem>
-            </Select>
+            {renderSelect(CURRENCY_CODE)}
           </div>
         </div>
 
         <div>高リスク職業業種区分</div>
         <div>
           <div className="cdd-edd-tab-info-grid-input">
-            <TextField fullWidth></TextField>
+            <Select fullWidth>
+              <MenuItem value={10}>あり</MenuItem>
+              <MenuItem value={20}>なし</MenuItem>
+            </Select>
           </div>
         </div>
       </div>

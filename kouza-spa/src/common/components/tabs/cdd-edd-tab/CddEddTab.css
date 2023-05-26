@@ -67,6 +67,14 @@
   text-align: left;
 }
 
+.cdd-edd-tab-info-grid-input .MuiSelect-select {
+  height: 30px;
+  line-height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
 .cdd-edd-tab-info-grid-text {
   width: 10%;
   min-width: 125px;

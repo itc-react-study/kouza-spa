@@ -77,6 +77,11 @@ list.forEach((ele) => {
   rows.push(createData(ele, "", "", "", ""));
 });
 
+/**
+ * 画面ID: SH1SCROPE029
+ * 画面名: エラータブ
+ * @returns {JSX.Element}
+ */
 const ErrorTab = () => {
   return (
     <div className="error-tab">
