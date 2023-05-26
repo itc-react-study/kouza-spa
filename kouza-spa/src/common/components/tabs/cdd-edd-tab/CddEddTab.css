@@ -55,7 +55,7 @@
 }
 
 .cdd-edd-tab-info-grid-select {
-  width: 305px;
+  width: 25%;
   height: 30px;
 }
 
@@ -67,30 +67,19 @@
   text-align: left;
 }
 
-.cdd-edd-tab-info-grid-text1 {
-  width: 200px;
+.cdd-edd-tab-info-grid-text {
+  width: 10%;
+  min-width: 178px;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding-right: 10px;
-}
-
-.cdd-edd-tab-info-grid-text2 {
-  width: 150px;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
   align-items: center;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-.cdd-edd-tab-info-grid-text3 {
-  width: 150px;
-  display: flex;
+.between {
   justify-content: space-between;
-  align-items: center;
-  padding-right: 10px;
-  padding-left: 10px;
 }
 
 .cdd-edd-tab-info-grid > div:nth-child(odd) {
