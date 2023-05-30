@@ -65,6 +65,25 @@ const detailResponseBody = {
   businessRoleName: 1,
 };
 
+//搜索对象
+interface SearchParams {
+  selectedNcoLocation: string;
+  selectedRoleNo: string;
+  selectedBusinessRole: string;
+  selectedOperatorStatus: string;
+  inputShopNoSetted: string;
+  inputShopNameSetted: string;
+}
+//默认搜索对象 最新化使用
+const DEFAULT_SEARCH_PARAMS: SearchParams = {
+  selectedNcoLocation: "",
+  selectedRoleNo: "",
+  selectedBusinessRole: "",
+  selectedOperatorStatus: "",
+  inputShopNoSetted: "",
+  inputShopNameSetted: "",
+};
+
 const renderTextField = (
   label: string,
   value: string,
@@ -99,6 +118,13 @@ const OperatorStatusList = (): JSX.Element => {
   const { areaErrorMessage, setAreaErrorMessage } = useContext(MainContext);
   const [storeNumber, setStoreNumber] = useState("");
   const [storeName, setStoreName] = useState("");
+  const [searchParams, setSearchParams] = useState<SearchParams>(
+    DEFAULT_SEARCH_PARAMS
+  );
+  const [searchDefaultParams, setSearchDefaultParams] = useState<SearchParams>(
+    DEFAULT_SEARCH_PARAMS
+  );
+  const [shouldRefresh, setShouldRefresh] = useState(false);
 
   /**
    * renderSelect
@@ -198,9 +224,26 @@ const OperatorStatusList = (): JSX.Element => {
     // if (kouzaMessage.display === "area") {
     //   setAreaErrorMessage(kouzaMessage.message);
     // }
+    const {
+      selectedNcoLocation,
+      selectedRoleNo,
+      selectedBusinessRole,
+      selectedOperatorStatus,
+      inputShopNoSetted,
+      inputShopNameSetted,
+    } = searchParams;
+
+    if (!searchDefaultParams || searchDefaultParams !== searchParams) {
+      setSearchDefaultParams(searchParams);
+    }
 
     const param: SH1APIOPE044RequestBody = {
-      ncoLocation: "ncoLocation",
+      ncoLocation: selectedNcoLocation,
+      roleNo: selectedRoleNo,
+      businessRole: selectedBusinessRole,
+      operatorStatus: selectedOperatorStatus,
+      shopNoSetted: inputShopNoSetted,
+      shopNameSetted: inputShopNameSetted,
     };
 
     try {
@@ -217,6 +260,57 @@ const OperatorStatusList = (): JSX.Element => {
       console.log(error);
     }
   };
+
+  /**
+   * 用于刷新当前查询条件下的操作员数据的函数
+   * 首先获取之前保存的查询条件searchDefaultParams，然后根据这些条件构造一个API请求的参数对象param，并使用该参数调用getApi函数来获取数据。
+   * 最后，它使用setOperator函数将新数据设置为当前操作员数据，实现了刷新操作。
+   */
+  const handleRefresh = async () => {
+    setShouldRefresh(true);
+    const {
+      selectedNcoLocation,
+      selectedRoleNo,
+      selectedBusinessRole,
+      selectedOperatorStatus,
+      inputShopNoSetted,
+      inputShopNameSetted,
+    } = searchDefaultParams;
+
+    const param: SH1APIOPE044RequestBody = {
+      ncoLocation: selectedNcoLocation,
+      roleNo: selectedRoleNo,
+      businessRole: selectedBusinessRole,
+      operatorStatus: selectedOperatorStatus,
+      shopNoSetted: inputShopNoSetted,
+      shopNameSetted: inputShopNameSetted,
+    };
+
+    try {
+      const response = await getApi(ApiIds.SH1APIOPE044, param);
+      console.log("response", response);
+
+      setOperator(response.data);
+    } catch (error: any) {
+      console.log(error);
+    }
+  };
+
+  /**
+   * 自动更新
+   *
+   * handleRefresh 函数会被调用，它会请求一些数据并更新组件状态。setInterval 函数会定时调用 handleRefresh 函数，每隔 60 秒刷新一次数据。
+   * 在 useEffect 的返回值中，又包含了一个 clearInterval 函数，用于清除定时器，防止内存泄漏。
+   * 整个 useEffect 函数在组件挂载后只会执行一次，因为第二个参数是一个空数组，这个空数组表示该 useEffect 只在组件挂载时执行一次，不会在组件的重新渲染中重复执行。
+   */
+  useEffect(() => {
+    if (shouldRefresh) {
+      var timer = setInterval(() => {
+        handleRefresh();
+      }, 60000);
+      return () => clearInterval(timer);
+    }
+  }, [shouldRefresh]);
 
   const handleQuery = async () => {
     console.log("areaErrorMessage", areaErrorMessage);
