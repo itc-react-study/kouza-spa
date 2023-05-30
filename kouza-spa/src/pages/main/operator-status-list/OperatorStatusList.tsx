@@ -117,10 +117,6 @@ const OperatorStatusList = (): JSX.Element => {
   const [detailedTable, setDetailTable] = useState<any>(detailResponseBody);
   const [currentPageData, setCurrentPageData] = useState<any[]>([]);
   const { areaErrorMessage, setAreaErrorMessage } = useContext(MainContext);
-  const [locationCode, setLocationCode] = useState("");
-  const [roleCode, setRoleCode] = useState("");
-  const [businessRole, setBusinessRole] = useState("");
-  const [treatmentStatus, setTreatmentStatus] = useState("");
   const [storeNumber, setStoreNumber] = useState("");
   const [storeName, setStoreName] = useState("");
   const [searchParams, setSearchParams] = useState<SearchParams>(
@@ -338,22 +334,6 @@ const OperatorStatusList = (): JSX.Element => {
   //   }
   // };
 
-  const handleLocationCodeChange = (event: any) => {
-    setLocationCode(event.target.value);
-  };
-
-  const handleRoleCodeChange = (event: any) => {
-    setRoleCode(event.target.value);
-  };
-
-  const handleBusinessRoleChange = (event: any) => {
-    setBusinessRole(event.target.value);
-  };
-
-  const handleTreatmentStatusChange = (event: any) => {
-    setTreatmentStatus(event.target.value);
-  };
-
   const handleStoreNumberChange = (event: any) => {
     setStoreNumber(event.target.value);
   };
@@ -388,7 +368,7 @@ const OperatorStatusList = (): JSX.Element => {
           <Grid item xs={4}>
             <Item>
               <InputLabel>拠点別</InputLabel>
-              {renderSelect("",locationCode,handleLocationCodeChange)}
+              {renderSelect(CODE_LOCATION_CD)}
             </Item>
           </Grid>
           <Grid item xs={4}>
