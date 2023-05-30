@@ -312,26 +312,26 @@ const OperatorStatusList = (): JSX.Element => {
     }
   }, [shouldRefresh]);
 
-  const handleQuery = async () => {
-    console.log("areaErrorMessage", areaErrorMessage);
-    const param: SH1APIOPE044RequestBody = {};
+  // const handleQuery = async () => {
+  //   console.log("areaErrorMessage", areaErrorMessage);
+  //   const param: SH1APIOPE044RequestBody = {};
 
-    try {
-      const response = (await getApi(
-        ApiIds.SH1APIOPE044,
-        param
-      )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
+  //   try {
+  //     const response = (await getApi(
+  //       ApiIds.SH1APIOPE044,
+  //       param
+  //     )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
 
-      const fullData = response.data.operatorList;
-      setDetailTable(fullData);
-      const slicedData = fullData.slice(startIndex, endIndex);
+  //     const fullData = response.data.operatorList;
+  //     setDetailTable(fullData);
+  //     const slicedData = fullData.slice(startIndex, endIndex);
 
-      setCurrentPageData(slicedData);
-    } catch (error: any) {
-      setAreaErrorMessage(error?.message);
-      console.log(error);
-    }
-  };
+  //     setCurrentPageData(slicedData);
+  //   } catch (error: any) {
+  //     setAreaErrorMessage(error?.message);
+  //     console.log(error);
+  //   }
+  // };
 
   const handleStoreNumberChange = (event: any) => {
     setStoreNumber(event.target.value);
@@ -345,7 +345,7 @@ const OperatorStatusList = (): JSX.Element => {
 
   const handleButtonClick = () => {
     handleInquery();
-    handleQuery();
+    // handleQuery();
   };
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(1);
