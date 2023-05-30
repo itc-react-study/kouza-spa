@@ -34,7 +34,6 @@ import { useSetAreaErrorMessageEffect } from "../../../common/service/hooks.serv
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import { TextField } from "@mui/material";
-import { set } from "react-hook-form";
 // import { ErrorCodes } from "../../../constants/error-code.constant";
 // import { getMessage } from "../../../common/service/message.service";
 // import { KouzaMessage } from "../../../interfaces/common/common";
@@ -313,26 +312,26 @@ const OperatorStatusList = (): JSX.Element => {
     }
   }, [shouldRefresh]);
 
-  // const handleQuery = async () => {
-  //   console.log("areaErrorMessage", areaErrorMessage);
-  //   const param: SH1APIOPE044RequestBody = {};
+  const handleQuery = async () => {
+    console.log("areaErrorMessage", areaErrorMessage);
+    const param: SH1APIOPE044RequestBody = {};
 
-  //   try {
-  //     const response = (await getApi(
-  //       ApiIds.SH1APIOPE044,
-  //       param
-  //     )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
+    try {
+      const response = (await getApi(
+        ApiIds.SH1APIOPE044,
+        param
+      )) as AxiosResponse<SH1APIOPE044ResponseBody, any>;
 
-  //     const fullData = response.data.operatorList;
-  //     setDetailTable(fullData);
-  //     const slicedData = fullData.slice(startIndex, endIndex);
+      const fullData = response.data.operatorList;
+      setDetailTable(fullData);
+      const slicedData = fullData.slice(startIndex, endIndex);
 
-  //     setCurrentPageData(slicedData);
-  //   } catch (error: any) {
-  //     setAreaErrorMessage(error?.message);
-  //     console.log(error);
-  //   }
-  // };
+      setCurrentPageData(slicedData);
+    } catch (error: any) {
+      setAreaErrorMessage(error?.message);
+      console.log(error);
+    }
+  };
 
   const handleStoreNumberChange = (event: any) => {
     setStoreNumber(event.target.value);
@@ -346,7 +345,7 @@ const OperatorStatusList = (): JSX.Element => {
 
   const handleButtonClick = () => {
     handleInquery();
-    // handleQuery();
+    handleQuery();
   };
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(1);
