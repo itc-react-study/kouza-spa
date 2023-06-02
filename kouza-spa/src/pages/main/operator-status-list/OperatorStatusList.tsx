@@ -312,6 +312,7 @@ const OperatorStatusList = (): JSX.Element => {
     }
   }, [shouldRefresh]);
 
+  //点击按钮触发分页查询事件
   const handleQuery = async () => {
     console.log("areaErrorMessage", areaErrorMessage);
     const param: SH1APIOPE044RequestBody = {};
@@ -343,10 +344,12 @@ const OperatorStatusList = (): JSX.Element => {
 
   useSetAreaErrorMessageEffect();
 
+  //点击按钮触发的事件
   const handleButtonClick = () => {
     handleInquery();
     handleQuery();
   };
+  //分页查询page和size的设置
   const itemsPerPage = 10;
   const [currentPage, setCurrentPage] = useState(1);
   const startIndex = (currentPage - 1) * itemsPerPage;
