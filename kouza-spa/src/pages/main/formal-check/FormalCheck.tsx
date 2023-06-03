@@ -12,8 +12,6 @@ import PreInquiryTab from "../../../common/components/tabs/pre-inquiry-tab/PreIn
 import IdentityVerificationDocTab from "../../../common/components/tabs/identity-verification-doc-tab/IdentityVerificationDocTab";
 import SanctionsTab from "../../../common/components/tabs/sanctions-tab/SanctionsTab";
 import RiskEvaluationTab from "../../../common/components/tabs/risk-evaluation-tab/RiskEvaluationTab";
-import CddEddTab from "../../../common/components/tabs/cdd-edd-tab/CddEddTab";
-import ErrorTab from "../../../common/components/tabs/error-tab/ErrorTab";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -117,7 +115,7 @@ const FormalCheck = (): JSX.Element => {
               <SanctionsTab></SanctionsTab>
             </TabPanel>
             <TabPanel value={value} index={2}>
-              <CddEddTab></CddEddTab>
+              Item Three
             </TabPanel>
             <TabPanel value={value} index={3}>
               <RiskEvaluationTab></RiskEvaluationTab>
@@ -126,7 +124,7 @@ const FormalCheck = (): JSX.Element => {
               Item Five
             </TabPanel>
             <TabPanel value={value} index={5}>
-              <ErrorTab></ErrorTab>
+              Item Six
             </TabPanel>
             <TabPanel value={value} index={6}>
               <IdentityVerificationDocTab></IdentityVerificationDocTab>
