@@ -14,7 +14,7 @@ import {
   BUSINESS_CD,
   ZAIRYUU_SHIKAKU_CODE,
   COUNTRY_CODE,
-  CURRENCY_CODE
+  CURRENCY_CODE,
 } from "../../../../constants/code-list.constants";
 import "./CddEddTab.css";
 
@@ -151,6 +151,7 @@ const CddEddTab = () => {
             <div className="cdd-edd-tab-info-grid-select">
               {renderSelect(SIDE_JOB_CD)}
             </div>
+
             <div className="cdd-edd-tab-info-grid-text">業種その他(詳細)</div>
 
             <div className="cdd-edd-tab-info-grid-select">
@@ -163,6 +164,7 @@ const CddEddTab = () => {
             <div className="cdd-edd-tab-info-grid-select">
               {renderSelect(BUSINESS_CD)}
             </div>
+
             <div className="cdd-edd-tab-info-grid-text">
               個人事業主/自営業(詳細)
             </div>
@@ -220,6 +222,7 @@ const CddEddTab = () => {
             </Select>
           </div>
         </div>
+
         <div>制裁対象国1</div>
         <div>
           <div className="cdd-edd-tab-info-grid-select">
@@ -234,41 +237,10 @@ const CddEddTab = () => {
             {renderSelect(COUNTRY_CODE)}
           </div>
         </div>
+
         <div>取引/資産</div>
         <div>
           <div className="cdd-edd-tab-info-grid-input">
-            <TextField fullWidth></TextField>
-          </div>
-        </div>
-      </div>
-
-      <div className="cdd-edd-tab-title">資産・収入</div>
-
-      <div className="cdd-edd-tab-info-grid">
-        <div>資 産</div>
-        <div>
-          <div className="cdd-edd-tab-info-grid-select">
-            <TextField fullWidth></TextField>
-          </div>
-          <div className="cdd-edd-tab-info-grid-text between">
-            <span>千円</span>
-            <span>収入の背景</span>
-          </div>
-          <div className="cdd-edd-tab-info-grid-select">
-            <TextField fullWidth></TextField>
-          </div>
-        </div>
-
-        <div>資産の背景</div>
-        <div>
-          <div className="cdd-edd-tab-info-grid-select">
-            <TextField fullWidth></TextField>
-          </div>
-          <div className="cdd-edd-tab-info-grid-text between">
-            <span>千円</span>
-            <span>資産の背景</span>
-          </div>
-          <div className="cdd-edd-tab-info-grid-select">
             <TextField fullWidth></TextField>
           </div>
         </div>
@@ -328,6 +300,38 @@ const CddEddTab = () => {
           <div className="cdd-edd-tab-info-grid-text">居住国</div>
           <div className="cdd-edd-tab-info-grid-select">
             {renderSelect(COUNTRY_CODE)}
+          </div>
+        </div>
+      </div>
+
+      <div className="cdd-edd-tab-title">資産・収入</div>
+
+      <div className="cdd-edd-tab-info-grid">
+        <div>資 産</div>
+        <div>
+          <div className="cdd-edd-tab-info-grid-select">
+            <TextField fullWidth></TextField>
+          </div>
+          <div className="cdd-edd-tab-info-grid-text between">
+            <span>千円</span>
+            <span>収入の背景</span>
+          </div>
+          <div className="cdd-edd-tab-info-grid-select">
+            <TextField fullWidth></TextField>
+          </div>
+        </div>
+
+        <div>資産の背景</div>
+        <div>
+          <div className="cdd-edd-tab-info-grid-select">
+            <TextField fullWidth></TextField>
+          </div>
+          <div className="cdd-edd-tab-info-grid-text between">
+            <span>千円</span>
+            <span>資産の背景</span>
+          </div>
+          <div className="cdd-edd-tab-info-grid-select">
+            <TextField fullWidth></TextField>
           </div>
         </div>
       </div>
