@@ -9,7 +9,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 import { Menu } from "../../interfaces/common/common";
 import { MainContext } from "../../store/store";
 import ErrorTips from "../../common/components/error-tips/ErrorTips";
-import LoadingModal from "../../common/components/loading-modal/loadingModal";
+import LoadingModal from "../../common/components/loading-modal/LoadingModal";
 
 const listStyle = {
   border: "1px solid #000",

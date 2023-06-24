@@ -9,7 +9,7 @@ import { getApi } from "../../common/service/api.service";
 import { ApiIds } from "../../constants/api-id.constant";
 import { SH1APIDUMLGNRequestBody } from "../../interfaces/api/shiapidumlgn";
 import { LoginContext } from "../../store/store";
-import LoadingModal from "../../common/components/loading-modal/loadingModal";
+import LoadingModal from "../../common/components/loading-modal/LoadingModal";
 
 const boxStyle = {
   width: 500,
